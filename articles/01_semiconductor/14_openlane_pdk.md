@@ -1,4 +1,9 @@
 ---
+layout: default
+title: Planar MOSFETとSCE
+---
+
+---
 title: "【OpenLane】対応PDKの条件とは何か ― Sky130が成立し、GF180が難しくなる理由"
 emoji: "🧩"
 type: "tech"

@@ -1,9 +1,11 @@
 ---
-title: "【AITL】(安全設計)　Safety Envelopeとは何か？AI制御で絶対に超えてはいけない境界の設計"
-emoji: "🚧"
-type: "tech"
+layout: default
+title: Safety Envelopeとは何か？AI制御で絶対に超えてはいけない境界の設計
+---
+
+# 【制御：15】(安全設計)　Safety Envelopeとは何か？AI制御で絶対に超えてはいけない境界の設計
 topics: ["制御工学", "AI", "安全設計", "FSM", "異常検知"]
-published: true
+
 ---
 
 ## はじめに：AI制御で一番危ないのは「境界がないこと」

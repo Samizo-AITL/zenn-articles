@@ -1,9 +1,11 @@
 ---
-title: "【Anim】Animation Demosで理解する三層制御アーキテクチャの可視化"
-emoji: "🎞️"
-type: "tech"
+layout: default
+title: Animation Demosで理解する三層制御アーキテクチャの可視化
+---
+
+# Animation Demosで理解する三層制御アーキテクチャの可視化
 topics: ["aitl", "制御理論", "visualization", "css", "svg", "canvas"]
-published: true
+
 ---
 
 ※本記事は、**制御・アーキテクチャ・教育用途における「概念可視化」**に関心のあるエンジニア向けです。

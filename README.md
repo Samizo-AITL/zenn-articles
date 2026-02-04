@@ -28,21 +28,17 @@ zenn-articles/
 │ ├─ README.md
 │ └─ index.md
 ├─ articles/
-│ ├─ semiconductor/
-│ ├─ control/
-│ ├─ mems/
-│ ├─ inkjet/
-│ ├─ hardware/
-│ ├─ other/
+│ ├─ 01.semiconductor/
+│ ├─ 02.control/
+│ ├─ 03.hardware/
+│ ├─ 04.mems/
+│ ├─ 05.inkjet/
+│ ├─ 06.other/
 │ └─ en/
 │ └─（同構造）
 ├─ books/
-│ ├─ aitl-physical-ai/
-│ └─ en/
-│ └─ aitl-physical-ai/
 └─ assets/
 ```
-
 
 ---
 
@@ -50,17 +46,17 @@ zenn-articles/
 
 本リポジトリでは、記事を以下の技術分野で分類します。
 
-- **Semiconductor**  
+- **01.Semiconductor**  
   デバイス物理、プロセス、回路、スケーリング
-- **Control**  
+- **02.Control**  
   PID、FSM、制御構造、AITL（Architecture for Integrated Technology Logic）
-- **MEMS**  
-  圧電アクチュエータ、微細構造、物理モデル
-- **Inkjet**  
-  ドロップ形成、駆動波形、システム統合
-- **Hardware**  
+- **03.Hardware**  
   実装設計、V–I予算、システムアーキテクチャ
-- **Other**  
+- **04.MEMS**  
+  圧電アクチュエータ、微細構造、物理モデル
+- **05.Inkjet**  
+  ドロップ形成、駆動波形、システム統合
+- **06.Other**  
   可視化、AI設計、横断的な技術思想
 
 分類は**主軸**であり、Zenn上ではタグやBook構成によって横断的に再構成します。

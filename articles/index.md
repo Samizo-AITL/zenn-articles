@@ -18,6 +18,8 @@ title: zenn-articles
 |----------|----------------|-----------|
 | JP 日本語 | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語-brightgreen?logo=github)](https://samizo-aitl.github.io/zenn-articles/articles/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語-blue?logo=github)](https://github.com/Samizo-AITL/zenn-articles/tree/main/articles) |
 
+[![Zenn](https://img.shields.io/badge/Zenn-Articles-blue?logo=zenn)](https://zenn.dev/samizo_aitl)
+[![Qiita](https://img.shields.io/badge/Qiita-Articles-lightgrey?logo=qiita)](https://qiita.com/ctrl_bug)
 
 ---
 

@@ -1,9 +1,11 @@
 ---
-title: "【機械設計】04. Part Designを捨てずにコード設計を導入する ― FreeCADでの現実解"
-emoji: "⚙️"
-type: "tech"
+layout: default
+title: Part Designを捨てずにコード設計を導入する ― FreeCADでの現実解
+---
+
+# 【機械設計:04】Part Designを捨てずにコード設計を導入する ― FreeCADでの現実解
 topics: ["機械設計", "cad", "freecad", "python", "設計思想"]
-published: true
+
 ---
 
 ## はじめに

@@ -1,9 +1,11 @@
 ---
-title: "【AITL】FSM設計 適応制御をブラックボックスにしない — Reliability Guardの正体"
-emoji: "🔍"
-type: "tech"
+layout: default
+title: FSM設計 適応制御をブラックボックスにしない — Reliability Guardの正体
+---
+
+# 【制御:13】FSM設計 適応制御をブラックボックスにしない — Reliability Guardの正体
 topics: ["FSM", "制御設計", "信頼性", "適応制御"] 
-published: true
+
 ---
 
 ## 「AIが勝手に止めた」は最悪

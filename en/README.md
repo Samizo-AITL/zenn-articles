@@ -14,7 +14,8 @@ while GitHub serves as the place for **design, editing, and version control**.
 
 | Language | GitHub Pages 🌐 | GitHub 💻 |
 |----------|----------------|-----------|
-| en English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/zenn-articles/en/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/zenn-articles/tree/main/en) |
+| EN English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/zenn-articles/en/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/zenn-articles/tree/main/en) |
+| JP Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-Japanese-brightgreen?logo=github)](https://samizo-aitl.github.io/zenn-articles/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-Japanese-blue?logo=github)](https://github.com/Samizo-AITL/zenn-articles/tree/main) |
 
 ---
 

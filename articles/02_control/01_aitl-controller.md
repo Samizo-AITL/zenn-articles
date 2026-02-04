@@ -1,4 +1,9 @@
-#01. AITL-controller: PID × FSM × LLM による三層制御アーキテクチャの統合フレームワーク
+---
+layout: default
+title: AITL-controller
+---
+
+# 01. AITL-controller: PID × FSM × LLM による三層制御アーキテクチャの統合フレームワーク
 
 ---
 

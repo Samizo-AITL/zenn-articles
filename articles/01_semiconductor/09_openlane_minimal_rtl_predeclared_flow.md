@@ -3,12 +3,8 @@ layout: default
 title: Planar MOSFETとSCE
 ---
 
----
-title: "【半導体】OpenLane superstableを「最小RTL→GDS」で事前宣言検証してみた"
-emoji: "🧩"
-type: "tech"
+# 【半導体:09】OpenLane superstableを「最小RTL→GDS」で事前宣言検証してみた
 topics: ["OpenLane", "SKY130", "EDA", "半導体", "VLSI"]
----
 
 ## はじめに　
 
@@ -163,7 +159,8 @@ spm_min_counter/
 ## 参考リンク
 
 - GitHub Pages  
-  https://samizo-aitl.github.io/SemiDevKit/openlane/openlane-superstable/spm_min_counter
+  [https://samizo-aitl.github.io/SemiDevKit/openlane/openlane-superstable/spm_min_counter](https://samizo-aitl.github.io/SemiDevKit/openlane/openlane-superstable/spm_min_counter)
 
 - GitHub Repository  
-  https://github.com/Samizo-AITL/SemiDevKit/tree/main/openlane/openlane-superstable/spm_min_counter
+  [https://github.com/Samizo-AITL/SemiDevKit/tree/main/openlane/openlane-superstable/spm_min_counter](https://github.com/Samizo-AITL/SemiDevKit/tree/main/openlane/openlane-superstable/spm_min_counter)
+

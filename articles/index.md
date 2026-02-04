@@ -3,132 +3,64 @@ layout: default
 title: zenn-articles
 ---
 
-# AITL Articles / 全体インデックス
+# 📚 Zenn Articles（技術記事一覧）
 
-本ディレクトリは、  
-**AITL（Architecture for Integrated Technology Logic）** に基づき、  
-物理・構造・制御・知能・観測までを  
-**一貫した思想で整理した技術記事群**の中核です。
+👉 **Samizo-AITL ポータルからの技術記事置き場**  
+分野ごとに整理された Zenn 公開用 Markdown 原稿です。
 
----
-
-## 🧱 全体構造（レイヤ構成）
-
-```
-Physical Definition Layer
- ├─ 06_mechanical
- ├─ 04_mems
- └─ 05_inkjet
-
-Hardware / Physical Constraint Layer
- └─ 03_hardware
-
-Control Layer
- └─ 02_control
-
-Logic / Intelligence Layer
- └─ （AITL設計思想として内包）
-
-Observation / Feedback Layer
- └─ 07_other
-```
-
-> **制御できるものと、  
-> 制御してはいけないものを分離する**  
-> ── それが AITL の出発点。
+[⬅ ポータルに戻る](https://samizo-aitl.github.io/portal/)
 
 ---
 
-## 📘 各ディレクトリ一覧
-
-### 01_semiconductor  
-**半導体・物性・プロセス基礎**
-
-- プロセス・デバイス・物性の基礎整理  
-- すべての物理設計・回路設計の前提知識
-
-👉 [01_semiconductor/index.md](./01_semiconductor/)
+## 🧱 01_semiconductor｜半導体
+- デバイス物理 / プロセス / 回路基礎  
+[01_semiconductor](https://samizo-aitl.github.io/zenn-articles/articles/01_semiconductor/)
 
 ---
 
-### 02_control  
-**制御理論・AITL・PID × FSM**
-
-- PID / FSM / AITL の役割分離
-- 信頼性制御・安全境界・壊れ方の設計
-
-👉 [02_control/index.md](./02_control/)
+## 🎛 02_control｜制御
+- PID / FSM / 制御構造 / AITL  
+[02_control](https://samizo-aitl.github.io/zenn-articles/articles/02_control/)
 
 ---
 
-### 03_hardware  
-**ハードウェア・物理制御限界**
-
-- 制御できない物理領域の明確化
-- アーキテクチャ・配置・結線の責務定義
-
-👉 [03_hardware/index.md](./03_hardware/)
+## 🧩 03_hardware｜ハードウェア
+- 実装設計 / 物理制約 / アーキテクチャ  
+[03_hardware](https://samizo-aitl.github.io/zenn-articles/articles/03_hardware/)
 
 ---
 
-### 04_mems  
-**MEMS・アナログ物理解析**
-
-- 連続系アナログ物理としての MEMS
-- 構造・材料・境界条件が支配する世界
-
-👉 [04_mems/index.md](./04_mems/)
+## 🧪 04_mems｜MEMS
+- 圧電 / 微細構造 / 物理モデル  
+[04_mems](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/)
 
 ---
 
-### 05_inkjet  
-**インクジェット物理・駆動・因果**
-
-- MEMS × 流体 × 電気 × 時間因果
-- ドライバ回路を含む物理現象の統合設計
-
-👉 [05_inkjet/index.md](./05_inkjet/)
+## 💧 05_inkjet｜インクジェット
+- ドロップ形成 / 駆動波形 / システム統合  
+[05_inkjet](https://samizo-aitl.github.io/zenn-articles/articles/05_inkjet/)
 
 ---
 
-### 06_mechanical  
-**機械設計・CAD to Code**
-
-- GUI CAD からコード設計への転換
-- FreeCAD・差分管理・再現性設計
-
-👉 [06_mechanical/index.md](./06_mechanical/)
+## 🛠 06_mechanical｜機械設計
+- CAD to Code / FreeCAD / 構造定義  
+[06_mechanical](https://samizo-aitl.github.io/zenn-articles/articles/06_mechanical/)
 
 ---
 
-### 07_other  
-**周辺技術・可視化・分析**
-
-- 可視化・動画・GA4分析
-- 理解・検証・発信を支える観測レイヤ
-
-👉 [07_other/index.md](./07_other/)
+## 👀 07_other｜その他
+- 可視化 / 動画 / 分析 / 周辺技術  
+[07_other](https://samizo-aitl.github.io/zenn-articles/articles/07_other/)
 
 ---
 
-## 🧭 AITL の基本思想（要約）
+## 🌐 Links
 
-- **Physical**：まず物理を固定せよ  
-- **Structure**：構造が振る舞いを決める  
-- **Control**：制御は最小限に  
-- **Logic**：知能は最後に置く  
-- **Observation**：観測なき改善は幻想  
-
-> **AITL は  
-> 「賢く制御する技術」ではなく、  
-> 「壊れない構造を先に作る技術」である。**
+- 🏠 ポータル  
+  https://samizo-aitl.github.io/portal/
+- 📄 Zenn  
+  https://zenn.dev/
+- ✍ Qiita  
+  https://qiita.com/
 
 ---
-
-## 🔗 関連リンク
-
-- [Samizo-AITL GitHub Pages](https://samizo-aitl.github.io/)
-- [Qiita（一次公開チャネル）](https://qiita.com/)
-
----
-

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FinFET 構造：形状で電界制御を取り戻す
+title: FinFET
 ---
 
 # 02. FinFET 構造：形状で電界制御を取り戻す

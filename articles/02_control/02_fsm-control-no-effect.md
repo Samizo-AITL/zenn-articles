@@ -1,4 +1,9 @@
 ---
+layout: default
+title: AITL-controller
+---
+
+---
 title: "【AITL】FSM制御が効かなかった実例"
 emoji: "🧊"
 type: "tech"

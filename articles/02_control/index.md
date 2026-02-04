@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "【02_control】制御・AITL 記事インデックス"
+title: zenn-articles
 ---
 
 # 02_control / 制御・AITL 記事一覧

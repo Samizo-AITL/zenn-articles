@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Planar MOSFETとSCE
+title: Planar MOSFET and SCE
 ---
 
 # 【半導体:01】 Planar MOSFETとSCE：微細化が行き詰まった理由

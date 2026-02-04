@@ -1,4 +1,9 @@
-# 01.【半導体】Planar MOSFETとSCE：微細化が行き詰まった理由"
+---
+layout: default
+title: Planar MOSFETとSCE：微細化が行き詰まった理由
+---
+
+# 01. Planar MOSFETとSCE：微細化が行き詰まった理由
 topics: ["半導体", "MOSFET", "SCE", "デバイス物理"]
 
 ---

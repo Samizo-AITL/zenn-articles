@@ -1,14 +1,11 @@
 ---
-title: "【Inkjet】GF180 Inkjet Driver 設計探索（続編2）— 300dpiを前提としたHVドライバアレイの成立点"
-emoji: "🖨️"
-type: "tech"
-topics:
-  - semiconductor
-  - icdesign
-  - layout
-  - inkjet
-  - gf180
-published: true
+layout: default
+title: GF180 Inkjet Driver 設計探索（続編2）— 300dpiを前提としたHVドライバアレイの成立点
+---
+
+# 【Inkjet:05】GF180 Inkjet Driver 設計探索（続編2）— 300dpiを前提としたHVドライバアレイの成立点
+topics: semiconductor,icdesign,layout,inkjet,gf180
+
 ---
 
 GF180MCU open PDK を用いたインクジェットドライバ IC の設計探索において、  

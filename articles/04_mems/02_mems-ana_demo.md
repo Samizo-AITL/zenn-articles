@@ -3,7 +3,7 @@ layout: default
 title: 圧電ヒステリシスとバタフライ変位を mems-ana で眺める
 ---
 
-# 【MEMS】圧電ヒステリシスとバタフライ変位を mems-ana で眺める
+# 【MEMS:02】圧電ヒステリシスとバタフライ変位を mems-ana で眺める
 topics: ["MEMS", "圧電", "可視化", "Python", "シミュレーション"]
 
 ---

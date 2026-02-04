@@ -12,9 +12,10 @@ title: SemiDevKit
 公式サイトおよび GitHub リポジトリ:
 
 - GitHub Pages（英語ドキュメント）  
-  https://samizo-aitl.github.io/SemiDevKit/
+  [https://samizo-aitl.github.io/SemiDevKit/](https://samizo-aitl.github.io/SemiDevKit/)
 - GitHub リポジトリ  
-  https://github.com/Samizo-AITL/SemiDevKit
+  [https://github.com/Samizo-AITL/SemiDevKit](https://github.com/Samizo-AITL/SemiDevKit)
+
 
 ---
 

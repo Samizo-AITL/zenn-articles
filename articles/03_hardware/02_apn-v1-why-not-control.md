@@ -1,9 +1,11 @@
 ---
-title: "【Hardware】aitl-physical-reference v1：なぜ\"まだ制御しない\"のか"
-emoji: "🧭"
-type: "tech"
+layout: default
+title: aitl-physical-reference v1：なぜ\"まだ制御しない\"のか
+---
+
+# 【ハードウエア:02】aitl-physical-reference v1：なぜ\"まだ制御しない\"のか
 topics: ["hardware", "pcb", "kicad", "control", "aitl"]
-published: true
+
 ---
 
 ## はじめに

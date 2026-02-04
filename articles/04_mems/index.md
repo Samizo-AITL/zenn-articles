@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "【04_mems】MEMS解析・物理アナログ設計インデックス"
+title: zenn-articles
 ---
 
 # 04_mems / MEMS解析・アナログ物理 記事一覧

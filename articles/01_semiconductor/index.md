@@ -1,6 +1,5 @@
 ---
 layout: default
-title: 01_semiconductor
 ---
 
 # 🧩 01_半導体｜記事インデックス

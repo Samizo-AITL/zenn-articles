@@ -1,4 +1,9 @@
 ---
+layout: default
+title: Planar MOSFETとSCE
+---
+
+---
 title: "【OpenLane2】なぜPythonベースなのか ― Nix推奨・Docker可・venv運用という整理"
 emoji: "🧠"
 type: "tech"

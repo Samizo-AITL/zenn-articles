@@ -1,14 +1,11 @@
 ---
 layout: default
-title: Planar MOSFETとSCE
+title: Post-CFET
 ---
 
----
-title: "【半導体】Post-CFET：2040年までの次世代トランジスタ像"
-emoji: "🔭"
-type: "tech"
+# 【半導体:06】Post-CFET：2040年までの次世代トランジスタ像
 topics: ["半導体", "CFET", "ポストCMOS", "デバイスロードマップ"]
-published: true
+
 ---
 
 ## はじめに

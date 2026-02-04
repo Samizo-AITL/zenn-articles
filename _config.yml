@@ -1,6 +1,47 @@
-theme: minima
+# ==================================================
+# Samizo-AITL Zenn Articles : Jekyll Config
+# ==================================================
 
+title: Zenn Articles
+description: >
+  Markdown SSOT for Zenn technical articles and books.
+  GitHub is the design space. Zenn is the publishing surface.
+
+lang: ja
+timezone: Asia/Tokyo
+
+# --------------------------------------------------
+# Theme
+# --------------------------------------------------
+# theme: minima   # ← 完全に使わない（重要）
+
+# --------------------------------------------------
+# Markdown / Math / Code
+# --------------------------------------------------
 markdown: kramdown
+
 kramdown:
   math_engine: katex
   syntax_highlighter: rouge
+  input: GFM
+  hard_wrap: false
+
+# --------------------------------------------------
+# Build
+# --------------------------------------------------
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# --------------------------------------------------
+# Defaults
+# --------------------------------------------------
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Planar MOSFETとSCE
+title: OpenLane
 ---
 
 # 【半導体:10】OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか

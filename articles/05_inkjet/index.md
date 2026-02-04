@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "【05_inkjet】インクジェット物理・駆動・因果設計インデックス"
+title: zenn-articles
 ---
 
 # 05_inkjet / インクジェット物理・駆動 記事一覧

@@ -1,9 +1,11 @@
 ---
-title: "【MEMS】ROMで作る mems-ana_core の数式構造と設計ポリシー"
-emoji: "🧠"
-type: "tech"
+layout: default
+title: ROMで作る mems-ana_core の数式構造と設計ポリシー
+---
+
+# 【MEMS:02】ROMで作る mems-ana_core の数式構造と設計ポリシー
 topics: ["MEMS", "ROM", "モデリング", "数式", "Python"]
-published: true
+
 ---
 
 ## はじめに

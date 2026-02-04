@@ -3,11 +3,9 @@ layout: default
 title: Planar MOSFETとSCE
 ---
 
----
-title: "【半導体】OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか"
-emoji: "🧠"
-type: "tech" # tech: 技術記事 / idea: アイデア
+# 【半導体:10】OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか
 topics: ["OpenLane", "ASIC", "RTL", "制御工学", "SKY130"]
+
 ---
 
 # OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか

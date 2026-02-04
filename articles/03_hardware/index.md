@@ -1,6 +1,6 @@
 ---
+layout: default
 title: "【03_hardware】AITLハードウェア・物理制御インデックス"
-description: "AITLにおける物理層・ハードウェア制御・アーキテクチャ設計思想の整理"
 ---
 
 # 03_hardware / ハードウェア・物理制御 記事一覧

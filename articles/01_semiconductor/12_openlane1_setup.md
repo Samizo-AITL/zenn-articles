@@ -1,4 +1,9 @@
 ---
+layout: default
+title: Planar MOSFETとSCE
+---
+
+---
 title: "【OpenLane1】WSL2 + DockerでRTL→GDSを動かす環境構築（再現性重視）"
 emoji: "🧱"
 type: "tech"

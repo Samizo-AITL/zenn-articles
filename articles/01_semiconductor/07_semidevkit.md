@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: SemiDevKit
+---
 
 # 07. SemiDevKit: 半導体デバイス物理〜BSIM4〜SPICE〜物理設計までを一気通貫で学べるオープン教材
 

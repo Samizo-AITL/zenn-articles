@@ -1,15 +1,11 @@
 ---
-title: "【機械設計】07.Full Code設計とは何か ― FreeCAD・LaTeX・Klayoutに共通する構造"
-emoji: "🏗️"
-type: "tech"
-topics:
-  - 設計思想
-  - CAD
-  - FreeCAD
-  - LaTeX
-  - Klayout
-  - Git
-published: true
+layout: default
+title: Full Code設計とは何か ― FreeCAD・LaTeX・Klayoutに共通する構造
+---
+
+# 【機械設計:07】Full Code設計とは何か ― FreeCAD・LaTeX・Klayoutに共通する構造
+Topics:設計思想,CAD,FreeCAD,LaTeX,Klayout,Git
+
 ---
 
 ## はじめに（最終回として）

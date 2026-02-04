@@ -1,9 +1,11 @@
 ---
-title: "【AITL】Robust Controlの次へ：Reliability Control"
-emoji: "🛠️"
-type: "tech"
+layout: default
+title: Robust Controlの次へ：Reliability Control
+---
+
+# 【制御:04】Robust Controlの次へ：Reliability Control
 topics: ["制御工学", "PID", "ロバスト制御", "信頼性", "AITL"]
-published: true
+
 ---
 
 # Robust Control の次へ ― Reliability Control という設計思想

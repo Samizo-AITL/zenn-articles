@@ -1,9 +1,11 @@
 ---
-title: "【機械設計】01. GUI CADから脱却して設計をコード化するという考え方"
-emoji: "🧩"
-type: "tech"
+layout: default
+title: GUI CADから脱却して設計をコード化するという考え方
+---
+
+# 【機械設計:01】 GUI CADから脱却して設計をコード化するという考え方
 topics: ["機械設計", "cad", "python", "設計思想"]
-published: true
+
 ---
 
 ## はじめに

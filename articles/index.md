@@ -8,7 +8,16 @@ title: zenn-articles
 👉 **Samizo-AITL ポータルからの技術記事置き場**  
 分野ごとに整理された Zenn 公開用 Markdown 原稿です。
 
-[⬅ ポータルに戻る](https://samizo-aitl.github.io/portal/)
+[![Back to Portal (JP)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/)
+
+---
+
+## 🔗 Links
+
+| Language | GitHub Pages 🌐 | GitHub 💻 |
+|----------|----------------|-----------|
+| JP 日本語 | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語-brightgreen?logo=github)](https://samizo-aitl.github.io/zenn-articles/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語-blue?logo=github)](https://github.com/Samizo-AITL/zenn-articles/tree/main) |
+
 
 ---
 

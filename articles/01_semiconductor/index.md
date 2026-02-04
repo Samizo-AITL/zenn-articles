@@ -1,5 +1,6 @@
 ---
 layout: default
+title: zenn-articles
 ---
 
 # 🧩 01_半導体｜記事インデックス

@@ -1,9 +1,11 @@
 ---
-title: "【Analytics】Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか"
-emoji: "🌍"
-type: "tech"
+layout: default
+title: Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか
+---
+
+# 【Analytics】Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか
 topics: ["analytics", "ga4", "githubpages", "techblog"]
-published: true
+
 ---
 
 ## はじめに

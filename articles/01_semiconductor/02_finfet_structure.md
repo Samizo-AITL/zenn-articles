@@ -1,3 +1,7 @@
+---
+layout: default
+title: FinFET 構造：形状で電界制御を取り戻す
+---
 
 # 02. FinFET 構造：形状で電界制御を取り戻す
 topics: ["FinFET", "MOSFET", "デバイス構造"]
@@ -171,10 +175,12 @@ Planar MOSFET の限界を延命した技術ではなく、
 ### 📘 Edusemi-v4x｜先端ノード技術（FinFET・GAA・CFET）
 
 - **GitHub Pages（公開教材・日本語）**  
-  👉 https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/
+  👉 [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
+
 
 - **GitHub（ソース管理・Markdown原稿）**  
-  👉 https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa
+  👉 [https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa)
+
 
 ### 📚 関連章（構造転換の位置づけ）
 

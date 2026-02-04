@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "【06_mechanical】機械設計・CAD to Code インデックス"
+title: zenn-articles
 ---
 
 # 06_mechanical / 機械設計・CAD to Code 記事一覧

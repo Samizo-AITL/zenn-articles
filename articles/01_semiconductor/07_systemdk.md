@@ -211,10 +211,10 @@ Post-CFET時代とは、
 本記事は以下の教材構成・設計思想を前提に整理されています。
 
 - **Edusemi-v4x：CFETまでの構造進化教材**  
-  → https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/
+  → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
 
 - **特別編：SystemDK における熱・応力・ノイズ設計制約**  
-  → https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/
+  → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/)
 
 これらはすべて、
 

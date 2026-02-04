@@ -1,9 +1,11 @@
 ---
-title: "【機械設計】05. 設計をコード化すると「差分」が意味を持つ ― GUI CADとの決定的な違い"
-emoji: "📐"
-type: "tech"
+layout: default
+title: 設計をコード化すると「差分」が意味を持つ ― GUI CADとの決定的な違い
+---
+
+# 【機械設計:05】 設計をコード化すると「差分」が意味を持つ ― GUI CADとの決定的な違い
 topics: ["機械設計", "cad", "git", "freecad", "設計思想"]
-published: true
+
 ---
 
 ## はじめに

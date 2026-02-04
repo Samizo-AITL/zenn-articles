@@ -49,7 +49,8 @@ zenn-articles/
 │ ├─ 03.hardware/
 │ ├─ 04.mems/
 │ ├─ 05.inkjet/
-│ ├─ 06.other/
+│ ├─ 06_mechanical/
+│ ├─ 07.other/
 │ └─ en/
 │ └─（同構造）
 ├─ books/
@@ -72,8 +73,10 @@ zenn-articles/
   圧電アクチュエータ、微細構造、物理モデル
 - **05.Inkjet**  
   ドロップ形成、駆動波形、システム統合
-- **06.Other**  
-  可視化、AI設計、横断的な技術思想
+- **06.Mechanical**  
+  機械設計、CAD to Code、構造定義
+- **07.Other**  
+  可視化、分析、周辺技術
 
 分類は**主軸**であり、Zenn上ではタグやBook構成によって横断的に再構成します。
 
@@ -83,6 +86,14 @@ zenn-articles/
 
 英語版記事は翻訳ではなく、  
 **日本語版と同等の正本**として `en/` 以下に並行管理します。
+
+---
+
+## 📚 Articles Index
+
+👉 **全技術記事の一覧・構造はこちら**  
+- [Articles Index (JP)](./articles/)
+- [Articles Index (EN)](./articles/en/)
 
 ---
 

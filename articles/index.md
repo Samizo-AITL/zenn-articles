@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "AITL Articles Index｜Architecture for Integrated Technology Logic"
 ---
 
 # AITL Articles / 全体インデックス

@@ -1,4 +1,9 @@
 ---
+layout: default
+title: Planar MOSFETとSCE
+---
+
+---
 title: "【半導体】Post-CFET時代の本質：SystemDKが前提となる設計世界"
 emoji: "🧩"
 type: "tech"

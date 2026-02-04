@@ -61,15 +61,3 @@ title: zenn-articles
 - 可視化 / 動画 / 分析 / 周辺技術  
 [07_other](https://samizo-aitl.github.io/zenn-articles/articles/07_other/)
 
----
-
-## 🌐 Links
-
-- 🏠 ポータル  
-  https://samizo-aitl.github.io/portal/
-- 📄 Zenn  
-  https://zenn.dev/
-- ✍ Qiita  
-  https://qiita.com/
-
----

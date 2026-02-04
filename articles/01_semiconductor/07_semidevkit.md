@@ -206,6 +206,7 @@ SemiDevKit は以下のようにコンポーネント別ライセンス構成で
 まずは `bsim/BSIM4_ANALYZER_DC` の DC 解析、  
 または `openlane/openlane-lite` の GDS フローから試してみてください。
 
-- GitHub Pages: https://samizo-aitl.github.io/SemiDevKit/  
-- GitHub: https://github.com/Samizo-AITL/SemiDevKit
-
+- GitHub Pages（英語ドキュメント）  
+  [https://samizo-aitl.github.io/SemiDevKit/](https://samizo-aitl.github.io/SemiDevKit/)
+- GitHub リポジトリ  
+  [https://github.com/Samizo-AITL/SemiDevKit](https://github.com/Samizo-AITL/SemiDevKit)

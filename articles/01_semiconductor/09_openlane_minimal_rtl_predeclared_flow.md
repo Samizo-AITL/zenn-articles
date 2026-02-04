@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Planar MOSFETとSCE
+title: OpenLane superstable
 ---
 
 # 【半導体:09】OpenLane superstableを「最小RTL→GDS」で事前宣言検証してみた

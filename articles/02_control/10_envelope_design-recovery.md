@@ -1,9 +1,11 @@
 ---
-title: 【AITL】Envelope Control と Design Recovery Control ― 制御ではなく「境界」と「前提」を扱う
-emoji: 🧭
-type: tech
+layout: default
+title: Envelope Control と Design Recovery Control
+---
+
+#　【制御:10】Envelope Control と Design Recovery Control ― 制御ではなく「境界」と「前提」を扱う
 topics: [control, design, architecture, ai, llm]
-published: true
+
 ---
 
 ## はじめに

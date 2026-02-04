@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "【07_other】AITL周辺技術・可視化・分析インデックス"
+title: zenn-articles
 ---
 
 # 07_other / 周辺技術・可視化・分析 記事一覧

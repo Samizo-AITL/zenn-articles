@@ -170,10 +170,10 @@ Post-CFET の時代は、
 ### 📘 Edusemi-v4x｜先端ノード技術（FinFET・GAA・CFET）
 
 - **GitHub Pages（公開教材・日本語）**  
-  👉 https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/
+  👉 [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
 
 - **GitHub（ソース管理・Markdown原稿）**  
-  👉 https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa
+  👉 [https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa)
 
 ### 📚 関連章（構造転換の位置づけ）
 

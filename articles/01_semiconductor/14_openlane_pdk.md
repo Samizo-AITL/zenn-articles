@@ -1,14 +1,11 @@
 ---
 layout: default
-title: Planar MOSFETとSCE
+title: OpenLane　PDK
 ---
 
----
-title: "【OpenLane】対応PDKの条件とは何か ― Sky130が成立し、GF180が難しくなる理由"
-emoji: "🧩"
-type: "tech"
+#　【半導体:14】OpenLane　対応PDKの条件とは何か ― Sky130が成立し、GF180が難しくなる理由
 topics: ["openlane", "asic", "pdk", "sky130", "gf180"]
-published: true
+
 ---
 
 ## はじめに

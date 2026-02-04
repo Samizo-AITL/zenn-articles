@@ -1,6 +1,6 @@
 ---
+layout: default
 title: "【02_control】制御・AITL 記事インデックス"
-description: "AITL制御アーキテクチャ（PID×FSM×LLM）および信頼性設計に関する連載記事一覧"
 ---
 
 # 02_control / 制御・AITL 記事一覧

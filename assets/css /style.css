@@ -1,10 +1,15 @@
-/* === Samizo-AITL Custom Style : Engineering Only === */
-/* Semiconductor / Control / AITL Portal */
+/* ==================================================
+   Samizo-AITL Custom Style
+   Engineering / SSOT / Portal
+================================================== */
 
-/* ===================================================
+/* ==================================================
    Base
-=================================================== */
+================================================== */
 body {
+  margin: 0;
+  padding: 0;
+
   font-family:
     system-ui,
     -apple-system,
@@ -16,79 +21,109 @@ body {
     sans-serif;
 
   line-height: 1.7;
+  font-size: 1em;
+
   color: #1f2933;
   background: #f9fafb;
-  font-size: 1em;
-  margin: 0;
-  padding: 0;
 }
 
-/* ===================================================
-   Main Layout (← ここが決定的)
-=================================================== */
+/* ==================================================
+   Hero
+================================================== */
+.hero {
+  background: linear-gradient(135deg, #003366, #0b5fff);
+  color: #ffffff;
+  padding: 3.5rem 1.5rem 3rem;
+}
+
+.hero-inner {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 2.4rem;
+  margin: 0 0 0.4rem;
+  letter-spacing: 0.02em;
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+.hero-subtitle span {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* ==================================================
+   Main Layout (核心)
+================================================== */
 main {
   max-width: 980px;
-  margin: 2.5rem auto;
-  padding: 2rem 2.4rem;
+  margin: -2rem auto 4rem;
+  padding: 2.6rem 3rem;
+
   background: #ffffff;
-  border: 1px solid #d1d5db;
+  border-radius: 10px;
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.06),
+    0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
-/* ===================================================
+/* ==================================================
    Headings
-=================================================== */
+================================================== */
 h1, h2, h3 {
-  color: #003366;             /* 工学ブルー */
-  padding-bottom: 0.25em;
-  margin-top: 2.2em;
+  color: #003366;
+  margin-top: 2.4em;
 }
 
 h1 {
-  font-size: 1.8em;
-  border-bottom: 1px solid #003366;  /* ← 太線をやめて普通に */
+  font-size: 2.1em;
+  margin-top: 0.6em;
+  margin-bottom: 1.2em;
 }
 
 h2 {
   font-size: 1.4em;
-  border-bottom: 1px solid #d1d5db;
+  padding-left: 0.6em;
+  border-left: 4px solid #003366;
 }
 
 h3 {
   font-size: 1.15em;
-  border-bottom: 1px dotted #d1d5db;
+  border-bottom: 1px dotted #cbd5e1;
 }
 
-/* ===================================================
+/* ==================================================
    Links
-=================================================== */
+================================================== */
 a {
   color: #2563eb;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
 
-/* ===================================================
-   Blockquote
-=================================================== */
-blockquote {
-  background: #f1f5f9;
-  border-left: 4px solid #2563eb;
-  margin: 1.2em 0;
-  padding: 0.8em 1em;
-  color: #1f2933;
-}
-
-/* ===================================================
-   Annotation
-=================================================== */
+/* ==================================================
+   Blockquote / Annotation
+================================================== */
+blockquote,
 .annotation,
 .annotation-narrow {
-  background-color: #f1f5f9;
+  background: #f1f5f9;
   border-left: 4px solid #2563eb;
   color: #334155;
-  border-radius: 3px;
+}
+
+blockquote {
+  margin: 1.2em 0;
+  padding: 0.8em 1em;
 }
 
 .annotation {
@@ -103,20 +138,21 @@ blockquote {
   margin: 0.6em 0;
 }
 
-/* ===================================================
+/* ==================================================
    Code / Pre
-=================================================== */
+================================================== */
 code {
   background: #eef2f7;
   padding: 0.15em 0.35em;
   border-radius: 4px;
+
   font-family:
     ui-monospace,
     SFMono-Regular,
     Menlo,
     Consolas,
-    "Liberation Mono",
     monospace;
+
   color: #0f172a;
 }
 
@@ -133,14 +169,15 @@ pre code {
   padding: 0;
 }
 
-/* ===================================================
+/* ==================================================
    Table (Data Sheet Style)
-=================================================== */
+================================================== */
 table {
   border-collapse: collapse;
   width: 100%;
   margin: 1.4em 0;
   font-size: 0.95em;
+
   border: 1.5px solid #cbd5e1;
 }
 
@@ -158,9 +195,9 @@ td {
   padding: 0.6em 0.8em;
 }
 
-/* ===================================================
+/* ==================================================
    Images
-=================================================== */
+================================================== */
 img {
   max-width: 100%;
   height: auto;
@@ -172,31 +209,44 @@ img.shrink-70 {
   margin: 1em auto;
 }
 
-/* ===================================================
+/* ==================================================
    Mermaid
-=================================================== */
+================================================== */
 .mermaid {
   display: flex;
   justify-content: center;
   margin: 1.5rem auto;
   max-width: 960px;
-  background: #ffffff;   /* ← 背景は常に白 */
+  background: #ffffff;
 }
 
-/* SVG 自体も白背景に固定（Qiita / Pages 差異吸収） */
 .mermaid svg {
   background: #ffffff;
 }
 
-/* ===================================================
+/* ==================================================
+   Footer
+================================================== */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+/* ==================================================
    Responsive
-=================================================== */
+================================================== */
 @media (max-width: 768px) {
   main {
-    padding: 1.4rem 1.2rem;
+    padding: 1.6rem 1.4rem;
   }
 
-  h1 { font-size: 1.6em; }
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  h1 { font-size: 1.8em; }
   h2 { font-size: 1.3em; }
   h3 { font-size: 1.1em; }
 

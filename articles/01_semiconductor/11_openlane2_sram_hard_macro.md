@@ -1,4 +1,9 @@
 ---
+layout: default
+title: Planar MOSFETとSCE
+---
+
+---
 title: "【半導体】OpenLane2でSRAMハードマクロを統合しGDSを生成する"
 emoji: "🧩"
 type: "tech"

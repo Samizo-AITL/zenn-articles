@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Zenn Articles
 ---
 
 # 🧩📚 zenn-articles

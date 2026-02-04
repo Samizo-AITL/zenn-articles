@@ -1,5 +1,6 @@
 ---
 layout: default
+title: zenn-articles
 ---
 
 # AITL Articles / 全体インデックス

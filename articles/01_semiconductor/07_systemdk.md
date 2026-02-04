@@ -94,7 +94,7 @@ CFETは、
 
 このような **設計空間の複雑性**を扱うために、  
 SystemDK という思想が必要になります。  
-（詳細は → https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/ ）
+（詳細は → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/) ）
 
 ---
 
@@ -128,7 +128,7 @@ SystemDK という思想が必要になります。
 
 ここで初めて、  
 **SystemDK（System Design Kit）** 的な設計思想が不可欠になります。  
-（SystemDK の詳細章はこちら → https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/ ）
+（SystemDK の詳細章はこちら → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/) ）
 
 ---
 

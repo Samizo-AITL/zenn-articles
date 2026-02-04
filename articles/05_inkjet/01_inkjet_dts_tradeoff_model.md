@@ -1,9 +1,11 @@
 ---
-title: "【Inkjet】Inkjet DTS：ドロップ密度・速度・広がりの設計トレードオフ"
-emoji: "🖨️"
-type: "tech"
+layout: default
+title: Inkjet DTS：ドロップ密度・速度・広がりの設計トレードオフ
+---
+
+# 【Inkjet:01】Inkjet DTS：ドロップ密度・速度・広がりの設計トレードオフ
 topics: ["inkjet", "設計", "トレードオフ", "モデリング", "DTS"]
-published: true
+
 ---
 
 ## はじめに

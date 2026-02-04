@@ -1,9 +1,11 @@
 ---
-title: "【AITL】(安全設計)　Recovery Controlとは何か？AI制御は失敗後の設計で差がつく"
-emoji: "🔁"
-type: "tech"
+layout: default
+title: Recovery Controlとは何か？AI制御は失敗後の設計で差がつく
+---
+
+# 【制御:16】(安全設計)　Recovery Controlとは何か？AI制御は失敗後の設計で差がつく
 topics: ["制御工学", "AI", "安全設計", "Recovery", "FSM"]
-published: true
+
 ---
 
 ## はじめに：AI制御は「失敗する前提」で設計する

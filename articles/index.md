@@ -5,8 +5,7 @@ title: zenn-articles
 
 # 📚 Zenn Articles（技術記事一覧）
 
-👉 **Samizo-AITL ポータルからの技術記事置き場**  
-分野ごとに整理された Zenn 公開用 Markdown 原稿です。
+👉 **Samizo-AITL ポータルから参照する技術記事一覧ページです**
 
 [![Back to Portal (JP)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/)
 

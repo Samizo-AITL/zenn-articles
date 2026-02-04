@@ -1,9 +1,11 @@
 ---
-title: "【AITL】PIDにFSMを入れるべき「10%」の根拠"
-emoji: "🎛️"
-type: "tech"
+layout: default
+title: PIDにFSMを入れるべき「10%」の根拠
+---
+
+# 【制御:08】PIDにFSMを入れるべき「10%」の根拠
 topics: ["制御", "PID", "FSM", "信頼性設計", "産業制御"]
-published: true
+
 ---
 
 ## はじめに

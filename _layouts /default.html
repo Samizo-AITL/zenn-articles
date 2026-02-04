@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}</title>
+
+  <title>{{ page.title }} | {{ site.title }}</title>
 
   <!-- =================================================
        CSS
@@ -11,8 +12,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
   <!-- =================================================
-       KaTeX (Math Rendering)
-       - インライン / 別行 / 表内すべて対応
+       KaTeX
   ================================================== -->
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
@@ -25,21 +25,45 @@
 
   <!-- =================================================
        Mermaid
-       - Jekyll + Rouge が生成する
-         <code class="language-mermaid"> を描画
   ================================================== -->
   <script defer
           src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 </head>
 
 <body>
+
+  <!-- =================================================
+       Hero / Header
+  ================================================== -->
+  <header class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-title">{{ site.title }}</h1>
+      <p class="hero-subtitle">
+        Markdown SSOT for Technical Writing<br>
+        <span>GitHub = Design Space / Zenn = Publishing Surface</span>
+      </p>
+    </div>
+  </header>
+
+  <!-- =================================================
+       Main
+  ================================================== -->
   <main>
     {{ content }}
   </main>
 
   <!-- =================================================
+       Footer
+  ================================================== -->
+  <footer class="footer">
+    <p>
+      © Samizo-AITL —
+      Engineering Knowledge Hub
+    </p>
+  </footer>
+
+  <!-- =================================================
        JS Initializers
-       ※ DOM生成後に明示的に実行
   ================================================== -->
   <script>
     document.addEventListener("DOMContentLoaded", () => {
@@ -67,5 +91,6 @@
       });
     });
   </script>
+
 </body>
 </html>

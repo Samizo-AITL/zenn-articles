@@ -7,6 +7,16 @@ Zennは体系的な公開・連載の場、
 GitHubは **設計・編集・履歴管理の場**  
 という役割分担を前提としています。
 
+[![Back to Portal (JP)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/)
+
+---
+
+## 🔗 Links
+
+| Language | GitHub Pages 🌐 | GitHub 💻 |
+|----------|----------------|-----------|
+| jp Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-Japanese-brightgreen?logo=github)](https://samizo-aitl.github.io/zenn-articles/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-Japanese-blue?logo=github)](https://github.com/Samizo-AITL/zenn-articles/tree/main) |
+
 ---
 
 ## 🎯 Purpose
@@ -81,16 +91,29 @@ zenn-articles/
 
 ## 👤 Author
 
-**Shinichi Samizo**  
-Semiconductor / MEMS / Inkjet / Control Architecture  
-GitHub: https://github.com/Samizo-AITL
+| 📌 Item | Details |
+|--------|---------|
+| **Name** | Shinichi Samizo |
+| **Expertise** | Semiconductor devices (logic, memory, high-voltage mixed-signal)<br>Thin-film piezo actuators for inkjet systems<br>Printhead productization, BOM management, ISO training |
+| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-black?logo=github)](https://github.com/Samizo-AITL) |
 
 ---
 
 ## 📄 License
 
-- **Source Code**: MIT License  
-- **Text**: CC BY 4.0 / CC BY-SA 4.0  
-- **Figures**: CC BY-NC 4.0  
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/zenn-articles/#---license)
 
-詳細は各記事の記載に従ってください。
+| 📌 Item | License | Description |
+|--------|---------|-------------|
+| **Source Code** | [**MIT License**](https://opensource.org/licenses/MIT) | Free to use, modify, and redistribute |
+| **Text Materials** | [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC BY-SA 4.0**](https://creativecommons.org/licenses/by-sa/4.0/) | Attribution required; share-alike applies for BY-SA |
+| **Figures & Diagrams** | [**CC BY-NC 4.0**](https://creativecommons.org/licenses/by-nc/4.0/) | Non-commercial use only |
+| **External References** | Follow the original license | Cite the original source properly |
+
+---
+
+## 💬 Feedback
+
+> Suggestions, improvements, and discussions are welcome via GitHub Discussions.
+
+[![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/zenn-articles/discussions)

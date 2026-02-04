@@ -1,14 +1,11 @@
 ---
 layout: default
-title: Planar MOSFETとSCE
+title: GAA
 ---
 
----
-title: "【半導体】GAA 構造：電界制御の完成形"
-emoji: "🧱"
-type: "tech"
+# 【半導体:04】GAA 構造：電界制御の完成形
 topics: ["GAA", "ナノシート", "MOSFET"]
-published: true
+
 ---
 
 ## はじめに 

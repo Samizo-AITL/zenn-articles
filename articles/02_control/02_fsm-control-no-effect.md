@@ -1,14 +1,11 @@
 ---
 layout: default
-title: AITL-controller
+title: FSM制御が効かなかった実例
 ---
 
----
-title: "【AITL】FSM制御が効かなかった実例"
-emoji: "🧊"
-type: "tech"
+# 【制御:02】FSM制御が効かなかった実例
 topics: ["制御", "FSM", "PID"]
-published: true
+
 ---
 
 ## はじめに

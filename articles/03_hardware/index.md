@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "【03_hardware】AITLハードウェア・物理制御インデックス"
+title: zenn-articles
 ---
 
 # 03_hardware / ハードウェア・物理制御 記事一覧

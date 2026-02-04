@@ -1,14 +1,11 @@
 ---
 layout: default
-title: Planar MOSFETとSCE
+title: SystemDK
 ---
 
----
-title: "【半導体】Post-CFET時代の本質：SystemDKが前提となる設計世界"
-emoji: "🧩"
-type: "tech"
+# 【半導体:07】Post-CFET時代の本質：SystemDKが前提となる設計世界
 topics: ["半導体", "CFET", "チップレット", "SystemDK", "設計方法論"]
-published: true
+
 ---
 
 ## はじめに：CFETの「次」はデバイスではない

@@ -12,10 +12,10 @@ title: AITL-controller
 という三層制御アーキテクチャについて紹介します。
 
 公式サイト：  
-https://samizo-aitl.github.io/aitl-controller-a-type/  
+[https://samizo-aitl.github.io/aitl-controller-a-type/](https://samizo-aitl.github.io/aitl-controller-a-type/)
 
 GitHub リポジトリ：  
-https://github.com/Samizo-AITL/aitl-controller-a-type  
+[https://github.com/Samizo-AITL/aitl-controller-a-type](https://github.com/Samizo-AITL/aitl-controller-a-type)
 
 ---
 
@@ -203,8 +203,8 @@ AITL-controller は次の 3 層を統合した新しい制御フレームワー�
 
 ---
 
-公式ドキュメント：  
-https://samizo-aitl.github.io/aitl-controller-a-type/  
+公式サイト：  
+[https://samizo-aitl.github.io/aitl-controller-a-type/](https://samizo-aitl.github.io/aitl-controller-a-type/)
 
 GitHub リポジトリ：  
-https://github.com/Samizo-AITL/aitl-controller-a-type
+[https://github.com/Samizo-AITL/aitl-controller-a-type](https://github.com/Samizo-AITL/aitl-controller-a-type)

@@ -1,4 +1,9 @@
 ---
+layout: default
+title: Planar MOSFETとSCE
+---
+
+---
 title: "【半導体】Post-CFET：2040年までの次世代トランジスタ像"
 emoji: "🔭"
 type: "tech"

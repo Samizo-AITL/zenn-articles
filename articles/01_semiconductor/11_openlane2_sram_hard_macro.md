@@ -1,14 +1,11 @@
 ---
 layout: default
-title: Planar MOSFETとSCE
+title: OpenLane2 sram
 ---
 
----
-title: "【半導体】OpenLane2でSRAMハードマクロを統合しGDSを生成する"
-emoji: "🧩"
-type: "tech"
+# 【半導体:11】OpenLane2でSRAMハードマクロを統合しGDSを生成する
 topics: ["openlane2", "asic", "physicaldesign", "sram", "sky130"]
-published: true
+
 ---
 
 ## はじめに
@@ -111,10 +108,10 @@ SoC 設計の難しさは、
 以下のリポジトリに **再現可能な形で整理**しています。
 
 - GitHub Pages:  
-  https://samizo-aitl.github.io/openlane2-sram/
+  [https://samizo-aitl.github.io/openlane2-sram/](https://samizo-aitl.github.io/openlane2-sram/)
 
 - GitHub Repository:  
-  https://github.com/Samizo-AITL/openlane2-sram
+  [https://github.com/Samizo-AITL/openlane2-sram](https://github.com/Samizo-AITL/openlane2-sram)
 
 設定ファイル・構成・設計ポリシーを含め、  
 **教材として再利用可能**な形で公開しています。

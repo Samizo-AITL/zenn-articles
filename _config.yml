@@ -2,7 +2,7 @@
 # Samizo-AITL Zenn Articles : Jekyll Config
 # ==================================================
 
-title: Zenn Articles
+title: ""
 description: >
   Markdown SSOT for Zenn technical articles and books.
   GitHub is the design space. Zenn is the publishing surface.
@@ -13,7 +13,7 @@ timezone: Asia/Tokyo
 # --------------------------------------------------
 # Theme
 # --------------------------------------------------
-# theme: minima   # ← 完全に使わない（重要）
+# theme: minima   # ← 使用しない
 
 # --------------------------------------------------
 # Markdown / Math / Code

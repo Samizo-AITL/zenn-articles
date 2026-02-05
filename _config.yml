@@ -16,10 +16,17 @@ timezone: Asia/Tokyo
 markdown: kramdown
 
 kramdown:
-  input: kramdown
+  # GitHub Pages 互換モード（重要）
+  input: GFM
+
+  # MathJax を前提に数式を保持
+  math_engine: mathjax
+
+  # Syntax highlight
   syntax_highlighter: rouge
+
+  # Markdown の改行をそのまま改行にしない
   hard_wrap: false
-  math_engine: mathjax   # MathJax 前提で数式を残す（script 読み込みは layout 側）
 
 # --------------------------------------------------
 # Build

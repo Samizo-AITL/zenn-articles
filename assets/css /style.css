@@ -28,7 +28,7 @@ body {
 }
 
 /* ==================================================
-   Hero (現在は未使用だが保持)
+   Hero (unused but reserved)
 ================================================== */
 .hero {
   background: linear-gradient(135deg, #003366, #0b5fff);
@@ -58,11 +58,11 @@ body {
 }
 
 /* ==================================================
-   Main Layout（ヘッダー非依存）
+   Main Layout
 ================================================== */
 main {
   max-width: 980px;
-  margin: 2rem auto 4rem;   /* ← 修正：負のマージンを廃止 */
+  margin: 2rem auto 4rem;
   padding: 2.6rem 3rem;
 
   background: #ffffff;
@@ -82,8 +82,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 1.9em;        /* ← 修正：帯に見えないサイズ */
-  margin-top: 0;           /* ← 修正：ページ先頭で詰める */
+  font-size: 1.9em;
+  margin-top: 0;
   margin-bottom: 1.2em;
 }
 
@@ -170,7 +170,7 @@ pre code {
 }
 
 /* ==================================================
-   Table (Data Sheet Style)
+   Table (Data Sheet Style + MathJax safe)
 ================================================== */
 table {
   border-collapse: collapse;
@@ -181,18 +181,28 @@ table {
   border: 1.5px solid #cbd5e1;
 }
 
-th {
-  background: #e5e7eb;
-  border: 1.5px solid #cbd5e1;
-  font-weight: 700;
-  padding: 0.6em 0.8em;
-  text-align: left;
-}
-
+th,
 td {
   background: #ffffff;
   border: 1px solid #cbd5e1;
   padding: 0.6em 0.8em;
+  text-align: left;
+  vertical-align: middle; /* ← MathJax 崩れ防止の核心 */
+}
+
+th {
+  background: #e5e7eb;
+  font-weight: 700;
+}
+
+/* MathJax inline/display safety */
+mjx-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+mjx-container[display="true"] {
+  margin: 0.8em 0;
 }
 
 /* ==================================================

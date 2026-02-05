@@ -3,12 +3,13 @@ layout: default
 title: SystemDK
 ---
 
-# 【半導体:07】Post-CFET時代の本質：SystemDKが前提となる設計世界
+# 【半導体:07】🧭 Post-CFET時代の本質  
+### ― SystemDKが前提となる設計世界
 topics: ["半導体", "CFET", "チップレット", "SystemDK", "設計方法論"]
 
 ---
 
-## はじめに：CFETの「次」はデバイスではない
+## 🧭 はじめに：CFETの「次」はデバイスではない
 
 CFET以降の議論では、  
 しばしば次のような問いが投げかけられます。
@@ -32,23 +33,23 @@ CFET以降の議論では、
 
 ---
 
-## CFET以降、単一チップ内集積は「壁」に突き当たる
+## 🧱 CFET以降、単一チップ内集積は「壁」に突き当たる
 
 CFETは、
 
-- 電界制御（GAA）
-- 面積効率（上下積層）
-- 電源構造（BPR）
+- 電界制御（GAA）  
+- 面積効率（上下積層）  
+- 電源構造（BPR）  
 
 を極限まで押し詰めた構造です。
 
 その結果、  
 次のような制約が**構造的に不可避**となります。
 
-- 熱拡散経路の閉塞
-- プロセス温度の非対称化
-- 歩留まりと設計自由度の急減
-- 配線・検証コストの爆発
+- 熱拡散経路の閉塞  
+- プロセス温度の非対称化  
+- 歩留まりと設計自由度の急減  
+- 配線・検証コストの爆発  
 
 これは「技術が未熟だから」ではなく、  
 **単一チップ内で素子を積み上げるという思想そのものの限界**です。
@@ -56,13 +57,13 @@ CFETは、
 つまり、
 
 > **CFET以降、  
->  “チップの中で全部やる”という前提が崩れる**
+> “チップの中で全部やる”という前提が崩れる**
 
 ということです。
 
 ---
 
-## 解はチップレットだが、それは「逃げ」ではない
+## 🧩 解はチップレットだが、それは「逃げ」ではない
 
 この制約に対する現実解が、  
 **Chiplet / 3D Integration / 異種統合**です。
@@ -81,7 +82,7 @@ CFETは、
 - 熱源の分離  
 - プロセス世代の非同期化  
 - 機能単位での最適化  
-- 再利用性の向上
+- 再利用性の向上  
 
 が可能になります。
 
@@ -94,18 +95,18 @@ CFETは、
 
 このような **設計空間の複雑性**を扱うために、  
 SystemDK という思想が必要になります。  
-（詳細は → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/) ）
+（詳細は → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/)）
 
 ---
 
-## チップレット時代に「回路設計」だけでは足りない理由
+## 🔌 チップレット時代に「回路設計」だけでは足りない理由
 
 従来の設計フローは、
 
-- デバイス
-- 回路
-- 配線
-- タイミング
+- デバイス  
+- 回路  
+- 配線  
+- タイミング  
 
 を中心に構築されてきました。
 
@@ -116,7 +117,7 @@ SystemDK という思想が必要になります。
 - 電源分離と電圧降下  
 - 応力・歪み  
 - ノイズ（SI/PI/EMI）  
-- パッケージ構造
+- パッケージ構造  
 
 これらは、
 
@@ -128,11 +129,11 @@ SystemDK という思想が必要になります。
 
 ここで初めて、  
 **SystemDK（System Design Kit）** 的な設計思想が不可欠になります。  
-（SystemDK の詳細章はこちら → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/) ）
+（SystemDK の詳細章はこちら → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/)）
 
 ---
 
-## SystemDKとは「設計のための地図」である
+## 🗺 SystemDKとは「設計のための地図」である
 
 SystemDK は単なるツール群ではありません。
 
@@ -141,7 +142,7 @@ SystemDK は単なるツール群ではありません。
 - デバイス  
 - 回路  
 - 実装  
-- 熱・応力・電源・ノイズ
+- 熱・応力・電源・ノイズ  
 
 を **同じ設計空間で扱うための枠組み**です。
 
@@ -161,7 +162,7 @@ Post-CFET時代では、
 
 ---
 
-## Post-CFET時代の設計者に求められる役割
+## 👤 Post-CFET時代の設計者に求められる役割
 
 この世界で設計者に求められるのは、
 
@@ -175,7 +176,7 @@ Post-CFET時代では、
 
 - 「この構造は熱で詰む」  
 - 「この配置は電源で破綻する」  
-- 「この統合は歩留まりが出ない」
+- 「この統合は歩留まりが出ない」  
 
 といった判断を、  
 **設計初期に下せること**が価値になります。
@@ -189,7 +190,7 @@ Post-CFET時代では、
 
 ---
 
-## まとめ：Post-CFETの主役は設計思想である
+## 📝 まとめ：Post-CFETの主役は設計思想である
 
 - CFET以降、単一チップ内集積は限界に達する  
 - 解はチップレットと異種統合  
@@ -206,15 +207,15 @@ Post-CFET時代とは、
 
 ---
 
-## 関連教材・設計思想
+## 📚 関連教材・設計思想
 
 本記事は以下の教材構成・設計思想を前提に整理されています。
 
 - **Edusemi-v4x：CFETまでの構造進化教材**  
-  → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
+  [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
 
 - **特別編：SystemDK における熱・応力・ノイズ設計制約**  
-  → [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/)
+  [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/)
 
 これらはすべて、
 

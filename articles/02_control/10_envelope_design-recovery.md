@@ -3,12 +3,12 @@ layout: default
 title: Envelope Control と Design Recovery Control
 ---
 
-# 【制御:10】Envelope Control と Design Recovery Control ― 制御ではなく「境界」と「前提」を扱う
+# 🧩 【制御:10】Envelope Control と Design Recovery Control ― 制御ではなく「境界」と「前提」を扱う
 topics: [control, design, architecture, ai, llm]
 
 ---
 
-## はじめに
+## 🧭 はじめに
 
 最近、制御や AI を扱う文脈で  
 「LLM で制御する」「AI が最適化する」といった話をよく見かけます。
@@ -34,7 +34,7 @@ topics: [control, design, architecture, ai, llm]
 
 ---
 
-## Envelope Control とは何か
+## 🛡 Envelope Control とは何か
 
 Envelope Control は、
 
@@ -66,7 +66,7 @@ Envelope を越えそうになった瞬間に **運用が抑制される**。
 
 ---
 
-## Design Recovery Control とは何か
+## 🧠 Design Recovery Control とは何か
 
 一方で、Design Recovery Control（DRC）が扱うのは  
 **まったく別の時間軸**です。
@@ -100,7 +100,7 @@ LLM が関与する場合でも、
 
 ---
 
-## 2つの関係性（重要）
+## 🔗 2つの関係性（重要）
 
 この2つは **競合しません**。
 
@@ -124,7 +124,7 @@ LLM が関与する場合でも、
 
 ---
 
-## 実装ではなく、位置づけの話
+## 🧱 実装ではなく、位置づけの話
 
 ここで強調したいのは、
 
@@ -146,21 +146,21 @@ LLM が関与する場合でも、
 
 ---
 
-## 参考リンク
+## 🔗 参考リンク
 
 概念の定義と整理は、以下で公開しています。
 
 - **Envelope Control**  
-  🔗 https://samizo-aitl.github.io/envelope-control/  
-  🔧 https://github.com/Samizo-AITL/envelope-control
+  [https://samizo-aitl.github.io/envelope-control/](https://samizo-aitl.github.io/envelope-control/)  
+  [https://github.com/Samizo-AITL/envelope-control](https://github.com/Samizo-AITL/envelope-control)
 
 - **Design Recovery Control**  
-  🔗 https://samizo-aitl.github.io/design-recovery-control/  
-  🔧 https://github.com/Samizo-AITL/design-recovery-control
+  [https://samizo-aitl.github.io/design-recovery-control/](https://samizo-aitl.github.io/design-recovery-control/)  
+  [https://github.com/Samizo-AITL/design-recovery-control](https://github.com/Samizo-AITL/design-recovery-control)
 
 ---
 
-## おわりに
+## 🧭 おわりに
 
 制御を高度化するより先に、
 

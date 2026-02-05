@@ -32,7 +32,7 @@ title: zenn-articles
 
 ## 🧱 ハードウェア・アーキテクチャ
 
-- [03 ハードウェアアーキテクチャ v2（物理層）](./03_hardware_architecture_v2_physical.md)
+- [03 ハードウェアアーキテクチャ v2（物理層）](./03_hardware_architecture_v2_physical_loop.md)
 
 > ソフト以前に、  
 > **物理配置・結線・責務分離**が制御性能を決める。

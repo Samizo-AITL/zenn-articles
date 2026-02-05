@@ -1,3 +1,8 @@
+---
+layout: default
+title: Legacy dram2
+---
+
 # 【半導体:17】0.25µm DRAM Pause Refresh異常の物理的正体
 topics: ["半導体", "DRAM", "故障解析", "デバイス物理", "プロセス"]
 

@@ -3,7 +3,7 @@ layout: default
 title: GF180 Inkjet Driver 設計探索（続編2）— 300dpiを前提としたHVドライバアレイの成立点
 ---
 
-# 【Inkjet:05】GF180 Inkjet Driver 設計探索（続編2）— 300dpiを前提としたHVドライバアレイの成立点
+# 🧪 【Inkjet:05】GF180 Inkjet Driver 設計探索（続編2）— 300dpiを前提としたHVドライバアレイの成立点
 topics: semiconductor,icdesign,layout,inkjet,gf180
 
 ---
@@ -19,7 +19,7 @@ HV_SW_UNIT アレイがどこまで実装対象として成立するのかを、
 本記事は、以下の記事の **続編（結果編）**です。
 
 - 前編：GF180 Inkjet Driver 設計探索  
-  https://zenn.dev/samizo_aitl/articles/024_gf180-inkjet-driver
+  [https://zenn.dev/samizo_aitl/articles/024_gf180-inkjet-driver](https://zenn.dev/samizo_aitl/articles/024_gf180-inkjet-driver)
 - 続編：400dpi の限界と 300dpi への現実解  
   （400dpi が DNWELL 制約により構造的に不成立であることを GDS で確認）
 
@@ -37,7 +37,7 @@ HV ドライバアレイはどこまで「実装対象」として成立する�
 
 ---
 
-## なぜ 300dpi に固定するのか
+## 🎯 なぜ 300dpi に固定するのか
 
 300dpi のピッチは：
 
@@ -62,7 +62,7 @@ HV ドライバアレイはどこまで「実装対象」として成立する�
 
 ---
 
-## 300dpi 専用 HV_SW_UNIT アレイ
+## 🧩 300dpi 専用 HV_SW_UNIT アレイ
 
 300dpi では、以下の設計方針を採用しました。
 
@@ -93,7 +93,7 @@ NMOS 主体・4×2 構成を最小評価ブロックとして実施している�
 
 ---
 
-## GDS 上で確認できたこと
+## 🔍 GDS 上で確認できたこと
 
 300dpi アレイ GDS を生成・確認した結果、  
 以下が明確になりました。
@@ -120,7 +120,7 @@ NMOS 主体・4×2 構成を最小評価ブロックとして実施している�
 
 ---
 
-## 300dpi はゴールではないが、入口ではある
+## 🚪 300dpi はゴールではないが、入口ではある
 
 もちろん、300dpi に落としたからといって、
 
@@ -145,7 +145,7 @@ NMOS 主体・4×2 構成を最小評価ブロックとして実施している�
 
 ---
 
-## 300dpi 前提で次にやること
+## 🛠 300dpi 前提で次にやること
 
 300dpi を前提にした次フェーズでは、  
 以下が現実的な検討対象になります。
@@ -166,7 +166,7 @@ NMOS 主体・4×2 構成を最小評価ブロックとして実施している�
 
 ---
 
-## まとめ
+## 🧾 まとめ
 
 - 400dpi：  
   **GF180MCU + DNWELL 構造では物理的に不成立**
@@ -180,7 +180,7 @@ NMOS 主体・4×2 構成を最小評価ブロックとして実施している�
 
 ---
 
-## おわりに
+## 📝 おわりに
 
 高電圧・混載・高密度という条件が重なると、  
 設計は必ず **物理に引き戻されます**。
@@ -196,7 +196,7 @@ GF180MCU open PDK は、その現実を
 
 ---
 
-## 本プロジェクトとの関係
+## 🔗 本プロジェクトとの関係
 
 本検証およびその後のレイアウト成果は、  
 以下の技術探索プロジェクトの一部である。
@@ -207,18 +207,18 @@ GF180MCU open PDK は、その現実を
   高電圧 mixed-signal ドライバ IC の物理設計探索
 - **方針**: 自動化ではなく **レイアウト主導設計**
 
-#### 🔗 Links
+#### Links
 
 - GitHub Repository  
-  https://github.com/Samizo-AITL/gf180-inkjet-driver
+  [https://github.com/Samizo-AITL/gf180-inkjet-driver](https://github.com/Samizo-AITL/gf180-inkjet-driver)
 
 - GitHub Pages（設計ドキュメント）  
-  https://samizo-aitl.github.io/gf180-inkjet-driver/
+  [https://samizo-aitl.github.io/gf180-inkjet-driver/](https://samizo-aitl.github.io/gf180-inkjet-driver/)
 
 - Design Docs（GDS / Layout中心）  
-  https://samizo-aitl.github.io/gf180-inkjet-driver/docs/
+  [https://samizo-aitl.github.io/gf180-inkjet-driver/docs/](https://samizo-aitl.github.io/gf180-inkjet-driver/docs/)
 
 ---
 
-💬 ご意見・議論は GitHub Discussions へ  
-https://github.com/Samizo-AITL/gf180-inkjet-driver/discussions
+ご意見・議論は GitHub Discussions へ  
+[https://github.com/Samizo-AITL/gf180-inkjet-driver/discussions](https://github.com/Samizo-AITL/gf180-inkjet-driver/discussions)

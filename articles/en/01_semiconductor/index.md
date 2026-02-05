@@ -9,7 +9,7 @@ title: zenn-articles
 
 ## 📘 Device Physics & Structures (up to Post-CFET)
 
-- [01. Planar SCE Problem — Short-Channel Effects in Planar MOSFETs](./01_planar_sce_problem/)
+- [01. Planar SCE Problem — Short-Channel Effects in Planar MOSFETs](./01_planar_sce_problem.md)
 - [02. FinFET Structure — FinFET Architecture and Electrical Characteristics](./02_finfet_structure/)
 - [03. Weff Concept — Effective Channel Width (Weff)](./03_weff_concept/)
 - [04. GAA Structure — Gate-All-Around (GAA) Devices](./04_gaa_structure/)

@@ -28,7 +28,7 @@ body {
 }
 
 /* ==================================================
-   Hero
+   Hero (現在は未使用だが保持)
 ================================================== */
 .hero {
   background: linear-gradient(135deg, #003366, #0b5fff);
@@ -58,11 +58,11 @@ body {
 }
 
 /* ==================================================
-   Main Layout (核心)
+   Main Layout（ヘッダー非依存）
 ================================================== */
 main {
   max-width: 980px;
-  margin: -2rem auto 4rem;
+  margin: 2rem auto 4rem;   /* ← 修正：負のマージンを廃止 */
   padding: 2.6rem 3rem;
 
   background: #ffffff;
@@ -78,12 +78,12 @@ main {
 ================================================== */
 h1, h2, h3 {
   color: #003366;
-  margin-top: 2.4em;
+  margin-top: 2.2em;
 }
 
 h1 {
-  font-size: 2.1em;
-  margin-top: 0.6em;
+  font-size: 1.9em;        /* ← 修正：帯に見えないサイズ */
+  margin-top: 0;           /* ← 修正：ページ先頭で詰める */
   margin-bottom: 1.2em;
 }
 
@@ -242,11 +242,7 @@ img.shrink-70 {
     padding: 1.6rem 1.4rem;
   }
 
-  .hero-title {
-    font-size: 2rem;
-  }
-
-  h1 { font-size: 1.8em; }
+  h1 { font-size: 1.7em; }
   h2 { font-size: 1.3em; }
   h3 { font-size: 1.1em; }
 

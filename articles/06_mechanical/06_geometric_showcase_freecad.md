@@ -3,12 +3,12 @@ layout: default
 title: FreeCADでGUI操作ゼロ ― 関数定義だけで生成する幾何学ソリッド
 ---
 
-# 【機械設計:06】FreeCADでGUI操作ゼロ ― 関数定義だけで生成する幾何学ソリッド
-topics:機械設計,cad,freecad,python,数学
+# 🛠 【機械設計:06】FreeCADでGUI操作ゼロ ― 関数定義だけで生成する幾何学ソリッド
+topics: ["機械設計", "cad", "freecad", "python", "数学"]
 
 ---
 
-## はじめに
+## 🧭 はじめに
 
 FreeCAD は「パラメトリック CAD」として知られていますが、  
 GUI のスケッチや拘束を一切使わず、
@@ -28,7 +28,7 @@ GUI のスケッチや拘束を一切使わず、
 
 ---
 
-## まずは完成形を見てほしい
+## 👀 まずは完成形を見てほしい
 
 ### 関数定義ロフト＋ねじりソリッド
 
@@ -48,7 +48,7 @@ GUI のスケッチや拘束を一切使わず、
 
 ---
 
-## もう一つ：分岐するスパイラル形状
+## 🌀 もう一つ：分岐するスパイラル形状
 
 次は、さらに「GUIで作る気がしない」系です。
 
@@ -68,7 +68,7 @@ GUI ベースの履歴設計ではかなり厄介なタイプです。
 
 ---
 
-## 何がポイントなのか
+## 🔍 何がポイントなのか
 
 重要なのは「形が奇抜なこと」ではありません。
 
@@ -94,7 +94,7 @@ Python の変数・関数として定義しています。
 
 ---
 
-## GUI CAD との決定的な違い
+## ⚔️ GUI CAD との決定的な違い
 
 GUI CAD で同じことをやろうとすると：
 
@@ -116,7 +116,7 @@ def r(z):
 
 ---
 
-## 実務で何が嬉しいか
+## 🧰 実務で何が嬉しいか
 
 この手法はアート用途だけではありません。
 
@@ -139,7 +139,7 @@ def r(z):
 
 ---
 
-## まとめ
+## 🧾 まとめ
 
 FreeCAD は、
 
@@ -155,18 +155,18 @@ CAD の使い方は大きく広がります。
 
 ---
 
-## 使用したコード
+## 💻 使用したコード
 
 本記事で生成した形状のコードは、以下のリポジトリで公開しています。
 
 - 関数定義ロフト＋ねじりソリッド  
-  https://github.com/Samizo-AITL/qiita-articles/tree/main/codes/06_geometric_showcase_freecad/loft_twist_solid.py
+  [loft_twist_solid.py](https://github.com/Samizo-AITL/qiita-articles/tree/main/codes/06_geometric_showcase_freecad/loft_twist_solid.py)
 
 - 分岐スパイラル形状  
-  https://github.com/Samizo-AITL/qiita-articles/tree/main/codes/06_geometric_showcase_freecad/branched_spiral_sweep.py
+  [branched_spiral_sweep.py](https://github.com/Samizo-AITL/qiita-articles/tree/main/codes/06_geometric_showcase_freecad/branched_spiral_sweep.py)
 
 ---
 
-## ライセンス
+## 📜 ライセンス
 
 本記事で使用しているコードは **MIT License** で公開しています。

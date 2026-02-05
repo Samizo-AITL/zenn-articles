@@ -3,12 +3,13 @@ layout: default
 title: Post-CFET
 ---
 
-# 【半導体:06】Post-CFET：2040年までの次世代トランジスタ像
+# 【半導体:06】🚀 Post-CFET  
+### ― 2040年までの次世代トランジスタ像
 topics: ["半導体", "CFET", "ポストCMOS", "デバイスロードマップ"]
 
 ---
 
-## はじめに
+## 🧭 はじめに
 
 Planar MOSFET から始まり、  
 FinFET、GAA、そして CFET まで見てきました。
@@ -23,22 +24,22 @@ FinFET、GAA、そして CFET まで見てきました。
 
 ---
 
-## CFET は「終点」ではないが「区切り」ではある 
+## 🧩 CFET は「終点」ではないが「区切り」ではある
 
 CFET は、
 
-- 電界制御の完成（GAA）
-- 面積効率の極限化（上下積層）
-- 電源分離との統合（BPR）
+- 電界制御の完成（GAA）  
+- 面積効率の極限化（上下積層）  
+- 電源分離との統合（BPR）  
 
 という、CMOS が長年抱えてきた主要課題を  
 **構造レベルで同時に解こうとした存在**です。
 
 一方で、
 
-- 強い熱結合
-- 厳しいプロセス温度制約
-- 配線・製造コストの急増
+- 強い熱結合  
+- 厳しいプロセス温度制約  
+- 配線・製造コストの急増  
 
 といった問題も避けられません。
 
@@ -51,16 +52,16 @@ CFET は、
 
 ---
 
-## 〜2030年：CFET の延命と最適化が主戦場
+## ⏳ 〜2030年：CFET の延命と最適化が主戦場
 
 2030年頃までは、  
 **CFET をいかに成立させ続けるか**が最大のテーマになります。
 
 主な焦点は以下です。
 
-- BPR（Backside Power Rail）の本格導入
-- 配線階層・電源設計の再構築
-- 熱拡散・パッケージ技術の高度化
+- BPR（Backside Power Rail）の本格導入  
+- 配線階層・電源設計の再構築  
+- 熱拡散・パッケージ技術の高度化  
 
 このフェーズでは、
 
@@ -72,7 +73,7 @@ CFET は、
 
 ---
 
-## 2030〜2035年：異種統合が性能を決め始める
+## 🔗 2030〜2035年：異種統合が性能を決め始める
 
 この時期になると、  
 単一トランジスタ構造の改良だけでは  
@@ -80,9 +81,9 @@ CFET は、
 
 前面に出てくるのは、
 
-- Chiplet
-- 先端 3D integration
-- Monolithic 3D（ロジック＋ロジック／ロジック＋メモリ）
+- Chiplet  
+- 先端 3D integration  
+- Monolithic 3D（ロジック＋ロジック／ロジック＋メモリ）  
 
 といった **統合技術**です。
 
@@ -95,13 +96,13 @@ CFET は、
 
 ---
 
-## 2035〜2040年：CMOS外技術は「限定用途」で共存
+## 🌱 2035〜2040年：CMOS外技術は「限定用途」で共存
 
 2035年以降になると、
 
-- 2D 材料（MoS₂ 等）
-- スピントロニクス
-- 量子デバイス
+- 2D 材料（MoS₂ 等）  
+- スピントロニクス  
+- 量子デバイス  
 
 といった **CMOS 外技術**が現実味を帯びます。
 
@@ -119,21 +120,21 @@ CMOS は依然として
 
 ---
 
-## 「次は何か」より「何が成立するか」
+## 🎯 「次は何か」より「何が成立するか」
 
 Post-CFET を考える際に重要なのは、
 
-- 新規性
-- 理論的な性能限界
+- 新規性  
+- 理論的な性能限界  
 
 ではありません。
 
 問われるのは、
 
-- 製造できるか
-- 設計できるか
-- モデル化できるか
-- 教育・EDA に落とせるか
+- 製造できるか  
+- 設計できるか  
+- モデル化できるか  
+- 教育・EDA に落とせるか  
 
 という **成立条件**です。
 
@@ -143,13 +144,13 @@ Planar → FinFET → GAA → CFET
 
 ---
 
-## まとめ
+## 📝 まとめ
 
-- CFET は CMOS 構造進化の重要な区切り
-- 〜2030年は CFET の延命と最適化
-- 2030年代は異種統合が主役
-- 2040年に向け、CMOS外技術は限定用途で共存
-- Post-CFET の本質は「新構造」ではなく「成立性」
+- ✅ CFET は CMOS 構造進化の重要な区切り  
+- ✅ 〜2030年は CFET の延命と最適化  
+- ✅ 2030年代は異種統合が主役  
+- ✅ 2040年に向け、CMOS外技術は限定用途で共存  
+- ✅ Post-CFET の本質は「新構造」ではなく「成立性」  
 
 Post-CFET の時代は、
 
@@ -163,21 +164,17 @@ Post-CFET の時代は、
 
 ---
 
-## 参考文献・関連リンク
-
-本記事の内容は、以下の教材・公開リポジトリ構成を前提として整理されています。
+## 📚 参考文献・関連リンク
 
 ### 📘 Edusemi-v4x｜先端ノード技術（FinFET・GAA・CFET）
 
 - **GitHub Pages（公開教材・日本語）**  
-  👉 [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
+  [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
 
 - **GitHub（ソース管理・Markdown原稿）**  
-  👉 [https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa)
+  [https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa)
 
-### 📚 関連章（構造転換の位置づけ）
+### 📖 関連章
 
-- Planar MOSFET → FinFET → GAA → CFET という  
-  **「電界制御構造の進化」**を体系的に解説した特別編 第1章に相当します。
-
----
+- Planar MOSFET → FinFET → GAA → CFET  
+  **電界制御構造の進化**を体系的に解説した特別編・第1章に相当します。

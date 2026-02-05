@@ -3,22 +3,22 @@ layout: default
 title: OpenLane
 ---
 
-# 【半導体:10】OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか
+# 【半導体:10】🧩 OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか
 topics: ["OpenLane", "ASIC", "RTL", "制御工学", "SKY130"]
 
 ---
 
-# OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか
+## 🧭 はじめに
 
 この記事は **OpenLane の使い方解説**ではありません。  
 また、単なる「ツール検証ログ」でもありません。
 
 **制御系（PID）を題材に、RTLからGDSまで実際に完走した  
-デジタル制御ASIC設計の記録と設計判断の言語化**です。
+デジタル制御ASIC設計の記録と、設計判断の言語化**です。
 
 ---
 
-## なぜ MCU ではなく ASIC なのか
+## ❓ なぜ MCU ではなく ASIC なのか
 
 制御系の実装といえば MCU が一般的です。  
 しかし、MCU ベース制御には本質的な制約があります。
@@ -40,7 +40,7 @@ ASIC にすると：
 
 ---
 
-## 採用したアーキテクチャ
+## 🏗 採用したアーキテクチャ
 
 設計した制御ASICは、以下の構成を取っています。
 
@@ -62,7 +62,7 @@ ASIC にすると：
 
 ---
 
-## 固定小数点設計の現実
+## 🔢 固定小数点設計の現実
 
 制御理論は実数で書かれますが、  
 ASIC ではすべてが **有限ビット幅**です。
@@ -76,7 +76,7 @@ ASIC ではすべてが **有限ビット幅**です。
 教科書通りにいかない点が多く、  
 **実際に RTL に落として初めて見える問題**が多数ありました。
 
-このプロジェクトでは：
+本プロジェクトでは：
 
 - 数値レンジを先に決める
 - オーバーフローは必ず明示的に潰す
@@ -86,11 +86,11 @@ ASIC ではすべてが **有限ビット幅**です。
 
 ---
 
-## OpenLane を使って分かったこと
+## 🧰 OpenLane を使って分かったこと
 
 OpenLane は非常に強力ですが、魔法ではありません。
 
-良い点：
+### 👍 良い点
 
 - RTL → GDS までを **一貫して再現可能**
 - STA / DRC / LVS が統合されている
@@ -100,9 +100,9 @@ OpenLane は非常に強力ですが、魔法ではありません。
 
 ---
 
-## Gate-level simulation をどう扱ったか
+## ⏱ Gate-level simulation をどう扱ったか
 
-Gate-level simulation には二種類あります。
+Gate-level simulation には二種類があります。
 
 - **functional（論理）**
 - **timing-aware（遅延付き）**
@@ -123,15 +123,15 @@ Icarus Verilog では完全な gate-level sim が困難です。
 
 ---
 
-## 成果物
+## 📦 成果物
 
 本プロジェクトの成果はすべて公開しています。
 
 - 📘 **設計ドキュメント（GitHub Pages）**  
-  https://samizo-aitl.github.io/vi-control-asic-sky130/
+  [https://samizo-aitl.github.io/vi-control-asic-sky130/](https://samizo-aitl.github.io/vi-control-asic-sky130/)
 
 - 💻 **RTL / OpenLane フロー（GitHub）**  
-  https://github.com/Samizo-AITL/vi-control-asic-sky130
+  [https://github.com/Samizo-AITL/vi-control-asic-sky130](https://github.com/Samizo-AITL/vi-control-asic-sky130)
 
 ドキュメントには、
 
@@ -145,7 +145,7 @@ Icarus Verilog では完全な gate-level sim が困難です。
 
 ---
 
-## まとめ
+## 📝 まとめ
 
 OpenLane は「EDAツール」ですが、  
 本質的には **設計リテラシーを鍛える道具**だと感じました。

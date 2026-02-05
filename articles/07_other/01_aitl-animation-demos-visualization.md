@@ -3,7 +3,7 @@ layout: default
 title: Animation Demosで理解する三層制御アーキテクチャの可視化
 ---
 
-# 【動画:01】Animation Demosで理解する三層制御アーキテクチャの可視化
+# 🎞️ 【動画:01】Animation Demosで理解する三層制御アーキテクチャの可視化
 topics: ["aitl", "制御理論", "visualization", "css", "svg", "canvas"]
 
 ---
@@ -12,7 +12,7 @@ topics: ["aitl", "制御理論", "visualization", "css", "svg", "canvas"]
 
 ---
 
-## はじめに ― なぜ「動かす」のか
+## 🧠 はじめに ― なぜ「動かす」のか
 
 制御理論やアーキテクチャ設計では、
 
@@ -23,7 +23,7 @@ topics: ["aitl", "制御理論", "visualization", "css", "svg", "canvas"]
 という問題が頻発します。
 
 そこで本記事では、  
-👉 https://samizo-aitl.github.io/aitl-animation-demos/  
+👉 [https://samizo-aitl.github.io/aitl-animation-demos/](https://samizo-aitl.github.io/aitl-animation-demos/)  
 で公開している **Animation Demos** を題材に、
 
 - 制御構造
@@ -34,7 +34,7 @@ topics: ["aitl", "制御理論", "visualization", "css", "svg", "canvas"]
 
 ---
 
-## AITL（三層制御アーキテクチャ）概要
+## 🏗️ AITL（三層制御アーキテクチャ）概要
 
 AITLは、以下の三層構造を基本思想としています。
 
@@ -44,7 +44,7 @@ LLM（再設計・戦略層）
     └ PID（実時間制御ループ）
 ```
 
-### 各層の役割
+### 📌 各層の役割
 
 - **PID**  
   実時間制御。電圧‐電流（V–I）応答を含む安定性と追従性を担保。
@@ -57,9 +57,9 @@ Animation Demos は、この **階層構造と役割分担を視覚的に共有�
 
 ---
 
-## Animation Demos の構成
+## 🧩 Animation Demos の構成
 
-### ① CSS Animation Demos
+### 🎨 ① CSS Animation Demos
 
 - Orbit / Fade-in / Pulse
 - Layer Stack 表現
@@ -71,7 +71,7 @@ Animation Demos は、この **階層構造と役割分担を視覚的に共有�
 
 ---
 
-### ② SVG + JavaScript Demos
+### 🧭 ② SVG + JavaScript Demos
 
 - AITL制御フロー
 - FSM状態遷移
@@ -84,7 +84,7 @@ Animation Demos は、この **階層構造と役割分担を視覚的に共有�
 
 ---
 
-### ③ Canvas Demos
+### 🧪 ③ Canvas Demos
 
 - 粒子運動
 - 簡易物理シミュレーション
@@ -95,7 +95,7 @@ Animation Demos は、この **階層構造と役割分担を視覚的に共有�
 
 ---
 
-### ④ 半導体・物理系アニメーション
+### ⚡ ④ 半導体・物理系アニメーション
 
 - pn接合の電位分布
 - MOS / NMOS 表面ポテンシャル
@@ -106,7 +106,7 @@ Animation Demos は、この **階層構造と役割分担を視覚的に共有�
 
 ---
 
-## 実装例①：CSS Pulse アニメーション
+## 🧩 実装例①：CSS Pulse アニメーション
 
 ```css
 .pulse {
@@ -125,7 +125,7 @@ Animation Demos は、この **階層構造と役割分担を視覚的に共有�
 }
 ```
 
-### 制御的な意味づけ
+### 🎯 制御的な意味づけ
 
 - **周期**：制御ループ周期
 - **振幅**：ゲイン変動
@@ -135,7 +135,7 @@ PIDの応答を、数式ではなく **「揺れ」として理解**できます
 
 ---
 
-## 実装例②：SVG による FSM 可視化
+## 🧩 実装例②：SVG による FSM 可視化
 
 ```js
 const svg = document.querySelector("svg");
@@ -152,7 +152,7 @@ function addNode(x, y) {
 }
 ```
 
-### FSMとの対応関係
+### 🔁 FSMとの対応関係
 
 - ノード：状態
 - エッジ：遷移条件
@@ -162,7 +162,7 @@ function addNode(x, y) {
 
 ---
 
-## なぜアニメーションが有効なのか
+## 🧠 なぜアニメーションが有効なのか
 
 - 数式：正確だが理解が遅い
 - 図：理解できるが静的
@@ -181,7 +181,7 @@ Animation Demos は、
 
 ---
 
-## AITLとアニメーションの対応関係
+## 🧬 AITLとアニメーションの対応関係
 
 | レイヤ | アニメで表現されるもの |
 |------|--------------------|
@@ -194,7 +194,7 @@ Animation Demos は、
 
 ---
 
-## まとめ
+## 🧾 まとめ
 
 - Animation Demos は AITL理解の補助輪
 - CSS / SVG / Canvas は設計教育に強力
@@ -202,11 +202,11 @@ Animation Demos は、
 - 数式・コード・物理への橋渡しになる
 
 👉 デモ集はこちら  
-https://samizo-aitl.github.io/aitl-animation-demos/
+[https://samizo-aitl.github.io/aitl-animation-demos/](https://samizo-aitl.github.io/aitl-animation-demos/)
 
 ---
 
-## 次の展開
+## 🚀 次の展開
 
 - PID / FSM / LLM 各層の単独解説
 - デモ単体の深掘り記事

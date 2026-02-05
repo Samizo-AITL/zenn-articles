@@ -3,18 +3,18 @@ layout: default
 title: GF180 Inkjet Driver 設計探索（続編）— 400dpiの限界と300dpiの現実解
 ---
 
-# 【Inkjet:04】GF180 Inkjet Driver 設計探索（続編）— 400dpiの限界と300dpiの現実解
+# 🧪 【Inkjet:04】GF180 Inkjet Driver 設計探索（続編）— 400dpiの限界と300dpiの現実解
 topics: semiconductor,icdesign,layout,inkjet,gf180
 
 ---
 
-# GF180 Inkjet Driver 設計探索（続編）  
+# 🧭 GF180 Inkjet Driver 設計探索（続編）  
 ## 400dpi の限界と 300dpi への現実解
 
 本記事は、以下の記事の **続編**です。
 
 - 前編：GF180 Inkjet Driver 設計探索  
-  https://zenn.dev/samizo_aitl/articles/024_gf180-inkjet-driver
+  [https://zenn.dev/samizo_aitl/articles/024_gf180-inkjet-driver](https://zenn.dev/samizo_aitl/articles/024_gf180-inkjet-driver)
 
 前編では、GF180MCU open PDK を用いて、
 
@@ -33,7 +33,7 @@ topics: semiconductor,icdesign,layout,inkjet,gf180
 
 ---
 
-## なぜ「dpi」が重要なのか
+## 🎯 なぜ「dpi」が重要なのか
 
 インクジェットプリントヘッドでは、  
 **dpi = ノズル密度 = ドライバ回路の配列ピッチ**です。
@@ -49,7 +49,7 @@ topics: semiconductor,icdesign,layout,inkjet,gf180
 
 ---
 
-## HV_SW_UNIT とは何か（再確認）
+## 🧩 HV_SW_UNIT とは何か（再確認）
 
 HV_SW_UNIT は、
 
@@ -69,15 +69,15 @@ HV_SW_UNIT は、
 ---
 
 ※ 本検証では、HV_SW_UNIT を **NMOS 主体・4×2 配列**として評価しています。  
-これは GF180MCU において **DNWELL エンクロージャと基板分離が
+これは GF180MCU において **DNWELL エンクロージャと基板分離が  
 配列ピッチを最も厳しく制約する条件**を先に踏むためです。  
-単セルや 1×N 配列ではなく 4×2 とすることで、
+単セルや 1×N 配列ではなく 4×2 とすることで、  
 ガードリング共有や DNWELL 連続性を含む  
 **アレイ中心部の実効的な物理条件**を確認しています。
 
 ---
 
-## 400dpi アレイ検証のステップ
+## 🧪 400dpi アレイ検証のステップ
 
 ### ステップ1：独立セル（Baseline）
 
@@ -140,7 +140,7 @@ HV_SW_UNIT は、
 
 ---
 
-## 結論：400dpi は GF180 では構造的に厳しい
+## 🚫 結論：400dpi は GF180 では構造的に厳しい
 
 上記 3 段階の検証から、以下が結論です。
 
@@ -159,7 +159,7 @@ HV_SW_UNIT は、
 
 ---
 
-## では 300dpi ならどうか？
+## ✅ では 300dpi ならどうか？
 
 300dpi のピッチは約 **84.7µm**。
 
@@ -184,7 +184,7 @@ pitch_x = um(84.7, layout.dbu)  # 25.4mm / 300dpi
 
 ---
 
-## 300dpi で次にやること
+## 🛠 300dpi で次にやること
 
 300dpi レイアウトが GDS 上で成立した後のステップは：
 
@@ -202,7 +202,7 @@ pitch_x = um(84.7, layout.dbu)  # 25.4mm / 300dpi
 
 ---
 
-## まとめ
+## 🧾 まとめ
 
 - 400dpi は  
   **GF180MCU + DNWELL 構造では物理的に困難**
@@ -220,7 +220,7 @@ pitch_x = um(84.7, layout.dbu)  # 25.4mm / 300dpi
 
 ---
 
-## おわりに
+## 📝 おわりに
 
 高電圧・混載・高密度という条件が重なると、  
 設計は必ず **物理に引き戻されます**。
@@ -235,7 +235,7 @@ GF180MCU open PDK は、その現実を
 
 ---
 
-## 本プロジェクトとの関係
+## 🔗 本プロジェクトとの関係
 
 本検証およびその後のレイアウト成果は、  
 以下の技術探索プロジェクトの一部である。
@@ -246,18 +246,18 @@ GF180MCU open PDK は、その現実を
   高電圧 mixed-signal ドライバ IC の物理設計探索
 - **方針**: 自動化ではなく **レイアウト主導設計**
 
-#### 🔗 Links
+#### Links
 
 - GitHub Repository  
-  https://github.com/Samizo-AITL/gf180-inkjet-driver
+  [https://github.com/Samizo-AITL/gf180-inkjet-driver](https://github.com/Samizo-AITL/gf180-inkjet-driver)
 
 - GitHub Pages（設計ドキュメント）  
-  https://samizo-aitl.github.io/gf180-inkjet-driver/
+  [https://samizo-aitl.github.io/gf180-inkjet-driver/](https://samizo-aitl.github.io/gf180-inkjet-driver/)
 
 - Design Docs（GDS / Layout中心）  
-  https://samizo-aitl.github.io/gf180-inkjet-driver/docs/
+  [https://samizo-aitl.github.io/gf180-inkjet-driver/docs/](https://samizo-aitl.github.io/gf180-inkjet-driver/docs/)
 
 ---
 
-💬 ご意見・議論は GitHub Discussions へ  
-https://github.com/Samizo-AITL/gf180-inkjet-driver/discussions
+ご意見・議論は GitHub Discussions へ  
+[https://github.com/Samizo-AITL/gf180-inkjet-driver/discussions](https://github.com/Samizo-AITL/gf180-inkjet-driver/discussions)

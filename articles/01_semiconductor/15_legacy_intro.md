@@ -1,3 +1,7 @@
+---
+layout: default
+title: Legacy Intro
+---
 
 # 【半導体:15】Legacy Technologyとは何か ― 半導体が物理に支配されていた時代の失敗記録
 topics: ["半導体", "技術史", "DRAM", "信頼性"]

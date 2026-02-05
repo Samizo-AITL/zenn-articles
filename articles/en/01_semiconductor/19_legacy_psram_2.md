@@ -258,10 +258,10 @@ It was a record of:
 
 ### ✅ Series Complete
 
-- #0 Introduction  
-- #1 DRAM Part 1 (Phenomenology)  
-- #2 DRAM Part 2 (Physics)  
-- #3 PSRAM Part 1 (Structure)  
-- #4 PSRAM Part 2 (Failures and Decision)
+- 0 Introduction  
+- 1 DRAM Part 1 (Phenomenology)  
+- 2 DRAM Part 2 (Physics)  
+- 3 PSRAM Part 1 (Structure)  
+- 4 PSRAM Part 2 (Failures and Decision)
 
 **All five articles are now complete.**

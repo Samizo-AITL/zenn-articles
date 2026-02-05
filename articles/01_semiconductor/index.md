@@ -44,8 +44,8 @@ title: zenn-articles
 ## Legacy Technology｜半導体技術史・故障と判断の記録
 
 - [15. Legacy Technologyとは何か｜物理に支配されていた時代の失敗記録](./15_legacy_intro.md)
-- [16. 0.25µm DRAM Pause Refresh異常｜観測された現象](./16_legacy_dram1.md)
-- [17. 0.25µm DRAM Pause Refresh異常｜物理的正体](./17_legacy_dram2.md)
-- [18. PSRAMは何を狙ったメモリだったのか｜DRAM流用という前提](./18_legacy_psram1.md)
-- [19. PSRAMで何が起き、なぜ終わったのか｜Pause×Disturbの現実](./19_legacy_psram2.md)
+- [16. 0.25µm DRAM Pause Refresh異常｜観測された現象](./16_legacy_dram_1.md)
+- [17. 0.25µm DRAM Pause Refresh異常｜物理的正体](./17_legacy_dram_2.md)
+- [18. PSRAMは何を狙ったメモリだったのか｜DRAM流用という前提](./18_legacy_psram_1.md)
+- [19. PSRAMで何が起き、なぜ終わったのか｜Pause×Disturbの現実](./19_legacy_psram_2.md)
 

@@ -36,6 +36,7 @@ GitHubは **設計・編集・履歴管理の場**
 
 ## 🗂 Repository Structure
 
+```markdown
 zenn-articles/
 ├─ README.md
 ├─ index.md
@@ -53,6 +54,7 @@ zenn-articles/
 │  └─ en/            # same structure as above
 ├─ books/
 └─ assets/
+```
 
 ---
 

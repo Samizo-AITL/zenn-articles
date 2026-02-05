@@ -8,7 +8,7 @@ topics: ["半導体", "DRAM", "故障解析", "デバイス物理", "プロセ�
 
 ---
 
-## はじめに
+## 🧭 はじめに
 
 前稿では、0.25µm世代DRAMにおいて  
 **Pause Refresh 条件で観測された異常の「現象」**のみを記録した。
@@ -24,7 +24,7 @@ topics: ["半導体", "DRAM", "故障解析", "デバイス物理", "プロセ�
 
 ---
 
-## 観測結果が示していた物理的ヒント
+## 🔍 観測結果が示していた物理的ヒント
 
 前編で列挙した観測事実は、  
 すべて同じ方向を指していた。
@@ -45,7 +45,7 @@ topics: ["半導体", "DRAM", "故障解析", "デバイス物理", "プロセ�
 
 ---
 
-## 支配因子：ジャンクションリーク
+## 🎯 支配因子：ジャンクションリーク
 
 Pause Refresh 異常の正体は、  
 **セルMOSトランジスタのジャンクションリーク電流**である。
@@ -60,7 +60,7 @@ Pause Refresh 異常の正体は、
 
 ---
 
-## リークが発生する断面構造（参照図）
+## 🧬 リークが発生する断面構造（参照図）
 
 ここで、Pause Refresh 異常を理解するための  
 **物理的前提となる断面図**を示す。
@@ -91,7 +91,7 @@ Pause Refresh 異常の正体は、
 
 ---
 
-## SRH再結合が作る振る舞い
+## 🔁 SRH再結合が作る振る舞い
 
 このリークは、  
 **Shockley–Read–Hall（SRH）再結合**に支配されていた。
@@ -111,7 +111,7 @@ SRHリークの特徴は明確だ。
 
 ---
 
-## なぜ「ランダム単一ビット」になるのか
+## 🎲 なぜ「ランダム単一ビット」になるのか
 
 SRHリークは、
 
@@ -138,7 +138,7 @@ SRHリークは、
 
 ---
 
-## セル容量は関係していなかった
+## 🚫 セル容量は関係していなかった
 
 ここが重要な転換点である。
 
@@ -161,7 +161,7 @@ Pause Refresh 異常は、
 
 ---
 
-## プロセス履歴との強い相関
+## 🧪 プロセス履歴との強い相関
 
 Fail発生率は、  
 **特定のプロセス条件と強く相関**していた。
@@ -186,7 +186,7 @@ Fail発生率は、
 
 ---
 
-## なぜ Pause 条件でだけ顕在化したのか
+## ⏸ なぜ Pause 条件でだけ顕在化したのか
 
 通常動作や通常リフレッシュ中は、
 
@@ -212,7 +212,7 @@ Pause Refresh は、
 
 ---
 
-## まとめ（物理編）
+## 🧾 まとめ（物理編）
 
 0.25µm DRAM の Pause Refresh 異常は、
 
@@ -234,17 +234,17 @@ Pause Refresh は、
 ## 🔗 一次情報（参照元）
 
 - Legacy Technology Archive  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/)
 
 - 0.25µm DRAM ケース  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/)
 
 - Pause Refresh Fail 詳細  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/pause/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/pause/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/pause/)
 
 ---
 
-### 次回予告
+### ⏭ 次回予告
 
 次稿から、  
 **PSRAM（2001年）ケース**に入る。

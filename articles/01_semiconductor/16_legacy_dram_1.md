@@ -8,7 +8,7 @@ topics: ["半導体", "DRAM", "故障解析", "信頼性", "プロセス"]
 
 ---
 
-## はじめに ― 理屈が追いつかない異常
+## 🧭 はじめに ― 理屈が追いつかない異常
 
 0.25µm世代のDRAMでは、  
 **従来の経験則では説明できない異常**が観測された。
@@ -28,17 +28,17 @@ topics: ["半導体", "DRAM", "故障解析", "信頼性", "プロセス"]
 
 ---
 
-## Pause Refresh テストとは何か
+## 🧪 Pause Refresh テストとは何か
 
 Pause Refresh テストは、  
 DRAMセルの **保持特性だけ** を切り出して評価する試験である。
 
 基本的な手順は以下の通り。
 
-1. セルに既知データを書き込む  
-2. リフレッシュ動作を停止する  
-3. 一定時間、完全に放置する  
-4. 再度読み出し、ビットエラーを取得する  
+1. 📝 セルに既知データを書き込む  
+2. ⏸ リフレッシュ動作を停止する  
+3. ⏳ 一定時間、完全に放置する  
+4. 🔍 再度読み出し、ビットエラーを取得する  
 
 アクセスもリフレッシュも行わない状態で、  
 **どのセルが、どれだけ電荷を保持できるか** を観測する。
@@ -48,9 +48,9 @@ DRAMセルの **保持特性だけ** を切り出して評価する試験であ�
 
 ---
 
-## 観測された異常
+## 🔍 観測された異常
 
-### 1. Fail bit map が「描けない」
+### ① Fail bit map が「描けない」
 
 最初に強い違和感が出たのは、  
 **Fail bit map** の分布だった。
@@ -86,7 +86,7 @@ Failは、
 
 ---
 
-### 2. 単一ビット支配
+### ② 単一ビット支配
 
 Pause Refresh Fail の大半は、
 
@@ -103,13 +103,13 @@ Pause Refresh Fail の大半は、
 
 ---
 
-### 3. 温度依存が極端
+### ③ 温度依存が極端
 
 温度条件を変えると、  
 Fail数は **非線形に変化**した。
 
-- 室温付近：Failはほぼ観測されない  
-- 高温条件：Failが急激に増加する  
+- 🌡 室温付近：Failはほぼ観測されない  
+- 🔥 高温条件：Failが急激に増加する  
 
 一方で、温度を下げると  
 **Failが消失するセルも存在**した。
@@ -119,7 +119,7 @@ Fail数は **非線形に変化**した。
 
 ---
 
-### 4. データパターン依存がない
+### ④ データパターン依存がない
 
 書き込みデータを変えても、
 
@@ -135,7 +135,7 @@ Fail数は **非線形に変化**した。
 
 ---
 
-## セル構造との対応を考えるための前提図
+## 🧱 セル構造との対応を考えるための前提図
 
 この時点では **原因は未確定** だったが、  
 議論の前提として  
@@ -181,7 +181,7 @@ Fail bit map のランダム性は、
 
 ---
 
-## この時点で確定していた事実
+## ✅ この時点で確定していた事実
 
 観測結果から、  
 次の点だけは比較的早い段階で共有されていた。
@@ -199,7 +199,7 @@ Pause Refresh Fail は、
 
 ---
 
-## 「おかしさ」が示していたもの
+## ⚠️ 「おかしさ」が示していたもの
 
 この異常は、
 
@@ -222,7 +222,7 @@ Pause Refresh Fail は、
 
 ---
 
-## まとめ（現象編）
+## 🧾 まとめ（現象編）
 
 0.25µm DRAMで観測された Pause Refresh 異常は、  
 次の特徴を持っていた。
@@ -243,17 +243,17 @@ Pause Refresh Fail は、
 ## 🔗 一次情報（参照元）
 
 - Legacy Technology Archive  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/)
 
 - 0.25µm DRAM ケース  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/)
 
 - Pause Refresh Fail 詳細  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/pause/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/pause/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/pause/)
 
 ---
 
-### 次回予告
+### ⏭ 次回予告
 
 次稿では、  
 この現象が **どの物理挙動に対応していたのか** を扱う。

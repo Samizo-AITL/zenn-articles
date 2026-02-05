@@ -1,3 +1,8 @@
+---
+layout: default
+title: Legacy psram2
+---
+
 # 【半導体:19】PSRAMで何が起き、なぜ終わったのか ― Pause×Disturbの現実
 topics: ["半導体", "PSRAM", "DRAM", "信頼性", "歩留まり"]
 

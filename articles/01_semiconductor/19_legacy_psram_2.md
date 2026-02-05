@@ -274,10 +274,10 @@ Pause × Disturb × 温度という
 
 ### ✅ シリーズ完了
 
-- #0 Introduction  
-- #1 DRAM 前編（現象）  
-- #2 DRAM 後編（物理）  
-- #3 PSRAM 前編（構造）  
-- #4 PSRAM 後編（故障と判断）
+- 0 Introduction  
+- 1 DRAM 前編（現象）  
+- 2 DRAM 後編（物理）  
+- 3 PSRAM 前編（構造）  
+- 4 PSRAM 後編（故障と判断）
 
 以上で **全5本**。

@@ -37,24 +37,25 @@ GitHubは **設計・編集・履歴管理の場**
 ## 🗂 Repository Structure
 
 ```text
+
 zenn-articles/
 ├─ README.md
 ├─ index.md
 ├─ en/
-│ ├─ README.md
-│ └─ index.md
+│  ├─ README.md
+│  └─ index.md
 ├─ articles/
-│ ├─ 01_semiconductor/
-│ ├─ 02_control/
-│ ├─ 03_hardware/
-│ ├─ 04_mems/
-│ ├─ 05_inkjet/
-│ ├─ 06_mechanical/
-│ ├─ 07_other/
-│ └─ en/
-│ └─（同構造）
+│  ├─ 01_semiconductor/
+│  ├─ 02_control/
+│  ├─ 03_hardware/
+│  ├─ 04_mems/
+│  ├─ 05_inkjet/
+│  ├─ 06_mechanical/
+│  ├─ 07_other/
+│  └─ en/            # same structure as above
 ├─ books/
 └─ assets/
+
 ```
 
 ---

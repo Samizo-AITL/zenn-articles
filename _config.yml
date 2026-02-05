@@ -11,11 +11,6 @@ lang: ja
 timezone: Asia/Tokyo
 
 # --------------------------------------------------
-# Theme
-# --------------------------------------------------
-# theme: minima   # 使用しない（完全自前レイアウト）
-
-# --------------------------------------------------
 # Markdown / Math / Code
 # --------------------------------------------------
 markdown: kramdown
@@ -24,9 +19,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   hard_wrap: false
-
-# ※ 数式エンジンは指定しない
-# ※ MathJax は layout 側で読み込む
+  math_engine: mathjax
 
 # --------------------------------------------------
 # Build

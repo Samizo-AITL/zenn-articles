@@ -3,7 +3,7 @@ layout: default
 title: Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか
 ---
 
-# 【Analytics】Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか
+# 📊 【Analytics】Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか
 topics: ["analytics", "ga4", "githubpages", "techblog"]
 
 ---
@@ -23,10 +23,10 @@ Samizo-AITL Portal は、制御・半導体・AIアーキテクチャ（AITL）�
 本ポータルは **英語版サイトを完全に整備**しています。
 
 - 英語版トップ  
-👉 https://samizo-aitl.github.io/portal/en/
+👉 [https://samizo-aitl.github.io/portal/en/](https://samizo-aitl.github.io/portal/en/)
 
 - 日本語版トップ  
-👉 https://samizo-aitl.github.io/portal/
+👉 [https://samizo-aitl.github.io/portal/](https://samizo-aitl.github.io/portal/)
 
 英語版は、日本語版とほぼ同一構成で  
 技術資料・アーキテクチャ解説を英語で公開しています。
@@ -110,8 +110,8 @@ GitHub Pages + 英語技術ドキュメントの組み合わせは、
 
 ### ③ 「英語版完備」が数字とリアルタイム挙動に現れている
 
-英語版サイト：
-https://samizo-aitl.github.io/portal/en/
+英語版サイト：  
+[https://samizo-aitl.github.io/portal/en/](https://samizo-aitl.github.io/portal/en/)
 
 この存在がなければ、  
 今回の **米国・英国・カナダ中心の分布**や  

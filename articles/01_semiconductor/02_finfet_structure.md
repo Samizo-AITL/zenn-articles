@@ -3,12 +3,13 @@ layout: default
 title: FinFET
 ---
 
-# 【半導体:02】 FinFET 構造：形状で電界制御を取り戻す
+# 【半導体:02】🔷 FinFET 構造  
+### ― 形状で電界制御を取り戻す
 topics: ["FinFET", "MOSFET", "デバイス構造"]
 
 ---
 
-## FinFET の登場背景
+## 🧭 FinFET の登場背景
 
 Planar MOSFET の微細化は、  
 **Short Channel Effect（SCE）による電界制御限界**によって行き詰まりました。
@@ -19,41 +20,41 @@ Planar MOSFET の微細化は、
 「3次元化による高集積化」を目的とした構造ではなく、
 
 > **ゲートによるチャネル包囲率を高め、  
-電界制御力を取り戻すための構造**
+> 電界制御力を取り戻すための構造**
 
 として生まれた点です。
 
 ---
 
-## FinFET の本質は「形状による電界再配分」
+## ⚡ FinFET の本質は「形状による電界再配分」
 
 FinFET の最大の特徴は、  
 チャネルが平面（Planar）から **垂直なフィン形状**に変わったことです。
 
 これにより、
 
-- ゲートは上面だけでなく
+- ゲートは上面だけでなく  
 - **左右の側面からもチャネルを制御**
 
 できるようになります。
 
 結果として、  
-ゲート電界がチャネルを **三方向から包み込む** 形になり、
+ゲート電界がチャネルを **三方向から包み込む** 形になり、  
 ドレイン電界の影響を大幅に抑制できます。
 
 ---
 
-## 構造の違い（Planar vs FinFET）
+## 🧱 構造の違い（Planar vs FinFET）
 
 Planar MOSFET と FinFET の違いを整理すると以下の通りです。
 
-### Planar MOSFET
+### 🔹 Planar MOSFET
 - チャネル：基板表面の「面」
 - ゲート制御：上方向のみ
 - ドレイン電界：横方向から侵入
 - SCE：顕著
 
-### FinFET
+### 🔹 FinFET
 - チャネル：立ち上がった「フィン（壁）」
 - ゲート制御：左右＋上の三方向
 - ドレイン電界：側面ゲートで遮蔽
@@ -67,20 +68,20 @@ Planar MOSFET と FinFET の違いを整理すると以下の通りです。
 
 ---
 
-## なぜ SCE が抑えられるのか
+## 🔒 なぜ SCE が抑えられるのか
 
 SCE の本質は、
 
 > **ゲート以外の電極（主にドレイン）が  
-チャネルポテンシャルを支配すること**
+> チャネルポテンシャルを支配すること**
 
 でした。
 
 FinFET では、
 
-- 側面ゲートがポテンシャル分布を拘束
-- ドレイン電界がチャネル中央まで到達しにくい
-- ソース側障壁が安定化
+- 側面ゲートがポテンシャル分布を拘束  
+- ドレイン電界がチャネル中央まで到達しにくい  
+- ソース側障壁が安定化  
 
 という効果が得られます。
 
@@ -92,7 +93,7 @@ FinFET では、
 
 ---
 
-## 「微細化できた」のではなく「制御できるようになった」
+## 🔁 「微細化できた」のではなく「制御できるようになった」
 
 FinFET によって可能になったのは、
 
@@ -111,19 +112,19 @@ FinFET によって可能になったのは、
 
 ---
 
-## 設計視点の変化
+## 🛠 設計視点の変化
 
 FinFET 世代以降、  
 デバイス設計の主戦場は明確に変わりました。
 
-### Planar 世代
-- 寸法（L, tox, W）が支配的
-- 材料・ドーピングで無理に調整
+### 🔹 Planar 世代
+- 寸法（L, tox, W）が支配的  
+- 材料・ドーピングで無理に調整  
 
-### FinFET 世代
-- フィン高さ・幅・ピッチ
-- ゲート包囲率
-- 電界分布そのもの
+### 🔹 FinFET 世代
+- フィン高さ・幅・ピッチ  
+- ゲート包囲率  
+- 電界分布そのもの  
 
 ここで初めて、
 
@@ -133,31 +134,30 @@ FinFET 世代以降、
 
 ---
 
-## FinFET は最終解ではない
+## 🚧 FinFET は最終解ではない
 
 ただし、FinFET も万能ではありません。
 
-- フィン幅を細くしすぎると量子効果が顕在化
-- 高さ方向のばらつき管理が困難
-- 包囲率は「完全」ではない（3面止まり）
+- フィン幅を細くしすぎると量子効果が顕在化  
+- 高さ方向のばらつき管理が困難  
+- 包囲率は「完全」ではない（3面止まり）  
 
 この延長線上にあるのが、
 
-- Gate-All-Around（GAA）
-- ナノシート／ナノワイヤ
-- さらには CFET
+- Gate-All-Around（GAA）  
+- ナノシート／ナノワイヤ  
+- さらには CFET  
 
 です。
 
 ---
 
-## まとめ
+## 📝 まとめ
 
-- FinFET の本質は 3D 化ではなく **電界制御の回復**
-- ゲート包囲率向上により SCE を構造的に抑制
-- 微細化を「可能にした」のではなく  
-  **制御可能な状態に戻した**
-- デバイス設計は「寸法」から「構造」の時代へ移行した
+- ✅ FinFET の本質は **電界制御の回復**  
+- ✅ ゲート包囲率向上により SCE を構造的に抑制  
+- ✅ 微細化を「可能にした」のではなく **制御可能な状態に戻した**  
+- ✅ デバイス設計は「寸法」から「構造」の時代へ移行  
 
 FinFET は、  
 Planar MOSFET の限界を延命した技術ではなく、
@@ -168,23 +168,17 @@ Planar MOSFET の限界を延命した技術ではなく、
 
 ---
 
-## 参考文献・関連リンク
-
-本記事の内容は、以下の教材・公開リポジトリ構成を前提として整理されています。
+## 📚 参考文献・関連リンク
 
 ### 📘 Edusemi-v4x｜先端ノード技術（FinFET・GAA・CFET）
 
 - **GitHub Pages（公開教材・日本語）**  
-  👉 [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
-
+  [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
 
 - **GitHub（ソース管理・Markdown原稿）**  
-  👉 [https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa)
+  [https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa)
 
+### 📖 関連章
 
-### 📚 関連章（構造転換の位置づけ）
-
-- Planar MOSFET → FinFET → GAA → CFET という  
-  **「電界制御構造の進化」**を体系的に解説した特別編 第1章に相当します。
-
----
+- Planar MOSFET → FinFET → GAA → CFET  
+  **電界制御構造の進化**を体系的に解説した特別編・第1章に相当します。

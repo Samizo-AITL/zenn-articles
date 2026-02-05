@@ -48,10 +48,10 @@ title: zenn-articles
 > and non-negotiable reliability constraints.**
 
 - [15. What Is Legacy Technology? — Failures from the Era Ruled by Physics](./15_legacy_intro.md)
-- [16. Pause Refresh Anomalies in 0.25 µm DRAM — Observed Phenomena](./16_legacy_dram1.md)
-- [17. Physical Origin of Pause Refresh Failures in 0.25 µm DRAM](./17_legacy_dram2.md)
-- [18. What Was PSRAM Intended to Achieve? — The Premise of Reusing DRAM](./18_legacy_psram1.md)
-- [19. What Happened to PSRAM, and Why Did It End? — Pause × Disturb](./19_legacy_psram2.md)
+- [16. Pause Refresh Anomalies in 0.25 µm DRAM — Observed Phenomena](./16_legacy_dram_1.md)
+- [17. Physical Origin of Pause Refresh Failures in 0.25 µm DRAM](./17_legacy_dram_2.md)
+- [18. What Was PSRAM Intended to Achieve? — The Premise of Reusing DRAM](./18_legacy_psram_1.md)
+- [19. What Happened to PSRAM, and Why Did It End? — Pause × Disturb](./19_legacy_psram_2.md)
 
 This section is **not a historical supplement**.  
 It documents **how real products failed, how engineers responded,  

@@ -3,7 +3,7 @@ layout: default
 title: Robust Controlの次へ：Reliability Control
 ---
 
-# 【制御:04】Robust Controlの次へ：Reliability Control
+# 【制御:04】🛡️ Robust Controlの次へ：Reliability Control
 topics: ["制御工学", "PID", "ロバスト制御", "信頼性", "AITL"]
 
 ---
@@ -33,7 +33,7 @@ H∞制御、μ解析、ロバスト PID、ゲイン余裕・位相余裕。
 
 ---
 
-## Robust Control と Reliability Control の違い
+## 🔁 Robust Control と Reliability Control の違い
 
 | 観点 | Robust Control | Reliability Control |
 |---|---|---|
@@ -44,20 +44,20 @@ H∞制御、μ解析、ロバスト PID、ゲイン余裕・位相余裕。
 | 時間軸 | 静的 | 動的・履歴依存 |
 
 Robust Control が  
-「**壊れないように強く作る**」設計だとすれば、
+**「壊れないように強く作る」**設計だとすれば、
 
 Reliability Control は  
-「**壊れかけを察知し、使える状態を維持する**」設計である。
+**「壊れかけを察知し、使える状態を維持する」**設計である。
 
 ---
 
-## Reliability Control とは何か
+## 🧩 Reliability Control とは何か
 
 本稿では、Reliability Control を次のように捉える。
 
 > **Reliability Control とは、  
-制御対象・制御器・環境の劣化や変動を前提とし、  
-機能喪失を回避・遅延・縮退させることを目的とした制御設計思想である。**
+> 制御対象・制御器・環境の劣化や変動を前提とし、  
+> 機能喪失を回避・遅延・縮退させることを目的とした制御設計思想である。**
 
 ここで重要なのは、
 
@@ -69,37 +69,37 @@ Reliability Control は
 
 ---
 
-## AITL Controller A-Type という試み
+## 🧠 AITL Controller A-Type という試み
 
 この Reliability Control の考え方を具体的に検討するため、  
 筆者は **PID × FSM × LLM の三層構造制御アーキテクチャ**である  
 **AITL Controller A-Type** を用いた初期検証を開始している。
 
 👉 **AITL Controller A-Type（GitHub Pages）**  
-https://samizo-aitl.github.io/aitl-controller-a-type/
+[https://samizo-aitl.github.io/aitl-controller-a-type/](https://samizo-aitl.github.io/aitl-controller-a-type/)
 
 AITL Controller A-Type は、次の三層構造を持つ。
 
-- **PID**：実時間での安定化（V–I 応答の制御）
-- **FSM**：状態監督・モード遷移・縮退運転
-- **LLM**：劣化や異常兆候に基づく再設計・判断
+- **PID**：実時間での安定化（V–I 応答の制御）  
+- **FSM**：状態監督・モード遷移・縮退運転  
+- **LLM**：劣化や異常兆候に基づく再設計・判断  
 
 これは、Robust Control を内側に含みつつ、  
 その外側に **Reliability Control の層**を構成する試みである。
 
 ---
 
-## 初期検証：摩耗劣化 1000 days 後の比較
+## 📊 初期検証：摩耗劣化 1000 days 後の比較
 
 摩耗・劣化を仮定したモデルに対し、  
 **1000 days 相当の劣化後**における制御応答を比較した。
 
 ### 比較条件
-- 従来の **PID 制御**
+- 従来の **PID 制御**  
 - **AITL 制御（PID × FSM × LLM）**
 
 ### 評価観点
-- 劣化前の **Initial 波形**に対する位相差
+- 劣化前の **Initial 波形**に対する位相差  
 
 その結果、**摩耗劣化 1000 days 後においても、  
 AITL 制御の方が Initial 波形に対する位相差が小さい**という傾向が確認された。
@@ -110,7 +110,7 @@ AITL 制御の方が Initial 波形に対する位相差が小さい**という�
 
 ---
 
-## 現時点での位置づけ
+## ⚖️ 現時点での位置づけ
 
 ただし、現段階では：
 
@@ -129,13 +129,13 @@ AITL 制御の方が Initial 波形に対する位相差が小さい**という�
 
 ---
 
-## 今後の検証と展望
+## 🔭 今後の検証と展望
 
 今後は以下の観点で検証を進める予定である。
 
 - 摩耗・劣化モデルの多様化  
-- 位相差以外の信頼性指標（応答遅れ、振幅劣化など）
-- FSM 遷移と LLM 再設計の寄与分離
+- 位相差以外の信頼性指標（応答遅れ、振幅劣化など）  
+- FSM 遷移と LLM 再設計の寄与分離  
 - 「安定だが使えない状態」との定量比較  
 
 これらを通じて、  
@@ -143,7 +143,7 @@ AITL 制御の方が Initial 波形に対する位相差が小さい**という�
 
 ---
 
-## おわりに
+## 📝 おわりに
 
 Robust Control は否定されるべきものではない。  
 それは今後も、制御系の内側を支える基盤であり続ける。
@@ -151,7 +151,7 @@ Robust Control は否定されるべきものではない。
 その一方で、
 
 > **制御とは、  
-壊れる世界で、使い続けるための技術ではないか。**
+> 壊れる世界で、使い続けるための技術ではないか。**
 
 Reliability Control は、  
 Robust Control を極めた先に立ち上がる設計思想である。

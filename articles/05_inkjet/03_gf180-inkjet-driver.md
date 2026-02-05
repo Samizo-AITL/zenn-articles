@@ -3,12 +3,12 @@ layout: default
 title: GF180MCU × OpenLane が成立しない理由を実機検証で確定させた
 ---
 
-# 【Inkjet】GF180MCU × OpenLane が成立しない理由を実機検証で確定させた
+# 🧪 【Inkjet】GF180MCU × OpenLane が成立しない理由を実機検証で確定させた
 topics: ["semiconductor", "openlane", "pdk", "gf180", "vlsi", "mixed-signal", "high-voltage", "layout"]
 
 ---
 
-## 結論（先に）
+## 📌 結論（先に）
 
 **GF180MCU Open PDK は OpenLane（OpenPDK 前提フロー）に非対応であり、  
 自動合成 → P&R → GDS 生成は成立しない。**
@@ -21,7 +21,7 @@ topics: ["semiconductor", "openlane", "pdk", "gf180", "vlsi", "mixed-signal", "h
 
 ---
 
-## 背景
+## 🧭 背景
 
 GF180MCU は、高電圧デバイスや mixed-signal 設計に適した  
 **Open PDK** として公開されている。
@@ -35,7 +35,7 @@ GF180MCU は、高電圧デバイスや mixed-signal 設計に適した
 
 ---
 
-## 検証環境（要点）
+## 🖥 検証環境（要点）
 
 - OS: Ubuntu（WSL）
 - Flow: OpenLane v0.23
@@ -44,7 +44,7 @@ GF180MCU は、高電圧デバイスや mixed-signal 設計に適した
 
 ---
 
-## 何が起きたか（事実）
+## ❗ 何が起きたか（事実）
 
 OpenLane 実行時、**prep 段階で必ず以下のエラーが発生**した。
 
@@ -55,7 +55,7 @@ couldn't read file
 
 ---
 
-## 技術的な原因
+## 🧠 技術的な原因
 
 OpenLane は **OpenPDK 形式**を前提としており、  
 以下のディレクトリ構造を必須とする。
@@ -71,7 +71,7 @@ libs.tech/openlane/config.tcl
 
 ---
 
-## 技術的整理
+## 📊 技術的整理
 
 | 項目 | Sky130 | GF180MCU |
 |---|---|---|
@@ -89,7 +89,7 @@ libs.tech/openlane/config.tcl
 
 ---
 
-## なぜこれは「失敗」ではないか
+## 🔍 なぜこれは「失敗」ではないか
 
 本検証で確定した事実は以下。
 
@@ -102,7 +102,7 @@ libs.tech/openlane/config.tcl
 
 ---
 
-## 検証の次に行ったこと（重要）
+## 🚧 検証の次に行ったこと（重要）
 
 自動フローを諦めた後、本プロジェクトでは次の段階に進んだ。
 
@@ -116,7 +116,7 @@ libs.tech/openlane/config.tcl
 
 ---
 
-## HVMOS レイアウト成果（実GDS）
+## 🧩 HVMOS レイアウト成果（実GDS）
 
 以下は、本プロジェクトで生成した  
 **GF180MCU ベース高耐圧 MOS スイッチユニット（HV_SW_UNIT）の GDS**である。
@@ -124,7 +124,7 @@ libs.tech/openlane/config.tcl
 - DNWELL による高耐圧アイソレーション
 - 連続した P+ ガードリング
 - HVMOS を中心とした最小スイッチ構造
-- IC が外界（MEMS／アクチュエータ）に提示する
+- IC が外界（MEMS／アクチュエータ）に提示する  
   **物理インタフェースの実体**
 
 <img
@@ -138,13 +138,13 @@ libs.tech/openlane/config.tcl
 > **「OpenLane で GDS が出なかった」  
 > ではなく  
 > 「適切な設計手法を選び直した結果、  
->  実GDSに到達した」**
+> 実GDSに到達した」**
 
 という状態になっている。
 
 ---
 
-## 実務的な示唆
+## 🛠 実務的な示唆
 
 ### GF180MCU を使う場合
 
@@ -161,7 +161,7 @@ libs.tech/openlane/config.tcl
 
 ---
 
-## 本プロジェクトとの関係
+## 🧩 本プロジェクトとの関係
 
 本検証およびその後のレイアウト成果は、  
 以下の技術探索プロジェクトの一部である。
@@ -175,17 +175,17 @@ libs.tech/openlane/config.tcl
 #### 🔗 Links
 
 - GitHub Repository  
-  https://github.com/Samizo-AITL/gf180-inkjet-driver
+  [https://github.com/Samizo-AITL/gf180-inkjet-driver](https://github.com/Samizo-AITL/gf180-inkjet-driver)
 
 - GitHub Pages（設計ドキュメント）  
-  https://samizo-aitl.github.io/gf180-inkjet-driver/
+  [https://samizo-aitl.github.io/gf180-inkjet-driver/](https://samizo-aitl.github.io/gf180-inkjet-driver/)
 
 - Design Docs（GDS / Layout中心）  
-  https://samizo-aitl.github.io/gf180-inkjet-driver/docs/
+  [https://samizo-aitl.github.io/gf180-inkjet-driver/docs/](https://samizo-aitl.github.io/gf180-inkjet-driver/docs/)
 
 ---
 
-## まとめ
+## 🧾 まとめ
 
 > **GF180MCU × OpenLane は成立しない。  
 > これは失敗ではなく、設計フロー選定における重要な検証結果である。**
@@ -200,7 +200,7 @@ GF180MCU は
 
 ---
 
-## 付記
+## 📎 付記
 
 同様の誤解で時間を消費する設計者が  
 一人でも減ることを願っている。

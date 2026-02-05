@@ -3,12 +3,12 @@ layout: default
 title: FSM設計 適応制御をブラックボックスにしない — Reliability Guardの正体
 ---
 
-# 【制御:13】FSM設計 適応制御をブラックボックスにしない — Reliability Guardの正体
+# 🛡️ 【制御:13】FSM設計 適応制御をブラックボックスにしない — Reliability Guardの正体
 topics: ["FSM", "制御設計", "信頼性", "適応制御"] 
 
 ---
 
-## 「AIが勝手に止めた」は最悪
+## ❌ 「AIが勝手に止めた」は最悪
 
 適応制御で最も嫌われる言葉があります。
 
@@ -19,7 +19,7 @@ topics: ["FSM", "制御設計", "信頼性", "適応制御"]
 
 ---
 
-## FSM Reliability Guardの役割
+## 🧭 FSM Reliability Guardの役割
 
 FSM Guardは、**判断だけを行う層**です。
 
@@ -33,7 +33,7 @@ FSM Guardは、**判断だけを行う層**です。
 
 ---
 
-## FSMが見る指標
+## 📏 FSMが見る指標
 
 代表例は以下です。
 
@@ -48,7 +48,7 @@ FSM Guardは、**判断だけを行う層**です。
 
 ---
 
-## FSMの判断は決定論的
+## 🔎 FSMの判断は決定論的
 
 FSMの判断条件は明示的です。
 
@@ -63,7 +63,7 @@ if R_Δt > threshold:
 
 ---
 
-## 止まることは「正しい」
+## 🧯 止まることは「正しい」
 
 FSM Guardの本質はこれです。
 
@@ -74,7 +74,7 @@ FSM Guardの本質はこれです。
 
 ---
 
-## A-Type → B-Type → Robust Control
+## 🔗 A-Type → B-Type → Robust Control
 
 - A-Type：限界を測る
 - B-Type：限界を守る
@@ -85,7 +85,7 @@ FSM Guardは
 
 ---
 
-## まとめ
+## ✅ まとめ
 
 - 適応制御は万能ではない
 - だから止める設計が必要
@@ -93,4 +93,3 @@ FSM Guardは
 
 > **適応制御は、  
 > 説明できて初めて“工学”になる。**
-

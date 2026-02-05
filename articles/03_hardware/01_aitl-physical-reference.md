@@ -3,12 +3,12 @@ layout: default
 title: aitl-physical-reference：制御以前に、物理を固定する
 ---
 
-# 【ハードウエア:01】aitl-physical-reference：制御以前に、物理を固定する
+# 🧱 【ハードウエア:01】aitl-physical-reference：制御以前に、物理を固定する
 topics: ["hardware", "pcb", "kicad", "control", "aitl"]
 
 ---
 
-## はじめに
+## 📌 はじめに
 
 **aitl-physical-reference** は、  
 抽象的な制御・論理を **実電圧・実電流・実銅配線** に固定するための  
@@ -19,7 +19,7 @@ topics: ["hardware", "pcb", "kicad", "control", "aitl"]
 
 ---
 
-## なぜ作ったか
+## 🎯 なぜ作ったか
 
 制御理論やAI、FSM、PIDは、しばしば次を暗黙に仮定します。
 
@@ -38,7 +38,7 @@ topics: ["hardware", "pcb", "kicad", "control", "aitl"]
 
 ---
 
-## 構成要素（あえて少なく）
+## 🧩 構成要素（あえて少なく）
 
 この基板に載っているのは、次の要素だけです。
 
@@ -53,7 +53,7 @@ topics: ["hardware", "pcb", "kicad", "control", "aitl"]
 
 ---
 
-## Logic → Physics → Copper
+## 🔁 Logic → Physics → Copper
 
 ### 1️⃣ Schematic（論理 → 物理）
 
@@ -79,7 +79,7 @@ topics: ["hardware", "pcb", "kicad", "control", "aitl"]
 
 ---
 
-## これは何ではないか
+## 🚫 これは何ではないか
 
 誤解を避けるため、明確に書いておきます。
 
@@ -93,7 +93,7 @@ topics: ["hardware", "pcb", "kicad", "control", "aitl"]
 
 ---
 
-## どう使うか
+## 🛠️ どう使うか
 
 この基板は、次のような文脈で使えます。
 
@@ -106,7 +106,7 @@ topics: ["hardware", "pcb", "kicad", "control", "aitl"]
 
 ---
 
-## まとめ
+## 🧾 まとめ
 
 制御は、物理の上にしか立てません。
 
@@ -120,10 +120,10 @@ aitl-physical-reference は、その **最下層**を
 
 ---
 
-## リンク
+## 🔗 リンク
 
 - GitHub Pages  
-  https://samizo-aitl.github.io/aitl-physical-reference/
+  [https://samizo-aitl.github.io/aitl-physical-reference/](https://samizo-aitl.github.io/aitl-physical-reference/)
 
 - GitHub Repository  
-  https://github.com/Samizo-AITL/aitl-physical-reference
+  [https://github.com/Samizo-AITL/aitl-physical-reference](https://github.com/Samizo-AITL/aitl-physical-reference)

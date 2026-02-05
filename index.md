@@ -44,13 +44,13 @@ zenn-articles/
 │ ├─ README.md
 │ └─ index.md
 ├─ articles/
-│ ├─ 01.semiconductor/
-│ ├─ 02.control/
-│ ├─ 03.hardware/
-│ ├─ 04.mems/
-│ ├─ 05.inkjet/
+│ ├─ 01_semiconductor/
+│ ├─ 02_control/
+│ ├─ 03_hardware/
+│ ├─ 04_mems/
+│ ├─ 05_inkjet/
 │ ├─ 06_mechanical/
-│ ├─ 07.other/
+│ ├─ 07_other/
 │ └─ en/
 │ └─（同構造）
 ├─ books/
@@ -64,33 +64,33 @@ zenn-articles/
 本リポジトリでは、記事を以下の技術分野で分類します。  
 ※ 各項目は **Samizo-AITL Portal 上の記事一覧（入口）への直接リンク** です。
 
-- **01.Semiconductor**  
+- **01_Semiconductor**  
   デバイス物理、プロセス、回路、スケーリング  
-  → [Semiconductor Articles](https://samizo-aitl.github.io/zenn-articles/articles/01.semiconductor/)
+  → [Semiconductor Articles](https://samizo-aitl.github.io/zenn-articles/articles/01_semiconductor/)
 
-- **02.Control**  
+- **02_Control**  
   PID、FSM、制御構造、AITL（Architecture for Integrated Technology Logic）  
-  → [Control Articles](https://samizo-aitl.github.io/zenn-articles/articles/02.control/)
+  → [Control Articles](https://samizo-aitl.github.io/zenn-articles/articles/02_control/)
 
-- **03.Hardware**  
+- **03_Hardware**  
   実装設計、V–I予算、システムアーキテクチャ  
-  → [Hardware Articles](https://samizo-aitl.github.io/zenn-articles/articles/03.hardware/)
+  → [Hardware Articles](https://samizo-aitl.github.io/zenn-articles/articles/03_hardware/)
 
-- **04.MEMS**  
+- **04_MEMS**  
   圧電アクチュエータ、微細構造、物理モデル  
-  → [MEMS Articles](https://samizo-aitl.github.io/zenn-articles/articles/04.mems/)
+  → [MEMS Articles](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/)
 
-- **05.Inkjet**  
+- **05_Inkjet**  
   ドロップ形成、駆動波形、システム統合  
-  → [Inkjet Articles](https://samizo-aitl.github.io/zenn-articles/articles/05.inkjet/)
+  → [Inkjet Articles](https://samizo-aitl.github.io/zenn-articles/articles/05_inkjet/)
 
-- **06.Mechanical**  
+- **06_Mechanical**  
   機械設計、CAD to Code、構造定義  
   → [Mechanical Articles](https://samizo-aitl.github.io/zenn-articles/articles/06_mechanical/)
 
-- **07.Other**  
+- **07_Other**  
   可視化、分析、周辺技術  
-  → [Other Articles](https://samizo-aitl.github.io/zenn-articles/articles/07.other/)
+  → [Other Articles](https://samizo-aitl.github.io/zenn-articles/articles/07_other/)
 
 ---
 

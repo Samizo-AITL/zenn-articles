@@ -3,15 +3,16 @@ layout: default
 title: Weff
 ---
 
-# 【半導体:03】Weffの考え方：幅Wは構造パラメータ"
+# 【半導体:03】📐 Weffの考え方  
+### ― 幅 W は「構造パラメータ」になる
 topics: ["Weff", "FinFET", "回路設計", "デバイスモデル"]
 
 ---
 
-## はじめに
+## 🧭 はじめに
 
 Planar MOSFET から FinFET への移行は、  
-単なるデバイス構造の変更ではありません。　　
+単なるデバイス構造の変更ではありません。
 
 それは、
 
@@ -21,24 +22,24 @@ Planar MOSFET から FinFET への移行は、
 
 本記事では、
 
-- Planar 時代の W の意味
-- FinFET における Weff の本質
-- なぜ回路設計とレイアウトが不可分になったのか
+- 🔹 Planar 時代の W の意味  
+- 🔹 FinFET における Weff の本質  
+- 🔹 なぜ回路設計とレイアウトが不可分になったのか  
 
 を整理します。
 
 ---
 
-## Planar 時代の W
+## 📏 Planar 時代の W
 
 Planar MOSFET では、  
 チャネル幅 W は **純粋なレイアウト寸法**でした。
 
-- W は横方向に連続的に拡張可能
-- L はプロセスが決め、W は設計者が決める
+- W は横方向に連続的に拡張可能  
+- L はプロセスが決め、W は設計者が決める  
 - 電流能力は概ね  
   **I ∝ (W / L)**  
-  として扱えた
+  として扱えた  
 
 つまり回路設計者は、
 
@@ -52,7 +53,7 @@ Planar MOSFET では、
 
 ---
 
-## FinFET における Weff
+## 🧱 FinFET における Weff
 
 FinFET では、この前提が崩れます。
 
@@ -68,14 +69,15 @@ FinFET のチャネルは「面」ではなく
 
 概念的には、
 
+```
 Weff ≒ 2 × Hfin + Wfin
-
+```
 
 と表されます。
 
-- 側壁 2 面が主に電流を流す
-- 上面（Wfin）は副次的
-- Hfin と Wfin はプロセス依存
+- 側壁 2 面が主に電流を流す  
+- 上面（Wfin）は副次的  
+- Hfin と Wfin はプロセス依存  
 
 つまり、
 
@@ -85,20 +87,20 @@ Weff ≒ 2 × Hfin + Wfin
 
 ---
 
-## 「W を増やす」という操作の意味が変わった
+## 🔢 「W を増やす」という操作の意味が変わった
 
 Planar 時代の「W を 2 倍にする」は、
 
-- レイアウトを横に 2 倍
-- 電流もほぼ 2 倍
+- レイアウトを横に 2 倍  
+- 電流もほぼ 2 倍  
 
 という **連続量操作**でした。
 
 一方 FinFET では、
 
-- フィン本数を 1 本 → 2 本 → 3 本
-- Weff は **離散的に増加**
-- 微調整はほぼ不可能
+- フィン本数を 1 本 → 2 本 → 3 本  
+- Weff は **離散的に増加**  
+- 微調整はほぼ不可能  
 
 となります。
 
@@ -110,23 +112,23 @@ Planar 時代の「W を 2 倍にする」は、
 
 ---
 
-## Weff が意味する設計上の変化
+## 🧩 Weff が意味する設計上の変化
 
 Weff の導入がもたらした変化は本質的です。
 
-### 1. 回路設計とレイアウトが直結
+### 🔹 1. 回路設計とレイアウトが直結
 
-- トランジスタ寸法はレイアウトで確定
-- 回路図だけでは I–V 特性が決まらない
-- PCell・フィン本数指定が必須
+- トランジスタ寸法はレイアウトで確定  
+- 回路図だけでは I–V 特性が決まらない  
+- PCell・フィン本数指定が必須  
 
 ---
 
-### 2. 「W/L 設計」という概念の終焉
+### 🔹 2. 「W/L 設計」という概念の終焉
 
-- L は依然として重要
-- しかし W は連続変数ではない
-- 設計自由度は構造で制約される
+- L は依然として重要  
+- しかし W は連続変数ではない  
+- 設計自由度は構造で制約される  
 
 これは、
 
@@ -136,20 +138,20 @@ Weff の導入がもたらした変化は本質的です。
 
 ---
 
-### 3. コンパクトモデルの役割変化
+### 🔹 3. コンパクトモデルの役割変化
 
 FinFET 世代では、
 
-- BSIM-CMG
-- BSIM-IMG
+- BSIM-CMG  
+- BSIM-IMG  
 
 などの **マルチゲート対応モデル**が必須になります。
 
 これらは単に I–V を当てはめるモデルではなく、
 
-- Weff
-- フィン数
-- 幾何構造
+- Weff  
+- フィン数  
+- 幾何構造  
 
 を **物理パラメータとして内包**します。
 
@@ -158,12 +160,12 @@ FinFET 世代では、
 
 ---
 
-## Weff は「設計自由度の制限」ではない
+## ⚖ Weff は「設計自由度の制限」ではない
 
 一見すると Weff は、
 
-- 設計の自由度を奪った
-- 不便になった
+- 設計の自由度を奪った  
+- 不便になった  
 
 ように見えます。
 
@@ -178,13 +180,13 @@ FinFET 世代では、
 
 ---
 
-## まとめ
+## 📝 まとめ
 
-- Planar 時代の W は連続的なレイアウト寸法
-- FinFET では W → **Weff（構造量）**
-- 電流能力は形状そのものに依存
-- 回路設計・レイアウト・モデルが不可分になった
-- Weff は制約ではなく **物理に即した設計軸**
+- ✅ Planar 時代の W は連続的なレイアウト寸法  
+- ✅ FinFET では **W → Weff（構造量）**  
+- ✅ 電流能力は形状そのものに依存  
+- ✅ 回路設計・レイアウト・モデルが不可分  
+- ✅ Weff は制約ではなく **物理に即した設計軸**  
 
 Weff という概念は、
 
@@ -195,27 +197,23 @@ Weff という概念は、
 
 ---
 
-## 参考文献・関連リンク
-
-本記事の内容は、以下の教材・公開リポジトリ構成を前提として整理されています。
+## 📚 参考文献・関連リンク
 
 ### 📘 Edusemi-v4x｜先端ノード技術（FinFET・GAA・CFET）
 
 - **GitHub Pages（公開教材・日本語）**  
-  👉 [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
+  [https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/)
 
 - **GitHub（ソース管理・Markdown原稿）**  
-  👉 [https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa)
+  [https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa)
 
-### 📚 関連章（構造転換の位置づけ）
+### 📖 関連章
 
-- Planar MOSFET → FinFET → GAA → CFET という  
-  **「電界制御構造の進化」**を体系的に解説した特別編 第1章に相当します。
+- Planar MOSFET → FinFET → GAA → CFET  
+  **電界制御構造の進化**を体系的に解説した特別編・第1章に相当します。
 
 ---
 
 ※ 本記事は **Planar MOSFET の物理的限界（SCE）** を起点とし、  
 　**なぜ構造転換が必然であったのか**を理解するための導入位置づけです。  
 　後続記事（FinFET／GAA／CFET 各論）と合わせて読むことを推奨します。
-
-

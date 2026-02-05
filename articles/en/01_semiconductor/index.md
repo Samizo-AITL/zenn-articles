@@ -33,7 +33,7 @@ title: zenn-articles
 ## 🔁 OpenLane / RTL → GDS Flow
 
 - [09. OpenLane Minimal Flow — Pre-Declared Minimal RTL → GDS Flow](./09_openlane_minimal_rtl_predeclared_flow/)
-- [10. OpenLane Control ASIC — RTL-to-GDS Design of a Control ASIC](./10_openlane_control_asic_rtl_to_gds/)
+- [10. OpenLane Control ASIC — RTL-to-GDS Design of a Control ASIC](./10_openlane-control-asic-rtl-to-gds/)
 - [11. OpenLane2 SRAM Hard Macro — Integrating SRAM Hard Macros with OpenLane2](./11_openlane2_sram_hard_macro/)
 - [12. OpenLane1 Setup — OpenLane v1 Environment Setup](./12_openlane1_setup/)
 - [13. OpenLane2 Setup — OpenLane v2 Environment Setup](./13_openlane2_setup/)

@@ -59,32 +59,36 @@ zenn-articles/
 
 ## 🧭 Article Classification
 
-Articles in this repository are classified into the following technical domains:
+In this repository, articles are classified into the following technical domains.  
+Each item below links **directly to the corresponding article index (entry page) on the Samizo-AITL Portal**.
 
-- **01.Semiconductor**  
-  Device physics, processes, circuits, and scaling
-- **02.Control**  
-  PID, FSM, control architectures, and AITL  
-  (Architecture for Integrated Technology Logic)
-- **03.Hardware**  
-  Implementation design, V–I budgeting, system architecture
-- **04.MEMS**  
-  Piezo actuators, microstructures, physical modeling
-- **05.Inkjet**  
-  Drop formation, drive waveforms, system integration
-- **06.Other**  
-  Visualization, AI design, and cross-domain technical concepts
+- **01_Semiconductor**  
+  Device physics, semiconductor processes, circuits, and scaling  
+  → [Semiconductor Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/01_semiconductor/)
 
-These classifications define the **primary structure**.  
-On Zenn, content may be reorganized horizontally using tags and Book structures.
+- **02_Control**  
+  PID, FSM, control architectures, and AITL (Architecture for Integrated Technology Logic)  
+  → [Control Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/02_control/)
 
----
+- **03_Hardware**  
+  Physical implementation, V–I budgeting, and system architecture  
+  → [Hardware Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/03_hardware/)
 
-## 🌍 English Articles
+- **04_MEMS**  
+  Piezoelectric actuators, microstructures, and physical modeling  
+  → [MEMS Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/04_mems/)
 
-English articles are not treated as translations.  
-They are managed in parallel under the `en/` directory  
-as **first-class canonical content**, equivalent to Japanese articles.
+- **05_Inkjet**  
+  Drop formation, drive waveforms, and system integration  
+  → [Inkjet Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/05_inkjet/)
+
+- **06_Mechanical**  
+  Mechanical design, CAD-to-Code workflows, and structural definition  
+  → [Mechanical Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/06_mechanical/)
+
+- **07_Other**  
+  Visualization, analytics, and supporting technologies  
+  → [Other Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/07_other/)
 
 ---
 

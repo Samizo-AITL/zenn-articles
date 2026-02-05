@@ -3,12 +3,12 @@ layout: default
 title: Recovery Controlとは何か？AI制御は失敗後の設計で差がつく
 ---
 
-# 【制御:16】(安全設計)　Recovery Controlとは何か？AI制御は失敗後の設計で差がつく
+# 🔁 【制御:16】(安全設計) Recovery Controlとは何か？AI制御は失敗後の設計で差がつく
 topics: ["制御工学", "AI", "安全設計", "Recovery", "FSM"]
 
 ---
 
-## はじめに：AI制御は「失敗する前提」で設計する
+## ⚠️ はじめに：AI制御は「失敗する前提」で設計する
 
 AI制御の議論では、しばしばこう語られます。
 
@@ -28,7 +28,7 @@ AI制御の議論では、しばしばこう語られます。
 
 ---
 
-## Recovery Controlとは何か
+## 🛠️ Recovery Controlとは何か
 
 Recovery Controlとは一言で言うと：
 
@@ -44,7 +44,7 @@ Recovery Controlとは一言で言うと：
 
 ---
 
-## なぜRecovery Controlが必要なのか
+## 🚨 なぜRecovery Controlが必要なのか
 
 Safety Envelopeがあっても、  
 逸脱は **必ず起こります**。
@@ -56,63 +56,69 @@ Safety Envelopeがあっても、
 
 問題はその後です。
 
-❌ そのまま停止  
-❌ いきなり通常制御に復帰  
-❌ 原因不明のまま再開  
+- そのまま停止  
+- いきなり通常制御に復帰  
+- 原因不明のまま再開  
 
 これらはすべて**危険**です。
 
 ---
 
-## Recovery Controlの基本思想
+## 🧭 Recovery Controlの基本思想
 
 Recovery Controlの設計思想は、次の3点に集約されます。
 
-### ① 安全側に倒す
+### 🟦 ① 安全側に倒す
+
 - 出力制限
 - ゲイン縮小
 - 動作速度低下
 
 ---
 
-### ② 段階的に戻す
+### 🟧 ② 段階的に戻す
+
 - 一気にNormalへ戻らない
 - 中間モードを必ず挟む
 
 ---
 
-### ③ 原因を未解決のまま戻さない
+### 🟨 ③ 原因を未解決のまま戻さない
+
 - 「なんとなく直った」はNG
 - 判断はFSMが行う
 
 ---
 
-## Recovery Controlの構成要素
+## 🧩 Recovery Controlの構成要素
 
-### ① Safe Mode（安全モード）
+### 🟥 ① Safe Mode（安全モード）
+
 最初に入るのは必ず **Safe Mode** です。
 
 - 出力は最小限
 - 動作は単純
 - 人間が予測できる挙動
 
-👉 **ここにAIは介入しない**
+**ここにAIは介入しない**
 
 ---
 
-### ② Diagnostic Mode（診断モード）
+### 🟪 ② Diagnostic Mode（診断モード）
+
 次に、状態を整理します。
 
-- センサ異常か？
-- モデル誤差か？
-- 外乱か？
-- AI判断の破綻か？
+- センサ異常か
+- モデル誤差か
+- 外乱か
+- AI判断の破綻か
 
 ここで初めて **LLMの出番** です。
 
 ---
 
-### ③ Re-Initialization（再初期化）
+### 🟫 ③ Re-Initialization（再初期化）
+
 必要に応じて、
 
 - PIDゲインの再設定
@@ -123,7 +129,8 @@ Recovery Controlの設計思想は、次の3点に集約されます。
 
 ---
 
-### ④ Gradual Return（段階復帰）
+### 🟩 ④ Gradual Return（段階復帰）
+
 最後に、段階的に戻します。
 
 - Safe → Limited → Normal
@@ -131,11 +138,12 @@ Recovery Controlの設計思想は、次の3点に集約されます。
 
 ---
 
-## FSMによるRecovery設計（超重要）
+## 🧠 FSMによるRecovery設計（超重要）
 
 Recovery Controlは **FSMが主役** です。
 
 ### 典型的な状態遷移
+
 - Normal  
 - Warning  
 - Safe  
@@ -146,60 +154,66 @@ Recovery Controlは **FSMが主役** です。
 この**順番と条件**を  
 人間がすべて定義します。
 
-👉 *AIに「戻っていいか」を判断させない*
+*AIに「戻っていいか」を判断させない*
 
 ---
 
-## PID × FSM × LLM におけるRecoveryの役割
+## 🔗 PID × FSM × LLM におけるRecoveryの役割
 
-### PID
+### ⚙️ PID
+
 - Safe / Limitedモードで安定動作
 - 応答は遅くてもよい
 - 確実性を最優先
 
 ---
 
-### FSM
+### 🧾 FSM
+
 - 遷移条件を完全管理
 - 強制停止・巻き戻し可能
 
 ---
 
-### LLM
+### 🧠 LLM
+
 - 異常原因の言語化
 - 再設計案の提示
 - 人間への説明補助
 
-👉 **LLMは「原因を考える」だけ**
+**LLMは「原因を考える」だけ**
 
 ---
 
-## よくあるRecovery設計の失敗
+## ❌ よくあるRecovery設計の失敗
 
-### ❌ AIが「もう大丈夫」と判断する
+### 🚫 AIが「もう大丈夫」と判断する
+
 - 根拠が曖昧
 - 再現性ゼロ
 - 説明不能
 
 ---
 
-### ❌ Safe Modeが弱すぎる
+### 🚫 Safe Modeが弱すぎる
+
 - 通常制御と大差ない
 - 異常が再発する
 
 ---
 
-### ❌ いきなりNormalへ復帰
+### 🚫 いきなりNormalへ復帰
+
 - 一番事故が起きやすい
 
 ---
 
-## なぜRecovery ControlがAI制御の差別化になるのか
+## 🏁 なぜRecovery ControlがAI制御の差別化になるのか
 
 AI制御は、
 
-- 成功しているとき → どれも似ている
-- **失敗したとき → 設計差が露骨に出る**
+- 成功しているときは似ている
+- **失敗したときに設計差が露骨に出る**
 
 Recovery Controlを持つシステムは、
 
@@ -209,20 +223,20 @@ Recovery Controlを持つシステムは、
 
 ---
 
-## まとめ：AI制御は「戻り方」が本質
+## 🧠 まとめ：AI制御は「戻り方」が本質
 
 - AIは必ず失敗する
 - 失敗後の設計が安全性を決める
 - Recovery Controlは後付けできない
 - FSMによる段階復帰が鍵
-- LLMは“考える役”に留める
+- LLMは考える役に留める
 
 AI制御の本当の価値は、  
 **うまくいった回数ではなく、失敗から戻れた回数**で決まります。
 
 ---
 
-## 三部作まとめ
+## 📚 三部作まとめ
 
 1. LLMを制御に入れてはいけない理由  
 2. Safety Envelopeという境界設計  
@@ -233,9 +247,7 @@ AI制御の本当の価値は、
 
 ---
 
-## 参考リンク
+## 🔗 参考リンク
 
 - AI Control Safety Package  
-  https://samizo-aitl.github.io/ai-control-safety-package/
-
----
+  [https://samizo-aitl.github.io/ai-control-safety-package/](https://samizo-aitl.github.io/ai-control-safety-package/)

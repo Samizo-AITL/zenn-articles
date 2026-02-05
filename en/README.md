@@ -30,7 +30,7 @@ while GitHub serves as the place for **design, editing, and version control**.
 
 ## 🗂 Repository Structure
 
-```text
+```
 zenn-articles/
 ├─ README.md
 ├─ index.md

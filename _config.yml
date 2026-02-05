@@ -19,7 +19,7 @@ kramdown:
   input: kramdown
   syntax_highlighter: rouge
   hard_wrap: false
-  math_engine: mathjax
+  math_engine: mathjax   # MathJax 前提で数式を残す（script 読み込みは layout 側）
 
 # --------------------------------------------------
 # Build

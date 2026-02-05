@@ -3,12 +3,13 @@ layout: default
 title: Legacy psram1
 ---
 
-# 【半導体:18】PSRAMは何を狙ったメモリだったのか ― DRAM流用という前提
+# 【半導体:18】PSRAMは何を狙ったメモリだったのか  
+## ― DRAM流用という前提
 topics: ["半導体", "PSRAM", "DRAM", "メモリ", "アーキテクチャ"]
 
 ---
 
-## はじめに ― なぜPSRAMという選択が生まれたのか
+## 🧭 はじめに ― なぜPSRAMという選択が生まれたのか
 
 2000年前後、  
 **PSRAM（Pseudo-SRAM）** というメモリが市場に投入された。
@@ -26,7 +27,7 @@ topics: ["半導体", "PSRAM", "DRAM", "メモリ", "アーキテクチャ"]
 
 ---
 
-## PSRAM が生まれた背景 ― モバイルという制約
+## 📱 PSRAM が生まれた背景 ― モバイルという制約
 
 1990年代後半、  
 モバイル機器向けシステムでは、次の要求が同時に存在していた。
@@ -48,7 +49,7 @@ PSRAM が構想された。
 
 ---
 
-## PSRAM の基本コンセプト
+## 🎯 PSRAM の基本コンセプト
 
 PSRAM の中核的な発想は、極めてシンプルだ。
 
@@ -60,9 +61,9 @@ DRAM を捨てて新しいセルを作るのではなく、
 
 ---
 
-## 内部構造の要点
+## 🏗 内部構造の要点
 
-### 1. DRAM セルアレイをそのまま使う
+### ① DRAM セルアレイをそのまま使う
 
 - 記憶素子は **通常の DRAM セル**
 - 高密度・低コストという特性は DRAM そのもの
@@ -72,7 +73,7 @@ PSRAM 専用の特殊な物理設計は存在しない。
 
 ---
 
-### 2. 内部リフレッシュ制御を持つ
+### ② 内部リフレッシュ制御を持つ
 
 PSRAM 最大の特徴は、
 
@@ -86,7 +87,7 @@ PSRAM 最大の特徴は、
 
 ---
 
-### 3. アクセス優先という制御方針
+### ③ アクセス優先という制御方針
 
 内部制御では、
 
@@ -105,7 +106,7 @@ PSRAM 最大の特徴は、
 
 ---
 
-## 想定されていた使用条件
+## 🧩 想定されていた使用条件
 
 PSRAM は、  
 **モバイル用途専用メモリ**として設計されていた。
@@ -122,7 +123,7 @@ PSRAM は、
 
 ---
 
-## DRAMとPSRAMの決定的な違い
+## ⚖️ DRAMとPSRAMの決定的な違い
 
 ここで重要なのは、次の点である。
 
@@ -139,7 +140,7 @@ PSRAM は、
 
 ---
 
-## 当時としては「合理的な設計」だった
+## ✅ 当時としては「合理的な設計」だった
 
 PSRAM の構造は、
 
@@ -161,7 +162,7 @@ PSRAM の構造は、
 
 ---
 
-## まとめ（構造編）
+## 🧾 まとめ（構造編）
 
 PSRAM は、
 
@@ -184,17 +185,17 @@ DRAMの物理前提を静かに破っていった**ことにあった。
 ## 🔗 一次情報（参照元）
 
 - Legacy Technology Archive  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/)
 
 - PSRAM (2001) ケース  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/)
 
 - PSRAM Architecture  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/psram_architecture/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/psram_architecture/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/psram_architecture/)
 
 ---
 
-### 次回予告
+### ⏭ 次回予告
 
 次稿では、  
 **PSRAMで実際に顕在化した故障**を扱う。

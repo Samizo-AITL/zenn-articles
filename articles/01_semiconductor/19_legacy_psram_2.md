@@ -3,12 +3,13 @@ layout: default
 title: Legacy psram2
 ---
 
-# 【半導体:19】PSRAMで何が起き、なぜ終わったのか ― Pause×Disturbの現実
+# 【半導体:19】PSRAMで何が起き、なぜ終わったのか  
+## ― Pause×Disturbの現実
 topics: ["半導体", "PSRAM", "DRAM", "信頼性", "歩留まり"]
 
 ---
 
-## はじめに
+## 🧭 はじめに
 
 前稿では、PSRAM が
 
@@ -24,7 +25,7 @@ topics: ["半導体", "PSRAM", "DRAM", "信頼性", "歩留まり"]
 
 ---
 
-## PSRAMで顕在化した故障
+## ⚠️ PSRAMで顕在化した故障
 
 PSRAM で問題となった故障は、  
 大きく分けて二つだった。
@@ -37,7 +38,7 @@ PSRAM では **使用条件によって同時に現れる** 点が決定的に�
 
 ---
 
-## Pause Refresh Fail（PSRAM）
+## ⏸ Pause Refresh Fail（PSRAM）
 
 PSRAM では、
 
@@ -66,7 +67,7 @@ Pause Refresh 異常と同根** だった。
 
 ---
 
-## Disturb Refresh Fail（PSRAM）
+## ⚡ Disturb Refresh Fail（PSRAM）
 
 もう一つの問題が **Disturb** である。
 
@@ -86,7 +87,7 @@ PSRAM では、
 
 ---
 
-## Disturb が発生する断面構造（参照図）
+## 🧬 Disturb が発生する断面構造（参照図）
 
 ここで、PSRAM における Disturb を理解するための  
 **デバイス断面の物理像**を示す。
@@ -121,7 +122,7 @@ Disturb は、
 
 ---
 
-## Pause × Disturb の結合
+## 🔗 Pause × Disturb の結合
 
 重要なのは、  
 **Pause と Disturb は単独では致命的でなかった** ことだ。
@@ -147,7 +148,7 @@ Fail は **境界的に** 増加した。
 
 ---
 
-## 温度という境界条件
+## 🌡 温度という境界条件
 
 PSRAM の Fail 挙動は、  
 **温度境界を越えた瞬間に変質**した。
@@ -169,7 +170,7 @@ Fail は、
 
 ---
 
-## 歩留まり回復でできたこと／できなかったこと
+## 🛠 歩留まり回復でできたこと／できなかったこと
 
 量産は止められなかった。
 
@@ -192,7 +193,7 @@ Fail は、
 
 ---
 
-## それでも残った限界
+## 🧱 それでも残った限界
 
 ただし、次の点は変わらなかった。
 
@@ -211,7 +212,7 @@ Fail は、
 
 ---
 
-## 下された判断
+## 🧭 下された判断
 
 最終的に下された判断は明確だった。
 
@@ -230,7 +231,7 @@ Fail は、
 
 ---
 
-## まとめ（故障と判断）
+## 🧾 まとめ（故障と判断）
 
 PSRAM は、
 
@@ -258,20 +259,20 @@ Pause × Disturb × 温度という
 ## 🔗 一次情報（参照元）
 
 - Legacy Technology Archive  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/)
 
 - PSRAM (2001) ケース  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/)
 
 - Pause / Disturb in PSRAM  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/pause_disturb_psram/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/pause_disturb_psram/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/pause_disturb_psram/)
 
 - Yield Recovery  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/yield_recovery/
+  [https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/yield_recovery/](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/yield_recovery/)
 
 ---
 
-### シリーズ完了
+### ✅ シリーズ完了
 
 - #0 Introduction  
 - #1 DRAM 前編（現象）  

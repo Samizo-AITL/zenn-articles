@@ -3,12 +3,13 @@ layout: default
 title: OpenLane2
 ---
 
-# 【半導体:13】OpenLane2 なぜPythonベースなのか ― Nix推奨・Docker可・venv運用という整理"
+# 【半導体:13】🧩 OpenLane2  
+### ― なぜPythonベースなのか ― Nix推奨・Docker可・venv運用という整理
 topics: ["openlane", "asic", "eda", "python", "nix"]
 
 ---
 
-## はじめに
+## 🧭 はじめに
 
 OpenLane を使い始めて OpenLane1（Docker版）を一度流すと、  
 次に必ずこの疑問が出てきます。
@@ -19,35 +20,35 @@ OpenLane を使い始めて OpenLane1（Docker版）を一度流すと、
 
 この記事では、OpenLane2 を
 
-> **「新しいOpenLane」ではなく、  
+> **「新しい OpenLane」ではなく、  
 > 設計者向けに再定義された別系統のフロー基盤**
 
 として整理します。
 
 ---
 
-## OpenLane1 と OpenLane2 の関係
+## 🔁 OpenLane1 と OpenLane2 の関係
 
 最初に関係をはっきりさせます。
 
 - **OpenLane1**  
   - Docker ベース  
-  - 教育・PoC向け  
-  - フローを「一周体験」するための環境
+  - 教育・PoC 向け  
+  - フローを「一周体験」するための環境  
 
 - **OpenLane2**  
   - Python ベース  
   - 設計・研究向け  
-  - フローを「管理・再構成」するための環境
+  - フローを「管理・再構成」するための環境  
 
 どちらが上位でも後継でもありません。  
 **目的が違うだけ**です。
 
 ---
 
-## OpenLane2 は何を解決しようとしているか
+## 🎯 OpenLane2 は何を解決しようとしているか
 
-OpenLane1 では次のことが難しくなります。
+OpenLane1 では、次のことが難しくなります。
 
 - フローをスクリプトで組み替える  
 - 設計条件を変えて反復実行する  
@@ -60,7 +61,7 @@ OpenLane2 は、これらを可能にするために設計されています。
 
 ---
 
-## OpenLane2 が Python ベースである理由
+## 🐍 OpenLane2 が Python ベースである理由
 
 OpenLane2 は Python パッケージとして提供されています。
 
@@ -77,7 +78,7 @@ OpenLane2 は Python パッケージとして提供されています。
 
 ---
 
-## 公式が推奨するインストール方法（重要）
+## 📦 公式が推奨するインストール方法（重要）
 
 ここは誤解されやすい点なので明確にします。
 
@@ -95,12 +96,12 @@ OpenLane2 は Python パッケージとして提供されています。
 
 ---
 
-## venv 運用は何なのか（openlane2-sram の立場）
+## 🧪 venv 運用は何なのか（openlane2-sram の立場）
 
 一方で、openlane2-sram などの実例では、
 
-- Python 仮想環境（venv）を用い
-- OpenLane2 をローカルに隔離して使う
+- Python 仮想環境（venv）を用い  
+- OpenLane2 をローカルに隔離して使う  
 
 という運用が採られています。
 
@@ -117,7 +118,7 @@ OpenLane2 は Python パッケージとして提供されています。
 
 ---
 
-## Docker と venv / Nix の違い（整理）
+## 🧭 Docker と venv / Nix の違い（整理）
 
 | 観点 | Docker | Nix / venv |
 |---|---|---|
@@ -126,51 +127,51 @@ OpenLane2 は Python パッケージとして提供されています。
 | フロー改変 | 困難 | 容易 |
 | 設計者向け | △ | ◎ |
 
-- Docker：**環境を閉じる**
+- Docker：**環境を閉じる**  
 - Nix / venv：**環境を設計する**
 
-この違いが、OpenLane1 / 2 の思想差です。
+この違いが、OpenLane1 / OpenLane2 の思想差です。
 
 ---
 
-## OpenLane2 が向いている用途
+## 🧩 OpenLane2 が向いている用途
 
 OpenLane2 が本領を発揮するのは次のような場面です。
 
-- SRAM / マクロ統合
-- パラメトリック設計
-- 反復設計・回帰実行
-- 設計フローそのものの検証
+- SRAM / マクロ統合  
+- パラメトリック設計  
+- 反復設計・回帰実行  
+- 設計フローそのものの検証  
 
 逆に、
 
-- 初学者
-- とにかく一度 GDS を出したい
+- 初学者  
+- とにかく一度 GDS を出したい  
 
-という場合は **OpenLane1 の方が適切**です。
+という場合は、**OpenLane1 の方が適切**です。
 
 ---
 
-## OpenLane2 は「置き換え」ではない
+## 🚦 OpenLane2 は「置き換え」ではない
 
 重要なので明言します。
 
 > OpenLane2 は OpenLane1 の後継ではない。  
 > **役割分担のための別系統**である。
 
-- OpenLane1：理解と体験
-- OpenLane2：設計と運用
+- OpenLane1：理解と体験  
+- OpenLane2：設計と運用  
 
 この使い分けが、最も健全です。
 
 ---
 
-## 次に出てくる疑問：PDK の問題
+## ❓ 次に出てくる疑問：PDK の問題
 
 OpenLane2 を使い始めると、次の疑問に行き着きます。
 
-- どの PDK が OpenLane に適しているのか？
-- なぜ Sky130 は素直で、GF180 は難しいのか？
+- どの PDK が OpenLane に適しているのか？  
+- なぜ Sky130 は素直で、GF180 は難しいのか？  
 
 次の記事では、
 
@@ -181,13 +182,13 @@ OpenLane2 を使い始めると、次の疑問に行き着きます。
 
 ---
 
-## まとめ
+## 📝 まとめ
 
-- OpenLane2 は設計者向けに再設計された基盤
-- Python ベースなのはフロー制御のため
-- 公式推奨は Nix、Docker も可
-- venv 運用は共存重視の一実装例
-- OpenLane1 と競合するものではない
+- OpenLane2 は設計者向けに再設計された基盤  
+- Python ベースなのはフロー制御のため  
+- 公式推奨は Nix、Docker も可  
+- venv 運用は共存重視の一実装例  
+- OpenLane1 と競合するものではない  
 
 OpenLane2 は、  
 **設計を「回す側」に進むための道具**です。

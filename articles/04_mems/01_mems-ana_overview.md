@@ -3,12 +3,12 @@ layout: default
 title: 軽量ROMベース解析ツール mems-ana の設計思想と全体像
 ---
 
-# 【MEMS:01】軽量ROMベース解析ツール mems-ana の設計思想と全体像
+# 🧠 【MEMS:01】軽量ROMベース解析ツール mems-ana の設計思想と全体像
 topics: ["MEMS", "解析", "ROM", "Python", "シミュレーション"]
 
 ---
 
-## はじめに
+## 📌 はじめに
 
 MEMS（Micro Electro Mechanical Systems）の設計では、  
 **構造・材料・駆動方式が密接に絡み合うため、解析が不可欠**です。
@@ -31,7 +31,7 @@ MEMS（Micro Electro Mechanical Systems）の設計では、
 
 ---
 
-## mems-ana とは何か
+## 🧩 mems-ana とは何か
 
 **mems-ana** は、MEMS 構造を対象とした  
 **ROM（Reduced Order Model）ベースの軽量解析ツール**です。
@@ -47,7 +47,7 @@ MEMS（Micro Electro Mechanical Systems）の設計では、
 
 ---
 
-## なぜ ROM なのか
+## 🧮 なぜ ROM なのか
 
 MEMS 構造の多くは、
 
@@ -74,7 +74,7 @@ mems-ana ではこの考え方を前提に、
 
 ---
 
-## FEM との棲み分け
+## 🔀 FEM との棲み分け
 
 mems-ana は FEM を否定しません。  
 むしろ **役割を明確に分ける** ことを重視しています。
@@ -95,7 +95,7 @@ mems-ana は
 
 ---
 
-## 何ができるか（概要）
+## ⚙️ 何ができるか（概要）
 
 mems-ana では、以下のような解析を扱います。
 
@@ -115,7 +115,7 @@ mems-ana では、以下のような解析を扱います。
 
 ---
 
-## 割り切っていること（重要）
+## 🚫 割り切っていること（重要）
 
 mems-ana には **意図的な制限** があります。
 
@@ -135,7 +135,7 @@ mems-ana には **意図的な制限** があります。
 
 ---
 
-## 教材・PoC・AITL との関係
+## 🧩 教材・PoC・AITL との関係
 
 mems-ana は単体ツールではなく、
 
@@ -154,16 +154,16 @@ mems-ana は単体ツールではなく、
 
 ---
 
-## GitHub リポジトリ
+## 🔗 GitHub リポジトリ
 
 本記事で紹介した **mems-ana** のソースコードおよびデモは、  
 以下の GitHub リポジトリで公開しています。
 
-https://github.com/Samizo-AITL/mems-ana
+[https://github.com/Samizo-AITL/mems-ana](https://github.com/Samizo-AITL/mems-ana)
 
 ---
 
-## シリーズ構成について
+## 📚 シリーズ構成について
 
 本記事は **mems-ana シリーズ**の第1回です。
 
@@ -176,7 +176,7 @@ https://github.com/Samizo-AITL/mems-ana
 
 ---
 
-## おわりに
+## 📝 おわりに
 
 mems-ana は、
 
@@ -189,4 +189,3 @@ mems-ana は、
 設計初期での違和感や仮説検証に、  
 軽量解析という選択肢があることを  
 本記事が伝えられれば幸いです。
-

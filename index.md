@@ -61,24 +61,36 @@ zenn-articles/
 
 ## 🧭 Article Classification
 
-本リポジトリでは、記事を以下の技術分野で分類します。
+本リポジトリでは、記事を以下の技術分野で分類します。  
+※ 各項目は **Samizo-AITL Portal 上の記事一覧（入口）への直接リンク** です。
 
 - **01.Semiconductor**  
-  デバイス物理、プロセス、回路、スケーリング
-- **02.Control**  
-  PID、FSM、制御構造、AITL（Architecture for Integrated Technology Logic）
-- **03.Hardware**  
-  実装設計、V–I予算、システムアーキテクチャ
-- **04.MEMS**  
-  圧電アクチュエータ、微細構造、物理モデル
-- **05.Inkjet**  
-  ドロップ形成、駆動波形、システム統合
-- **06.Mechanical**  
-  機械設計、CAD to Code、構造定義
-- **07.Other**  
-  可視化、分析、周辺技術
+  デバイス物理、プロセス、回路、スケーリング  
+  → [Semiconductor Articles](https://samizo-aitl.github.io/zenn-articles/articles/01.semiconductor/)
 
-分類は**主軸**であり、Zenn上ではタグやBook構成によって横断的に再構成します。
+- **02.Control**  
+  PID、FSM、制御構造、AITL（Architecture for Integrated Technology Logic）  
+  → [Control Articles](https://samizo-aitl.github.io/zenn-articles/articles/02.control/)
+
+- **03.Hardware**  
+  実装設計、V–I予算、システムアーキテクチャ  
+  → [Hardware Articles](https://samizo-aitl.github.io/zenn-articles/articles/03.hardware/)
+
+- **04.MEMS**  
+  圧電アクチュエータ、微細構造、物理モデル  
+  → [MEMS Articles](https://samizo-aitl.github.io/zenn-articles/articles/04.mems/)
+
+- **05.Inkjet**  
+  ドロップ形成、駆動波形、システム統合  
+  → [Inkjet Articles](https://samizo-aitl.github.io/zenn-articles/articles/05.inkjet/)
+
+- **06.Mechanical**  
+  機械設計、CAD to Code、構造定義  
+  → [Mechanical Articles](https://samizo-aitl.github.io/zenn-articles/articles/06_mechanical/)
+
+- **07.Other**  
+  可視化、分析、周辺技術  
+  → [Other Articles](https://samizo-aitl.github.io/zenn-articles/articles/07.other/)
 
 ---
 
@@ -87,6 +99,9 @@ zenn-articles/
 英語版記事は翻訳ではなく、  
 **日本語版と同等の正本**として `en/` 以下に並行管理します。
 
+- **English Articles Index**  
+  → [https://samizo-aitl.github.io/zenn-articles/articles/en/](https://samizo-aitl.github.io/zenn-articles/articles/en/)
+  
 ---
 
 ## 📚 Articles Index

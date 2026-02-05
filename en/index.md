@@ -36,23 +36,25 @@ while GitHub serves as the place for **design, editing, and version control**.
 ## 🗂 Repository Structure
 
 ```text
+
 zenn-articles/
 ├─ README.md
 ├─ index.md
 ├─ en/
-│ ├─ README.md
-│ └─ index.md
+│  ├─ README.md
+│  └─ index.md
 ├─ articles/
-│ ├─ 01.semiconductor/
-│ ├─ 02.control/
-│ ├─ 03.hardware/
-│ ├─ 04.mems/
-│ ├─ 05.inkjet/
-│ ├─ 06.other/
-│ └─ en/
-│   └─ (mirrored structure)
+│  ├─ 01_semiconductor/
+│  ├─ 02_control/
+│  ├─ 03_hardware/
+│  ├─ 04_mems/
+│  ├─ 05_inkjet/
+│  ├─ 06_mechanical/
+│  ├─ 07_other/
+│  └─ en/            # same structure as above
 ├─ books/
 └─ assets/
+
 ```
 
 ---

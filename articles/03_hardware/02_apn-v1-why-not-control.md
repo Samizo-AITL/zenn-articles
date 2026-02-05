@@ -3,12 +3,12 @@ layout: default
 title: aitl-physical-reference v1：なぜ\"まだ制御しない\"のか
 ---
 
-# 【ハードウエア:02】aitl-physical-reference v1：なぜ\"まだ制御しない\"のか
+# 🧱 【ハードウエア:02】aitl-physical-reference v1：なぜ\"まだ制御しない\"のか
 topics: ["hardware", "pcb", "kicad", "control", "aitl"]
 
 ---
 
-## はじめに
+## 📌 はじめに
 
 aitl-physical-reference v1 は、  
 **「制御できそうで、まだ制御しない」**ところに意図的に留めた基板です。
@@ -22,7 +22,7 @@ v1 は、その境界を明確にするためのリファレンスです。
 
 ---
 
-## v0 から v1 で何が変わったか
+## 🔄 v0 から v1 で何が変わったか
 
 v0 では、次を最小構成で固定しました。
 
@@ -42,7 +42,7 @@ v1 では、そこから一歩進みます。
 
 ---
 
-## なぜ、まだ制御を入れないのか
+## ❓ なぜ、まだ制御を入れないのか
 
 PID、FSM、AI制御。  
 いずれも「出力をどう変えるか」を扱います。
@@ -113,7 +113,7 @@ v1 は、その前提を曖昧にしないために
 
 ---
 
-## v1 の正体：境界定義リファレンス
+## 🧭 v1 の正体：境界定義リファレンス
 
 aitl-physical-reference v1 は、
 
@@ -134,7 +134,7 @@ aitl-physical-reference v1 は、
 
 ---
 
-## AITL における位置づけ
+## 🧩 AITL における位置づけ
 
 AITL（Architecture for Integrated Technology Logic）では、
 
@@ -152,7 +152,7 @@ v1 は、その最下層。
 
 ---
 
-## 次に来るもの
+## ⏭️ 次に来るもの
 
 v2 では、初めて **振る舞い** が入ります。
 
@@ -164,7 +164,7 @@ v2 では、初めて **振る舞い** が入ります。
 
 ---
 
-## まとめ
+## 🧾 まとめ
 
 制御を入れなかったのは、  
 まだ「固定すべき物理」が残っていたからです。
@@ -180,10 +180,10 @@ v1 リファレンスです。
 
 ---
 
-## リンク
+## 🔗 リンク
 
 - GitHub Pages  
-  https://samizo-aitl.github.io/aitl-physical-reference/
+  [https://samizo-aitl.github.io/aitl-physical-reference/](https://samizo-aitl.github.io/aitl-physical-reference/)
 
 - GitHub Repository  
-  https://github.com/Samizo-AITL/aitl-physical-reference
+  [https://github.com/Samizo-AITL/aitl-physical-reference](https://github.com/Samizo-AITL/aitl-physical-reference)

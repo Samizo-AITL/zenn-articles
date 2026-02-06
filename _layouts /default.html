@@ -30,12 +30,14 @@
   </style>
 
   <!-- =================================================
-       MathJax v3  (重要: async禁止 / defer推奨)
+       MathJax v3
+       - inline: \( ... \)
+       - display: $$ ... $$
   ================================================== -->
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['\\(', '\\)']],     // ★ $...$ は使わない（GFM事故回避）
+        inlineMath: [['\\(', '\\)']],
         displayMath: [['$$', '$$'], ['\\[', '\\]']],
         processEscapes: true
       },
@@ -50,7 +52,9 @@
   </script>
 
   <!-- =================================================
-       Mermaid (v10)
+       Mermaid v10
+       - ```mermaid fence を維持
+       - GitHub Pages (kramdown + rouge) 対応
   ================================================== -->
   <script
     src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
@@ -70,33 +74,61 @@
 
   <!-- =================================================
        JS Initializers
-       - Mermaid: ```mermaid フェンス → <code class="language-mermaid"> を自動変換して描画
-       - MathJax: ページ読込後に typeset（念のため）
+       - Mermaid: ```mermaid フェンスを自動検出して描画
+       - MathJax: ページロード後に typeset
   ================================================== -->
   <script>
     window.addEventListener("load", async () => {
 
-      /* ---------- Mermaid: fenced code を .mermaid に変換 ---------- */
+      /* ================= Mermaid ================= */
       try {
-        const mermaidCodes = document.querySelectorAll("pre > code.language-mermaid");
-        mermaidCodes.forEach((code) => {
-          const pre = code.parentElement;
+        const targets = [];
+
+        /* case 1: language-mermaid が付く場合 */
+        document.querySelectorAll("code.language-mermaid").forEach(code => {
+          targets.push(code);
+        });
+
+        /* case 2: rouge が言語クラスを落とす場合（GitHub Pages） */
+        document.querySelectorAll("pre > code:not(.language-mermaid)").forEach(code => {
+          const text = code.textContent.trim();
+          if (
+            text.startsWith("flowchart") ||
+            text.startsWith("sequenceDiagram") ||
+            text.startsWith("classDiagram") ||
+            text.startsWith("stateDiagram") ||
+            text.startsWith("erDiagram") ||
+            text.startsWith("journey")
+          ) {
+            targets.push(code);
+          }
+        });
+
+        const uniq = [...new Set(targets)];
+
+        uniq.forEach(code => {
+          const pre = code.closest("pre");
+          if (!pre) return;
+
           const container = document.createElement("div");
           container.className = "mermaid";
-          container.textContent = code.textContent; // Mermaidソース
+          container.textContent = code.textContent;
+
           pre.replaceWith(container);
         });
 
         if (window.mermaid) {
-          mermaid.initialize({ startOnLoad: false, theme: "default" });
-          // 変換後の .mermaid をまとめて描画
+          mermaid.initialize({
+            startOnLoad: false,
+            theme: "default"
+          });
           await mermaid.run({ querySelector: ".mermaid" });
         }
       } catch (e) {
         console.warn("Mermaid render failed:", e);
       }
 
-      /* ---------- MathJax ---------- */
+      /* ================= MathJax ================= */
       try {
         if (window.MathJax && MathJax.typesetPromise) {
           await MathJax.typesetPromise();

@@ -1,6 +1,6 @@
 ---
 title: "MathJax & Mermaid 表示テスト"
-description: "GitHub Pages上で数式とMermaidが正しく表示されるかの検証"
+description: "GitHub Pages（Jekyll）で数式とMermaidが表示できるかの最終確認"
 layout: default
 ---
 
@@ -10,7 +10,7 @@ layout: default
 
 ## 数式（MathJax）
 
-インライン：\( a^2 + b^2 = c^2 \)
+インライン数式：\( a^2 + b^2 = c^2 \)
 
 $$
 I \propto \frac{W}{L}
@@ -19,6 +19,8 @@ $$
 $$
 W_\mathrm{eff} \simeq 2H_\mathrm{fin} + W_\mathrm{fin}
 $$
+
+---
 
 ## Mermaid（flowchart）
 
@@ -31,6 +33,10 @@ flowchart TD
   D --> F[Rendered Math]
   E --> G[Rendered Diagram]
 ```
+
+---
+
+## Mermaid（sequenceDiagram）
 
 ```mermaid
 sequenceDiagram

@@ -6,7 +6,7 @@ as **canonical Markdown sources (single source of truth)**.
 Zenn serves as a platform for structured publication and series,  
 while GitHub serves as the place for **design, editing, and version control**.
 
-[![Back to Portal (EN)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/en/)
+[![Go to Portal (EN)](https://img.shields.io/badge/Go%20to%20Portal-6F42C1?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/en/)
 
 ---
 

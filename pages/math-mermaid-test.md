@@ -21,10 +21,27 @@ $$
 ## Mermaid（flowchart）
 
 ```mermaid
-flowchart LR
+flowchart TD
   A[Markdown] --> B[Jekyll build]
   B --> C[HTML]
   C --> D[MathJax]
   C --> E[Mermaid]
   D --> F[Rendered Math]
   E --> G[Rendered Diagram]
+```
+
+```mermaid
+sequenceDiagram
+  participant U as User
+  participant P as Pages
+  participant J as Jekyll
+  participant M as MathJax
+  participant R as Mermaid
+
+  U->>P: Access
+  P->>J: Serve HTML
+  J->>M: Typeset
+  J->>R: Render
+  M-->>U: Math OK
+  R-->>U: Diagram OK
+```

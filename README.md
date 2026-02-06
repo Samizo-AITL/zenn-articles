@@ -7,7 +7,7 @@ Zennは体系的な公開・連載の場、
 GitHubは **設計・編集・履歴管理の場**  
 という役割分担を前提としています。
 
-[![Back to Portal (JP)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/)
+[![Go to Portal (JP)](https://img.shields.io/badge/Go%20to%20Portal-6F42C1?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/)
 
 ---
 

@@ -4,6 +4,8 @@ description: "GitHub Pages上で数式とMermaidが正しく表示されるか�
 layout: default
 ---
 
+[MathJax & Mermaid 表示テストページ](https://samizo-aitl.github.io/zenn-articles/pages/math-mermaid-test/)
+
 # MathJax & Mermaid 表示テスト
 
 ## 数式（MathJax）

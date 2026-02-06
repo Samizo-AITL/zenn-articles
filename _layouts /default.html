@@ -30,13 +30,13 @@
   </style>
 
   <!-- =================================================
-       MathJax v3
+       MathJax v3  (重要: async禁止 / defer推奨)
   ================================================== -->
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$']],
-        displayMath: [['$$', '$$']],
+        inlineMath: [['\\(', '\\)']],     // ★ $...$ は使わない（GFM事故回避）
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
         processEscapes: true
       },
       options: {
@@ -46,11 +46,11 @@
   </script>
   <script
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
-    async>
+    defer>
   </script>
 
   <!-- =================================================
-       Mermaid
+       Mermaid (v10)
   ================================================== -->
   <script
     src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
@@ -70,24 +70,39 @@
 
   <!-- =================================================
        JS Initializers
+       - Mermaid: ```mermaid フェンス → <code class="language-mermaid"> を自動変換して描画
+       - MathJax: ページ読込後に typeset（念のため）
   ================================================== -->
   <script>
     window.addEventListener("load", async () => {
 
-      /* ---------- Mermaid ---------- */
-      if (window.mermaid) {
-        mermaid.initialize({
-          startOnLoad: false,
-          theme: "default"
+      /* ---------- Mermaid: fenced code を .mermaid に変換 ---------- */
+      try {
+        const mermaidCodes = document.querySelectorAll("pre > code.language-mermaid");
+        mermaidCodes.forEach((code) => {
+          const pre = code.parentElement;
+          const container = document.createElement("div");
+          container.className = "mermaid";
+          container.textContent = code.textContent; // Mermaidソース
+          pre.replaceWith(container);
         });
-        await mermaid.run({
-          querySelector: "code.language-mermaid"
-        });
+
+        if (window.mermaid) {
+          mermaid.initialize({ startOnLoad: false, theme: "default" });
+          // 変換後の .mermaid をまとめて描画
+          await mermaid.run({ querySelector: ".mermaid" });
+        }
+      } catch (e) {
+        console.warn("Mermaid render failed:", e);
       }
 
-      /* ---------- MathJax (after layout fixed) ---------- */
-      if (window.MathJax && MathJax.typesetPromise) {
-        await MathJax.typesetPromise();
+      /* ---------- MathJax ---------- */
+      try {
+        if (window.MathJax && MathJax.typesetPromise) {
+          await MathJax.typesetPromise();
+        }
+      } catch (e) {
+        console.warn("MathJax typeset failed:", e);
       }
 
     });

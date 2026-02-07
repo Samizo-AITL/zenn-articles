@@ -3,7 +3,7 @@ layout: default
 title: FSM制御が効かなかった実例
 ---
 
-# 【制御:02】⚠ FSM制御が効かなかった実例
+# 【制御】⚠ 02. FSM制御が効かなかった実例
 topics: ["制御", "FSM", "PID"]
 
 ---

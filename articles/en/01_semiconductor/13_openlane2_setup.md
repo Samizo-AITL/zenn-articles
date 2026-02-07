@@ -3,7 +3,7 @@ layout: default
 title: OpenLane2
 ---
 
-# 【Semiconductor:13】🧩 OpenLane2  
+# 【Semiconductor】🧩 13. OpenLane2  
 ### — Why Python-Based? Organizing Nix Recommendation, Docker Support, and venv Usage
 topics: ["openlane", "asic", "eda", "python", "nix"]
 

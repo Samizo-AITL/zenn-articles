@@ -3,7 +3,7 @@ layout: default
 title: Legacy dram2
 ---
 
-# 【Semiconductor:17】The Physical Origin of Pause Refresh Anomalies in 0.25 µm DRAM
+# 【Semiconductor】17. The Physical Origin of Pause Refresh Anomalies in 0.25 µm DRAM
 topics: ["Semiconductor", "DRAM", "Failure Analysis", "Device Physics", "Process"]
 
 ---

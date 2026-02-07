@@ -3,7 +3,7 @@ layout: default
 title: Design Guidelines for Reliability Control Completed by PID × FSM × Human Design
 ---
 
-# 【Control:09】Design Guidelines for Reliability Control Completed by PID × FSM × Human Design
+# 【Control】09. Design Guidelines for Reliability Control Completed by PID × FSM × Human Design
 topics: ["PID", "FSM", "control engineering", "reliability design", "system design"]
 
 ---

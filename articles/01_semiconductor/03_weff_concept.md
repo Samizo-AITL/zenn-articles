@@ -3,7 +3,7 @@ layout: default
 title: Weff
 ---
 
-# 【半導体:03】📐 Weffの考え方  
+# 【半導体】📐 03. Weffの考え方  
 ### ― 幅 W は「構造パラメータ」になる
 topics: ["Weff", "FinFET", "回路設計", "デバイスモデル"]
 

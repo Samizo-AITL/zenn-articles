@@ -3,7 +3,7 @@ layout: default
 title: GAA and CFET
 ---
 
-# 【半導体:05】🔺 GAAの課題とCFET  
+# 【半導体】🔺 05. GAAの課題とCFET  
 ### ― 上下積層への必然
 topics: ["CFET", "GAA", "次世代半導体"]
 

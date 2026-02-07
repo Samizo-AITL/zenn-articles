@@ -3,7 +3,7 @@ layout: default
 title: Legacy psram1
 ---
 
-# 【Semiconductor:18】What Was PSRAM Intended to Achieve?  
+# 【Semiconductor】18. What Was PSRAM Intended to Achieve?  
 ## — The Premise of Reusing DRAM
 topics: ["Semiconductor", "PSRAM", "DRAM", "Memory", "Architecture"]
 

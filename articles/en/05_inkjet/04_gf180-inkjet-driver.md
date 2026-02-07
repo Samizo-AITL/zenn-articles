@@ -3,7 +3,7 @@ layout: default
 title: GF180 Inkjet Driver Design Exploration (Continuation) — The Limit of 400 dpi and the Practical Reality of 300 dpi
 ---
 
-# 🧪 【Inkjet:04】GF180 Inkjet Driver Design Exploration (Continuation)  
+# 【Inkjet】🧪 04. GF180 Inkjet Driver Design Exploration (Continuation)  
 ## The Limit of 400 dpi and the Practical Reality of 300 dpi
 
 This article is a **continuation** of the following work:

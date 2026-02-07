@@ -3,7 +3,7 @@ layout: default
 title: OpenLane PDK
 ---
 
-# 【半導体:14】🧩 OpenLane 対応PDKの条件とは何か  
+# 【半導体】🧩 14. OpenLane 対応PDKの条件とは何か  
 ### ― Sky130が成立し、GF180が難しくなる理由
 topics: ["openlane", "asic", "pdk", "sky130", "gf180"]
 

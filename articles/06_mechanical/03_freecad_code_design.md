@@ -3,7 +3,7 @@ layout: default
 title: GUI CADとコード設計をどう併用するか ― FreeCADで始める最小コード設計
 ---
 
-# 🛠 【機械設計:03】GUI CADとコード設計をどう併用するか ― FreeCADで始める最小コード設計
+# 【機械設計】🛠 03. GUI CADとコード設計をどう併用するか ― FreeCADで始める最小コード設計
 topics: ["機械設計", "cad", "freecad", "python", "設計思想"]
 
 ---

@@ -3,7 +3,7 @@ layout: default
 title: SystemDK
 ---
 
-# 【Semiconductor:07】🧭 The Essence of the Post-CFET Era  
+# 【Semiconductor】🧭 07. The Essence of the Post-CFET Era  
 ### — A Design World Where SystemDK Is the Premise
 topics: ["Semiconductor", "CFET", "Chiplet", "SystemDK", "Design Methodology"]
 

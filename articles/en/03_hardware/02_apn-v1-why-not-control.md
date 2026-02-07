@@ -1,9 +1,9 @@
 ---
 layout: default
-title: aitl-physical-reference v1: Why We Still Do Not Control
+title: aitl-physical-reference v1 Why We Still Do Not Control
 ---
 
-# 🧱 [Hardware:02] aitl-physical-reference v1  
+# 【Hardware】 🧱 02. aitl-physical-reference v1  
 ### — Why We *Still* Do Not Control
 
 ---

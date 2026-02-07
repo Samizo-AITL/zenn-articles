@@ -3,7 +3,7 @@ layout: default
 title: inkjet-timing：圧電インクジェットにおける時間因果の可視化
 ---
 
-# 🖨️ 【Inkjet:02】inkjet-timing：圧電インクジェットにおける時間因果の可視化
+# 【Inkjet】🖨️ 02. inkjet-timing：圧電インクジェットにおける時間因果の可視化
 topics: ["inkjet", "制御工学", "物理モデリング", "可視化", "aitl"]
 
 ---

@@ -3,7 +3,7 @@ layout: default
 title: The Rationale Behind the “10% Rule” for Introducing FSM into PID Control
 ---
 
-# 【Control:08】🧯 The Rationale Behind the “10% Rule” for Introducing FSM into PID Control
+# 【Control】🧯 08. The Rationale Behind the “10% Rule” for Introducing FSM into PID Control
 topics: ["control", "PID", "FSM", "reliability design", "industrial control"]
 
 ---

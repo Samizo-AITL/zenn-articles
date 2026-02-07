@@ -3,7 +3,7 @@ layout: default
 title: Post-Evaluation Design Policy for Reliability-First B-Type Control
 ---
 
-# 【Control:07】🧭 Post-Evaluation Design Policy for Reliability-First B-Type Control
+# 【Control】🧭 07. Post-Evaluation Design Policy for Reliability-First B-Type Control
 topics: ["control engineering", "adaptive control", "AI", "LLM", "reliability"]
 
 ---

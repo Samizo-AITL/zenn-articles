@@ -3,7 +3,7 @@ layout: default
 title: v3 Physical Control Insertion Reference — The Only Point You Are Allowed to Touch
 ---
 
-# 🧱 [Hardware:04] aitl-physical-reference v3  
+# 【Hardware】 🧱 04. aitl-physical-reference v3  
 ## Physical Control Insertion Reference — The Only Point You Are Allowed to Touch
 
 This article explains **aitl-physical-control v3**.  

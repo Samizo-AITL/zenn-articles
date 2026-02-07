@@ -3,7 +3,7 @@ layout: default
 title: Weff
 ---
 
-# 【Semiconductor:03】📐 Understanding Weff  
+# 【Semiconductor】📐 03. Understanding Weff  
 ### — Width W Becomes a Structural Parameter
 topics: ["Weff", "FinFET", "Circuit Design", "Device Modeling"]
 

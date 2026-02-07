@@ -3,7 +3,7 @@ layout: default
 title: FinFET
 ---
 
-# 【半導体:02】🔷 FinFET 構造  
+# 【半導体】🔷 02. FinFET 構造  
 ### ― 形状で電界制御を取り戻す
 topics: ["FinFET", "MOSFET", "デバイス構造"]
 

@@ -3,7 +3,7 @@ layout: default
 title: PID Control Is More Complete Than You Think
 ---
 
-# 【Control:03】🧠 PID Control Is More Complete Than You Think
+# 【Control】🧠 03. PID Control Is More Complete Than You Think
 topics: ["control engineering", "PID", "AI", "LLM", "robotics"]
 
 ---

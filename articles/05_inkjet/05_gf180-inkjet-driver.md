@@ -3,7 +3,7 @@ layout: default
 title: GF180 Inkjet Driver 設計探索（続編2）— 300dpiを前提としたHVドライバアレイの成立点
 ---
 
-# 🧪 【Inkjet:05】GF180 Inkjet Driver 設計探索（続編2）— 300dpiを前提としたHVドライバアレイの成立点
+# 【Inkjet】🧪 05. GF180 Inkjet Driver 設計探索（続編2）— 300dpiを前提としたHVドライバアレイの成立点
 topics: semiconductor,icdesign,layout,inkjet,gf180
 
 ---

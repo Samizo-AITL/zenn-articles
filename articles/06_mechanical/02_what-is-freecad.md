@@ -3,7 +3,7 @@ layout: default
 title: FreeCADとは何か ― 設計をコードで記述するためのCAD
 ---
 
-# 🛠 【機械設計:02】FreeCADとは何か ― 設計をコードで記述するためのCAD
+# 【機械設計】🛠 02. FreeCADとは何か ― 設計をコードで記述するためのCAD
 topics: ["cad", "freecad", "機械設計", "python", "設計思想"]
 
 ---

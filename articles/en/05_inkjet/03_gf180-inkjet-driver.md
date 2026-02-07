@@ -3,7 +3,7 @@ layout: default
 title: Why GF180MCU × OpenLane Does Not Work — Confirmed by Real-World Verification
 ---
 
-# 🧪 【Inkjet】Why GF180MCU × OpenLane Does Not Work — Confirmed by Real-World Verification
+# 【Inkjet】🧪 03. Why GF180MCU × OpenLane Does Not Work — Confirmed by Real-World Verification
 topics: ["semiconductor", "openlane", "pdk", "gf180", "vlsi", "mixed-signal", "high-voltage", "layout"]
 
 ---

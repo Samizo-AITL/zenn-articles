@@ -3,7 +3,7 @@ layout: default
 title: GAA
 ---
 
-# 【半導体:04】🟢 GAA 構造  
+# 【半導体】🟢 04. GAA 構造  
 ### ― 電界制御の完成形
 topics: ["GAA", "ナノシート", "MOSFET"]
 

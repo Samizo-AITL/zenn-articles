@@ -3,7 +3,7 @@ layout: default
 title: AITL-controller
 ---
 
-# 【Control:01】🧩 AITL-controller  
+# 【Control】🧩 01. AITL-controller  
 ### — An Integrated Three-Layer Control Architecture: PID × FSM × LLM
 
 ---

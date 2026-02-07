@@ -3,7 +3,7 @@ layout: default
 title: OpenLane
 ---
 
-# 【Semiconductor:10】🧩 What You Learn by Building a Control ASIC  
+# 【Semiconductor】🧩 10. What You Learn by Building a Control ASIC  
 ### — From RTL to GDS Using OpenLane
 topics: ["OpenLane", "ASIC", "RTL", "Control Engineering", "SKY130"]
 

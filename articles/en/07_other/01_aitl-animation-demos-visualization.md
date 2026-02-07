@@ -3,7 +3,7 @@ layout: default
 title: Animation-Based Visualization of the Three-Layer Control Architecture
 ---
 
-# 🎞️ 【Video:01】Understanding the Three-Layer Control Architecture Through Animation Demos
+# 【Video】🎞️ 01. Understanding the Three-Layer Control Architecture Through Animation Demos
 topics: ["aitl", "control-theory", "visualization", "css", "svg", "canvas"]
 
 ---

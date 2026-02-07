@@ -3,7 +3,7 @@ layout: default
 title: Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか
 ---
 
-# 📊 【Analytics】Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか
+# 【Analytics】📊 03. Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか
 topics: ["analytics", "ga4", "githubpages", "techblog"]
 
 ---

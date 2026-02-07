@@ -3,7 +3,7 @@ layout: default
 title: aitl-physical-reference Fix the Physics Before Control
 ---
 
-# [Hardware] 🧱 01. aitl-physical-reference  
+# 【Hardware】 🧱 01. aitl-physical-reference  
 ### — Fixing Physics Before Control
 
 ---

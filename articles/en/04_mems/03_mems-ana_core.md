@@ -3,7 +3,7 @@ layout: default
 title: Mathematical Structure and Design Policy of mems-ana_core Built with ROM
 ---
 
-# 🧠 【MEMS:03】Mathematical Structure and Design Policy of *mems-ana_core* Built with ROM
+# 【MEMS】🧠 03. Mathematical Structure and Design Policy of *mems-ana_core* Built with ROM
 topics: ["MEMS", "ROM", "modeling", "mathematics", "Python"]
 
 ---

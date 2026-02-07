@@ -3,7 +3,7 @@ layout: default
 title: OpenLane2
 ---
 
-# 【半導体:13】🧩 OpenLane2  
+# 【半導体】🧩 13. OpenLane2  
 ### ― なぜPythonベースなのか ― Nix推奨・Docker可・venv運用という整理
 topics: ["openlane", "asic", "eda", "python", "nix"]
 

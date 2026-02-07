@@ -3,7 +3,7 @@ layout: default
 title: Why “Timing-Only Control” Fails Under Friction Aging
 ---
 
-# 【Control:05】⏱️ Why “Timing-Only Control” Fails Under Friction Aging
+# 【Control】⏱️ 05. Why “Timing-Only Control” Fails Under Friction Aging
 topics: ["control engineering", "PID control", "reliability", "simulation"]
 
 ---

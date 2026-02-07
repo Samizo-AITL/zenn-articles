@@ -3,7 +3,7 @@ layout: default
 title: Post-CFET
 ---
 
-# 【半導体:06】🚀 Post-CFET  
+# 【半導体】🚀 06. Post-CFET  
 ### ― 2040年までの次世代トランジスタ像
 topics: ["半導体", "CFET", "ポストCMOS", "デバイスロードマップ"]
 

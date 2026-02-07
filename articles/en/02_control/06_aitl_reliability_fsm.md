@@ -3,7 +3,7 @@ layout: default
 title: What Reliability Control Needed Was Not “Going Faster,” but Knowing When to Stop
 ---
 
-# 【Control:06】🛑 What Reliability Control Needed Was Not “Going Faster,” but Knowing When to Stop
+# 【Control】🛑 06. What Reliability Control Needed Was Not “Going Faster,” but Knowing When to Stop
 topics: ["control engineering", "PID control", "reliability", "FSM", "simulation"]
 
 ---

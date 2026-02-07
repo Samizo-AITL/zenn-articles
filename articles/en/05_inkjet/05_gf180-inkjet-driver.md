@@ -3,7 +3,7 @@ layout: default
 title: GF180 Inkjet Driver Design Exploration (Part 2) — The Viable Point of an HV Driver Array Assuming 300 dpi
 ---
 
-# 🧪 【Inkjet:05】GF180 Inkjet Driver Design Exploration (Part 2)  
+# 【Inkjet】🧪 05. GF180 Inkjet Driver Design Exploration (Part 2)  
 ## The Viable Point of an HV Driver Array Assuming 300 dpi
 
 In the design exploration of an inkjet driver IC using the GF180MCU open PDK,  

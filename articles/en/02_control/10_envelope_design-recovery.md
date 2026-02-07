@@ -3,7 +3,7 @@ layout: default
 title: Envelope Control and Design Recovery Control
 ---
 
-# 🧩 【Control:10】Envelope Control and Design Recovery Control  
+# 【Control】🧩 10. Envelope Control and Design Recovery Control  
 ## — Handling “Boundaries” and “Assumptions,” Not Control Itself
 topics: ["control", "design", "architecture", "AI", "LLM"]
 

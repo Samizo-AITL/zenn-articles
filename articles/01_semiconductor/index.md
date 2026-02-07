@@ -39,6 +39,15 @@ title: zenn-articles
 モデルが表現する範囲と、表現しない範囲を明確にする。
 
 - [08. SemiDevKit｜半導体設計用DevKit構想](./08_semidevkit.md)
+  - [08-01. SemiDevKit 全体像（Overview）](./08-01_semidevkit_overview.md)
+  - [08-02. TCAD（Poisson / Drift–Diffusion）](./08-02_tcad_poisson_drift_diffusion.md)
+  - [08-03. BSIM4 コンパクトモデル基礎](./08-03_bsim4_compact_model_basics.md)
+  - [08-04. Paramus による BSIM4 モデル生成](./08-04_paramus_bsim4_model_generation.md)
+  - [08-05. BSIM4 DC解析（V–I）](./08-05_bsim4_dc_vi_analysis.md)
+  - [08-06. BSIM4 AC / CV解析](./08-06_bsim4_ac_cv_analysis.md)
+  - [08-07. MOSFET スケーリングと短チャネル効果](./08-07_mosfet_scaling_short_channel.md)
+  - [08-08. NBTI 信頼性基礎](./08-08_nbti_reliability_basics.md)
+  - [08-09. HCI 信頼性基礎](./08-09_hci_reliability_basics.md)
 
 ---
 

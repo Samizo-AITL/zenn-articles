@@ -3,7 +3,7 @@ layout: default
 title: aitl-physical-reference：制御以前に、物理を固定する
 ---
 
-# 🧱 【ハードウエア:01】aitl-physical-reference：制御以前に、物理を固定する
+# 【ハードウエア】🧱 01. aitl-physical-reference：制御以前に、物理を固定する
 topics: ["hardware", "pcb", "kicad", "control", "aitl"]
 
 ---

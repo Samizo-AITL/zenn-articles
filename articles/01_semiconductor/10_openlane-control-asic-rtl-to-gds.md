@@ -3,7 +3,7 @@ layout: default
 title: OpenLane
 ---
 
-# 【半導体:10】🧩 OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか
+# 【半導体】🧩 10. OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか
 topics: ["OpenLane", "ASIC", "RTL", "制御工学", "SKY130"]
 
 ---

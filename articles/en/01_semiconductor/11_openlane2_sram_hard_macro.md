@@ -3,7 +3,7 @@ layout: default
 title: OpenLane2 sram
 ---
 
-# 【Semiconductor:11】🧠 Integrating an SRAM Hard Macro with OpenLane2 and Generating GDS  
+# 【Semiconductor】🧠 11. Integrating an SRAM Hard Macro with OpenLane2 and Generating GDS  
 topics: ["openlane2", "asic", "physicaldesign", "sram", "sky130"]
 
 ---

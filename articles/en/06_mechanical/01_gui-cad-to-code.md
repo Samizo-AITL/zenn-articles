@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Escaping GUI CAD: Thinking of Mechanical Design as Code
+title: Escaping GUI CAD - Thinking of Mechanical Design as Code
 ---
 
-# 🛠️ 【Mechanical Design:01】Escaping GUI CAD: Thinking of Mechanical Design as Code
+# 【Mechanical Design】🛠️ 01. Escaping GUI CAD: Thinking of Mechanical Design as Code
 topics: ["mechanical design", "cad", "python", "design philosophy"]
 
 ---

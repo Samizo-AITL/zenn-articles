@@ -1,9 +1,9 @@
 ---
 layout: default
-title: inkjet-timing: Visualizing Temporal Causality in Piezoelectric Inkjet Systems
+title: inkjet-timing - Visualizing Temporal Causality in Piezoelectric Inkjet Systems
 ---
 
-# 🖨️ 【Inkjet:02】inkjet-timing: Visualizing Temporal Causality in Piezoelectric Inkjet Systems
+# 【Inkjet】🖨️ 02. inkjet-timing: Visualizing Temporal Causality in Piezoelectric Inkjet Systems
 topics: ["inkjet", "control engineering", "physical modeling", "visualization", "aitl"]
 
 ---

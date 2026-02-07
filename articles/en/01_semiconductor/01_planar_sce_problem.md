@@ -3,7 +3,7 @@ layout: default
 title: Planar MOSFET and Short Channel Effects
 ---
 
-# 【Semiconductor:01】🔬 Planar MOSFET and SCE  
+# 【Semiconductor】🔬 01. Planar MOSFET and SCE  
 ### — The Real Reason Scaling Hit a Wall
 topics: ["Semiconductor", "MOSFET", "SCE", "Device Physics"]
 

@@ -3,7 +3,7 @@ layout: default
 title: Legacy psram1
 ---
 
-# 【半導体:18】PSRAMは何を狙ったメモリだったのか  
+# 【半導体】18. PSRAMは何を狙ったメモリだったのか  
 ## ― DRAM流用という前提
 topics: ["半導体", "PSRAM", "DRAM", "メモリ", "アーキテクチャ"]
 

@@ -3,7 +3,7 @@ layout: default
 title: OpenLane1
 ---
 
-# 【Semiconductor:12】🧰 OpenLane1  
+# 【Semiconductor】🧰 12. OpenLane1  
 ### — Building a Reproducible RTL→GDS Environment with WSL2 + Docker
 topics: ["openlane", "asic", "eda", "docker", "wsl2"]
 

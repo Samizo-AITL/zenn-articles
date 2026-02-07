@@ -3,7 +3,7 @@ layout: default
 title: FreeCADでGUI操作ゼロ ― 関数定義だけで生成する幾何学ソリッド
 ---
 
-# 🛠 【機械設計:06】FreeCADでGUI操作ゼロ ― 関数定義だけで生成する幾何学ソリッド
+# 【機械設計】🛠 06. FreeCADでGUI操作ゼロ ― 関数定義だけで生成する幾何学ソリッド
 topics: ["機械設計", "cad", "freecad", "python", "数学"]
 
 ---

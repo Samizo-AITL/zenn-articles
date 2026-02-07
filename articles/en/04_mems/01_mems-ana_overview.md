@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Design Philosophy and Overview of mems-ana: A Lightweight ROM-Based Analysis Tool
+title: Design Philosophy and Overview of mems-ana - A Lightweight ROM-Based Analysis Tool
 ---
 
-# 🧠 【MEMS:01】Design Philosophy and Overall Architecture of *mems-ana*  
+# 【MEMS】🧠 01. Design Philosophy and Overall Architecture of *mems-ana*  
 ### A Lightweight ROM-Based Analysis Tool for MEMS
 
 topics: ["MEMS", "analysis", "ROM", "Python", "simulation"]

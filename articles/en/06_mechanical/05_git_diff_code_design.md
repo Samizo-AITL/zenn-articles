@@ -3,7 +3,7 @@ layout: default
 title: When Design Becomes Code, Diffs Gain Meaning — The Fundamental Difference from GUI CAD
 ---
 
-# 🛠️ 【Mechanical Design:05】When Design Becomes Code, Diffs Gain Meaning — The Fundamental Difference from GUI CAD
+# 【Mechanical Design】🛠️ 05. When Design Becomes Code, Diffs Gain Meaning — The Fundamental Difference from GUI CAD
 topics: ["mechanical design", "cad", "git", "freecad", "design philosophy"]
 
 ---

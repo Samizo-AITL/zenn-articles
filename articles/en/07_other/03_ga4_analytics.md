@@ -3,7 +3,7 @@ layout: default
 title: Country-Based Access Analysis of Samizo-AITL Portal | Where Is an English Tech Site Actually Read?
 ---
 
-# 📊 【Analytics】Country-Based Access Analysis of Samizo-AITL Portal  
+# 【Analytics】📊 03. Country-Based Access Analysis of Samizo-AITL Portal  
 ## Where Is an English Technical Site Actually Read From?
 topics: ["analytics", "ga4", "githubpages", "techblog"]
 

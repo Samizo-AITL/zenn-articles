@@ -3,7 +3,7 @@ layout: default
 title: What Is Full Code Design? — A Common Structure Shared by FreeCAD, LaTeX, and Klayout
 ---
 
-# 🧠 【Mechanical Design:07】What Is Full Code Design? — A Common Structure Shared by FreeCAD, LaTeX, and Klayout
+# 【Mechanical Design】🧠 07. What Is Full Code Design? — A Common Structure Shared by FreeCAD, LaTeX, and Klayout
 topics: ["design philosophy", "CAD", "FreeCAD", "LaTeX", "Klayout", "Git"]
 
 ---

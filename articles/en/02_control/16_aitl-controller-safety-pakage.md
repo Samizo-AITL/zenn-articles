@@ -3,7 +3,7 @@ layout: default
 title: What Is Recovery Control? Why AI Control Is Defined by Post-Failure Design
 ---
 
-# 🔁 【Control:16】(Safety Design) What Is Recovery Control?
+# 【Control】🔁 16. (Safety Design) What Is Recovery Control?
 ## Why AI Control Is Defined by Post-Failure Design
 topics: ["control engineering", "AI", "safety design", "recovery", "FSM"]
 

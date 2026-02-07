@@ -3,7 +3,7 @@ layout: default
 title: Legacy Intro
 ---
 
-# 【Semiconductor:15】What Is Legacy Technology  
+# 【Semiconductor】15. What Is Legacy Technology  
 ## — A Record of Failures from the Era When Semiconductors Were Ruled by Physics
 topics: ["Semiconductor", "Technology History", "DRAM", "Reliability"]
 

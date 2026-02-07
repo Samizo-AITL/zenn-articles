@@ -3,7 +3,7 @@ layout: default
 title: Legacy psram2
 ---
 
-# 【Semiconductor:19】What Happened to PSRAM, and Why Did It End?  
+# 【Semiconductor】19. What Happened to PSRAM, and Why Did It End?  
 ## — The Reality of Pause × Disturb
 topics: ["Semiconductor", "PSRAM", "DRAM", "Reliability", "Yield"]
 

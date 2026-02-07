@@ -3,7 +3,7 @@ layout: default
 title: OpenLane superstable
 ---
 
-# 【Semiconductor:09】🧪 OpenLane superstable  
+# 【Semiconductor】🧪 09. OpenLane superstable  
 ### — Verifying “Minimal RTL → GDS” with Pre-Declared Conditions
 topics: ["OpenLane", "SKY130", "EDA", "Semiconductor", "VLSI"]
 

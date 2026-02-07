@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Beyond Robust Control: Toward Reliability Control
+title: Beyond Robust Control Toward Reliability Control
 ---
 
-# 【Control:04】🛡️ Beyond Robust Control: Toward Reliability Control
+# 【Control】🛡️ 04. Beyond Robust Control: Toward Reliability Control
 topics: ["control engineering", "PID", "robust control", "reliability", "AITL"]
 
 ---

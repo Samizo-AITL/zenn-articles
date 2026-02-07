@@ -3,7 +3,7 @@ layout: default
 title: Legacy dram1
 ---
 
-# 【Semiconductor:16】Pause Refresh Anomalies Observed in 0.25 µm DRAM
+# 【Semiconductor】16. Pause Refresh Anomalies Observed in 0.25 µm DRAM
 topics: ["Semiconductor", "DRAM", "Failure Analysis", "Reliability", "Process"]
 
 ---

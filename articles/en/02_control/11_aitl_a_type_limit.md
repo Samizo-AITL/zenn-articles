@@ -3,7 +3,7 @@ layout: default
 title: Adaptive Control Can Work, but Cannot Be Guaranteed — The Limit of A-Type
 ---
 
-# 🧪 【Control:11】Adaptive Control Can Work, but Cannot Be Guaranteed  
+# 【Control】🧪 11. Adaptive Control Can Work, but Cannot Be Guaranteed  
 ## — The Reached Limit of A-Type
 topics: ["control", "adaptive control", "PID", "FSM", "reliability"]
 

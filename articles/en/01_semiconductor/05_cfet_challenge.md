@@ -3,7 +3,7 @@ layout: default
 title: GAA and CFET
 ---
 
-# 【Semiconductor:05】🔺 Challenges of GAA and the Rise of CFET  
+# 【Semiconductor】🔺 05. Challenges of GAA and the Rise of CFET  
 ### — The Inevitability of Vertical Integration
 topics: ["CFET", "GAA", "Next-Generation Semiconductors"]
 

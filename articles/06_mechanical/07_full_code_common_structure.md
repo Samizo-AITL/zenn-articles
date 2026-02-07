@@ -3,7 +3,7 @@ layout: default
 title: Full Code設計とは何か ― FreeCAD・LaTeX・Klayoutに共通する構造
 ---
 
-# 🧠 【機械設計:07】Full Code設計とは何か ― FreeCAD・LaTeX・Klayoutに共通する構造
+# 【機械設計】🧠 07. Full Code設計とは何か ― FreeCAD・LaTeX・Klayoutに共通する構造
 topics: ["設計思想", "CAD", "FreeCAD", "LaTeX", "Klayout", "Git"]
 
 ---

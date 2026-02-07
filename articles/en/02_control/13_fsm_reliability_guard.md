@@ -3,7 +3,7 @@ layout: default
 title: FSM Design — Making Adaptive Control Explainable
 ---
 
-# 🛡️ 【Control:13】FSM Design  
+# 【Control】🛡️ 13. FSM Design  
 ## Making Adaptive Control Explainable — What a Reliability Guard Really Is
 topics: ["FSM", "control design", "reliability", "adaptive control"]
 

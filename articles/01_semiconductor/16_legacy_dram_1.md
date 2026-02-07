@@ -3,7 +3,7 @@ layout: default
 title: Legacy dram1
 ---
 
-# 【半導体:16】0.25µm DRAMで観測されたPause Refresh異常
+# 【半導体】16. 0.25µm DRAMで観測されたPause Refresh異常
 topics: ["半導体", "DRAM", "故障解析", "信頼性", "プロセス"]
 
 ---

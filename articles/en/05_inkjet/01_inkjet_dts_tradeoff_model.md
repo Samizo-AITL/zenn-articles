@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Inkjet DTS: Design Trade-offs Between Drop Density, Throughput, and Spread
+title: Inkjet DTS - Design Trade-offs Between Drop Density, Throughput, and Spread
 ---
 
-# 🖨️ 【Inkjet:01】Inkjet DTS: Design Trade-offs Between Drop Density, Throughput, and Spread
+# 【Inkjet】🖨️ 01. Inkjet DTS: Design Trade-offs Between Drop Density, Throughput, and Spread
 topics: ["inkjet", "design", "trade-off", "modeling", "DTS"]
 
 ---

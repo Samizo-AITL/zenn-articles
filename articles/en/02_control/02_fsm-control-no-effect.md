@@ -3,7 +3,7 @@ layout: default
 title: A Case Where FSM Control Did Not Work
 ---
 
-# 【Control:02】⚠ A Case Where FSM-Based Control Did Not Work
+# 【Control】⚠ 02. A Case Where FSM-Based Control Did Not Work
 topics: ["control", "FSM", "PID"]
 
 ---

@@ -3,7 +3,7 @@ layout: default
 title: OpenLane2 sram
 ---
 
-# 【半導体:11】🧠 OpenLane2でSRAMハードマクロを統合しGDSを生成する
+# 【半導体】🧠 11. OpenLane2でSRAMハードマクロを統合しGDSを生成する
 topics: ["openlane2", "asic", "physicaldesign", "sram", "sky130"]
 
 ---

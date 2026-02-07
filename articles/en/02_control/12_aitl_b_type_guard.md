@@ -3,7 +3,7 @@ layout: default
 title: Reliability Design — Adaptive Control Is Usable Only When It Can Be Stopped
 ---
 
-# 🛑 【Control:12】Reliability Design  
+# 【Control】🛑 12. Reliability Design  
 ## Adaptive Control Is Usable Only When It Can Be Stopped — B-Type AITL
 topics: ["control", "reliability", "FSM", "adaptive control"]
 

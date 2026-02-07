@@ -3,7 +3,7 @@ layout: default
 title: Visualizing Piezoelectric Hysteresis and Butterfly Displacement with mems-ana
 ---
 
-# 🧠 【MEMS:02】Visualizing Piezoelectric Hysteresis and Butterfly Displacement with *mems-ana*
+# 【MEMS】🧠 02. Visualizing Piezoelectric Hysteresis and Butterfly Displacement with *mems-ana*
 topics: ["MEMS", "piezoelectric", "visualization", "Python", "simulation"]
 
 ---

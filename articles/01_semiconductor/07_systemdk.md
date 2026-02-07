@@ -3,7 +3,7 @@ layout: default
 title: SystemDK
 ---
 
-# 【半導体:07】🧭 Post-CFET時代の本質  
+# 【半導体】🧭 07. Post-CFET時代の本質  
 ### ― SystemDKが前提となる設計世界
 topics: ["半導体", "CFET", "チップレット", "SystemDK", "設計方法論"]
 

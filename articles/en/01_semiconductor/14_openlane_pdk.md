@@ -3,7 +3,7 @@ layout: default
 title: OpenLane PDK
 ---
 
-# 【Semiconductor:14】🧩 What Makes a PDK Compatible with OpenLane?  
+# 【Semiconductor】🧩 14. What Makes a PDK Compatible with OpenLane?  
 ### — Why SKY130 Works Smoothly and GF180 Becomes Difficult
 topics: ["openlane", "asic", "pdk", "sky130", "gf180"]
 

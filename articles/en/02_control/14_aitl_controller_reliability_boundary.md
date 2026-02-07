@@ -3,7 +3,7 @@ layout: default
 title: Explicit Responsibility and Reliability Boundaries in Control Architectures
 ---
 
-# 🧩 【Control:14】Explicit Responsibility and Reliability Boundaries in Control Architectures
+# 【Control】🧩 14. Explicit Responsibility and Reliability Boundaries in Control Architectures
 topics: ["AITL", "control", "architecture", "AI"]
 
 ---

@@ -3,7 +3,7 @@ layout: default
 title: GF180 Inkjet Driver 設計探索（続編）— 400dpiの限界と300dpiの現実解
 ---
 
-# 🧪 【Inkjet:04】GF180 Inkjet Driver 設計探索（続編）— 400dpiの限界と300dpiの現実解
+# 【Inkjet】🧪 04. GF180 Inkjet Driver 設計探索（続編）— 400dpiの限界と300dpiの現実解
 topics: semiconductor,icdesign,layout,inkjet,gf180
 
 ---

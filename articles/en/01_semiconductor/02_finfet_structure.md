@@ -3,7 +3,7 @@ layout: default
 title: FinFET
 ---
 
-# 【Semiconductor:02】🔷 FinFET Structure  
+# 【Semiconductor】🔷 02. FinFET Structure  
 ### — Restoring Electric-Field Control Through Geometry
 topics: ["FinFET", "MOSFET", "Device Structure"]
 

@@ -3,7 +3,7 @@ layout: default
 title: Post-CFET
 ---
 
-# 【Semiconductor:06】🚀 Post-CFET  
+# 【Semiconductor】🚀 06. Post-CFET  
 ### — The Outlook for Next-Generation Transistors Toward 2040
 topics: ["Semiconductor", "CFET", "Post-CMOS", "Device Roadmap"]
 

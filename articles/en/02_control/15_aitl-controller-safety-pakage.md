@@ -3,7 +3,7 @@ layout: default
 title: What Is a Safety Envelope? Designing the Boundary AI Control Must Never Cross
 ---
 
-# 🛡️ 【Control:15】(Safety Design) What Is a Safety Envelope?
+# 【Control】🛡️ 15. (Safety Design) What Is a Safety Envelope?
 ## Designing the Boundary AI Control Must Never Cross
 topics: ["control engineering", "AI", "safety design", "FSM", "anomaly detection"]
 

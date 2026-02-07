@@ -3,7 +3,7 @@ layout: default
 title: AIビデオは教材の主役になり得るかを検証して撤退した話
 ---
 
-# 🎞️ 【動画:02】AIビデオは教材の主役になり得るかを検証して撤退した話
+# 【動画】🎞️ 02. AIビデオは教材の主役になり得るかを検証して撤退した話
 topics: ["ai", "education", "design", "prompt", "runway"]
 
 ---

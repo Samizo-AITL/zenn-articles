@@ -3,7 +3,7 @@ layout: default
 title: v2 物理ループ参照 ― 制御の前に凍結すべき銅と電流
 ---
 
-# 🧱 【ハードウエア:03】aitl-physical-reference v2 : 物理ループ参照 ― 制御の前に凍結すべき銅と電流
+# 【ハードウエア】🧱 03. aitl-physical-reference v2 : 物理ループ参照 ― 制御の前に凍結すべき銅と電流
 topics: ["hardware", "kicad", "aitl", "architecture", "pcb"]
 
 ---

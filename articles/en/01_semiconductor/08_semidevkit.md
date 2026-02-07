@@ -3,7 +3,7 @@ layout: default
 title: SemiDevKit
 ---
 
-# 【Semiconductor:08】🧰 SemiDevKit  
+# 【Semiconductor】🧰 08. SemiDevKit  
 ### — An Open Educational Kit Covering Device Physics → BSIM4 → SPICE → Physical Design End-to-End
 
 ---

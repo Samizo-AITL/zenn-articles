@@ -3,7 +3,7 @@ layout: default
 title: GAA
 ---
 
-# 【Semiconductor:04】🟢 GAA Structure  
+# 【Semiconductor】🟢 04. GAA Structure  
 ### — The Completed Form of Electric-Field Control
 topics: ["GAA", "Nanosheet", "MOSFET"]
 

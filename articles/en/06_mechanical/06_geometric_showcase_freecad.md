@@ -3,7 +3,7 @@ layout: default
 title: Zero GUI Operations in FreeCAD — Generating Geometric Solids Using Only Function Definitions
 ---
 
-# 🛠️ 【Mechanical Design:06】Zero GUI Operations in FreeCAD — Generating Geometric Solids Using Only Function Definitions
+# 【Mechanical Design】🛠️ 06. Zero GUI Operations in FreeCAD — Generating Geometric Solids Using Only Function Definitions
 topics: ["mechanical design", "cad", "freecad", "python", "mathematics"]
 
 ---

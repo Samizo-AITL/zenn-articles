@@ -3,7 +3,7 @@ layout: default
 title: OpenLane superstable
 ---
 
-# 【半導体:09】🧪 OpenLane superstable を  
+# 【半導体】🧪 09. OpenLane superstable を  
 ### ―「最小RTL → GDS」で事前宣言検証してみた
 topics: ["OpenLane", "SKY130", "EDA", "半導体", "VLSI"]
 

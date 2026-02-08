@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mathematical Structure and Design Policy of mems-ana_core Built with ROM
+title: zenn-articles
 ---
 
 # 【MEMS】🧠 03. Mathematical Structure and Design Policy of *mems-ana_core* Built with ROM

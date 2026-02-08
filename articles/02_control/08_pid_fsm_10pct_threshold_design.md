@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PIDにFSMを入れるべき「10%」の根拠
+title: zenn-articles
 ---
 
 # 【制御】🧯 08. PIDにFSMを入れるべき「10%」の根拠

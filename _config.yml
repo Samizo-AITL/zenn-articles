@@ -1,9 +1,9 @@
-title: "zenn-article"
+title: "zenn-articles"
 description: "Zenn article rendering environment with MathJax and Mermaid."
 lang: en
 
 url: "https://samizo-aitl.github.io"
-baseurl: "/zenn-article"
+baseurl: "/zenn-articles"
 
 # テーマは使わない（自作レイアウトのみ）
 theme: null

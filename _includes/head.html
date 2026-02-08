@@ -5,7 +5,7 @@
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<!-- MathJax（$ / $$ 専用） -->
+<!-- MathJax（$ / $$ 専用・v3） -->
 <script>
   window.MathJax = {
     tex: {
@@ -21,8 +21,19 @@
 
 <!-- Mermaid -->
 <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+<!-- Mermaid code fence → div.mermaid 変換（必須） -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    // code block を Mermaid 用 div に変換
+    document.querySelectorAll('pre > code.language-mermaid').forEach(block => {
+      const div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = block.textContent;
+      block.parentNode.replaceWith(div);
+    });
+
+    // Mermaid 初期化
     if (window.mermaid) {
       mermaid.initialize({ startOnLoad: true });
     }

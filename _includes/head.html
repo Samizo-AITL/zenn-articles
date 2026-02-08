@@ -5,15 +5,12 @@
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<!-- MathJax（$ / $$ 専用） -->
+<!-- MathJax v3 -->
 <script>
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$']],
       displayMath: [['$$', '$$']]
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
     }
   };
 </script>
@@ -24,7 +21,8 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", async function () {
-  // code fence → div.mermaid に変換
+
+  // Mermaid code fence → div.mermaid
   document.querySelectorAll('pre > code.language-mermaid').forEach(block => {
     const div = document.createElement('div');
     div.className = 'mermaid';
@@ -32,10 +30,14 @@ document.addEventListener("DOMContentLoaded", async function () {
     block.parentNode.replaceWith(div);
   });
 
-  // Mermaid v10 は run() が必須
   if (window.mermaid) {
     mermaid.initialize({ startOnLoad: false });
     await mermaid.run();
+  }
+
+  // Mermaid 後に MathJax 再描画
+  if (window.MathJax && MathJax.typesetPromise) {
+    MathJax.typesetPromise();
   }
 });
 </script>

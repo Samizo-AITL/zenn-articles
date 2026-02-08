@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Post-Evaluation Design Policy for Reliability-First B-Type Control
+title: zenn-articles
 ---
 
 # 【Control】🧭 07. Post-Evaluation Design Policy for Reliability-First B-Type Control

@@ -1,144 +1,38 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="{{ page.lang | default: site.lang | default: 'ja' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>{{ page.title | default: site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
 
-  <!-- =================================================
-       CSS
-  ================================================== -->
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- Table safety net -->
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 1em 0;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 0.4em 0.6em;
-      vertical-align: top;
-    }
-    th {
-      background: #f6f6f6;
-      font-weight: 600;
-    }
-  </style>
-
-  <!-- =================================================
-       MathJax v3
-       - inline: $ ... $ , \( ... \)
-       - display: $$ ... $$ , \[ ... \]
-  ================================================== -->
+  <!-- ================= MathJax ================= -->
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        processEscapes: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']]
       }
     };
   </script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
-    defer>
-  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
-  <!-- =================================================
-       Mermaid v10
-       - ```mermaid fence を維持
-       - GitHub Pages (kramdown + rouge) 対応
-  ================================================== -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
-    defer>
+  <!-- ================= Mermaid ================= -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true });
   </script>
 </head>
 
-<body>
+<body class="aitl-root">
 
-  <main>
+  <main class="wrapper main-container">
     {{ content }}
   </main>
-
-  <footer class="footer">
-    <p>© Samizo-AITL — Engineering Knowledge Hub</p>
-  </footer>
-
-  <!-- =================================================
-       JS Initializers
-       - Mermaid: ```mermaid フェンスを自動検出して描画
-       - MathJax: ページロード後に typeset
-  ================================================== -->
-  <script>
-    window.addEventListener("load", async () => {
-
-      /* ================= Mermaid ================= */
-      try {
-        const targets = [];
-
-        /* case 1: language-mermaid が付く場合 */
-        document.querySelectorAll("code.language-mermaid").forEach(code => {
-          targets.push(code);
-        });
-
-        /* case 2: rouge が言語クラスを落とす場合（GitHub Pages） */
-        document.querySelectorAll("pre > code:not(.language-mermaid)").forEach(code => {
-          const text = code.textContent.trim();
-          if (
-            text.startsWith("flowchart") ||
-            text.startsWith("sequenceDiagram") ||
-            text.startsWith("classDiagram") ||
-            text.startsWith("stateDiagram") ||
-            text.startsWith("erDiagram") ||
-            text.startsWith("journey")
-          ) {
-            targets.push(code);
-          }
-        });
-
-        const uniq = [...new Set(targets)];
-
-        uniq.forEach(code => {
-          const pre = code.closest("pre");
-          if (!pre) return;
-
-          const container = document.createElement("div");
-          container.className = "mermaid";
-          container.textContent = code.textContent;
-
-          pre.replaceWith(container);
-        });
-
-        if (window.mermaid) {
-          mermaid.initialize({
-            startOnLoad: false,
-            theme: "default"
-          });
-          await mermaid.run({ querySelector: ".mermaid" });
-        }
-      } catch (e) {
-        console.warn("Mermaid render failed:", e);
-      }
-
-      /* ================= MathJax ================= */
-      try {
-        if (window.MathJax && MathJax.typesetPromise) {
-          await MathJax.typesetPromise();
-        }
-      } catch (e) {
-        console.warn("MathJax typeset failed:", e);
-      }
-
-    });
-  </script>
 
 </body>
 </html>

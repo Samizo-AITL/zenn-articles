@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OpenLane2 sram
+title: zenn-articles
 ---
 
 # 【半導体】🧠 11. OpenLane2でSRAMハードマクロを統合しGDSを生成する

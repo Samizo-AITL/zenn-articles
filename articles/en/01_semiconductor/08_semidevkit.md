@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SemiDevKit
+title: zenn-articles
 ---
 
 # 【Semiconductor】🧰 08. SemiDevKit  

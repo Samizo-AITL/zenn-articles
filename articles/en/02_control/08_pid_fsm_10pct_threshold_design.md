@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Rationale Behind the “10% Rule” for Introducing FSM into PID Control
+title: zenn-articles
 ---
 
 # 【Control】🧯 08. The Rationale Behind the “10% Rule” for Introducing FSM into PID Control

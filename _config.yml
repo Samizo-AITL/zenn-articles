@@ -1,18 +1,9 @@
-title: "zenn-articles"
-description: "Markdown SSOT for Zenn articles"
+title: zenn-articles
 lang: ja
-timezone: Asia/Tokyo
-
-url: "https://samizo-aitl.github.io"
-baseurl: "/zenn-articles"
-
-theme: null
-remote_theme: null
 
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
   math_engine: mathjax
 
 include:

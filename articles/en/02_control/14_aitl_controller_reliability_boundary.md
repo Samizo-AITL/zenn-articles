@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Explicit Responsibility and Reliability Boundaries in Control Architectures
+title: zenn-articles
 ---
 
 # 【Control】🧩 14. Explicit Responsibility and Reliability Boundaries in Control Architectures

@@ -1,18 +1,21 @@
-title: "zenn-articles"
-description: "Zenn article rendering environment with MathJax and Mermaid."
+title: "aitl-animation-demos"
+description: "Experimental animation demos related to AITL concepts."
 lang: en
 
 url: "https://samizo-aitl.github.io"
-baseurl: "/zenn-articles"
+baseurl: "/aitl-animation-demos"
 
+# テーマは使わない（自作レイアウトのみ）
 theme: null
 remote_theme: null
 
+# Markdown / Math
 markdown: kramdown
 kramdown:
-  input: kramdown
+  input: GFM
   syntax_highlighter: rouge
   math_engine: mathjax
 
+# ★ 重要：assets を Pages に含める
 include:
   - assets

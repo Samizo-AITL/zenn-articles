@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy Intro
+title: zenn-articles
 ---
 
 # 【半導体】15. Legacy Technologyとは何か  

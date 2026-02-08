@@ -5,17 +5,14 @@ lang: ja
 url: "https://samizo-aitl.github.io"
 baseurl: "/zenn-articles"
 
-# テーマは使わない（自作レイアウトのみ）
 theme: null
 remote_theme: null
 
-# Markdown / Math
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   math_engine: mathjax
 
-# ★ 重要：assets を Pages に含める
 include:
   - assets

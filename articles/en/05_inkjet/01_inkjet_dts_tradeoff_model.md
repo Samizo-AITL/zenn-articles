@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inkjet DTS - Design Trade-offs Between Drop Density, Throughput, and Spread
+title: zenn-articles
 ---
 
 # 【Inkjet】🖨️ 01. Inkjet DTS: Design Trade-offs Between Drop Density, Throughput, and Spread

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FinFET
+title: zenn-articles
 ---
 
 # 【半導体】🔷 02. FinFET 構造  

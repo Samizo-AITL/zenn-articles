@@ -14,7 +14,7 @@ title: zenn-articles
 
 ## 📘 全体俯瞰・導入
 
-- [01 MEMS解析 概要（Overview）](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/01_mems-ana_overview/)
+- [01 MEMS解析 概要（Overview）](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/01_mems-ana_overview.html)
 
 > MEMSを  
 > 「小さな機械」ではなく  
@@ -24,7 +24,7 @@ title: zenn-articles
 
 ## 🧪 デモ・直感理解
 
-- [02 MEMS解析 デモ](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/02_mems-ana_demo/)
+- [02 MEMS解析 デモ](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/02_mems-ana_demo.html)
 
 > 数式・モデル以前に、  
 > **挙動・感度・非線形性を体感的に理解する**。
@@ -33,7 +33,7 @@ title: zenn-articles
 
 ## 🧠 コア理論・本質
 
-- [03 MEMS解析 コア理論](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/03_mems-ana_core/)
+- [03 MEMS解析 コア理論](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/03_mems-ana_core.html)
 
 > MEMS設計の本質は  
 > **構造・材料・境界条件の設計**であり、  
@@ -56,6 +56,6 @@ title: zenn-articles
 
 ## 🔗 関連ディレクトリ
 
-- [03_hardware / ハードウェア・物理制御](https://samizo-aitl.github.io/zenn-articles/articles/03_hardware/)
-- [02_control / 制御・AITL](https://samizo-aitl.github.io/zenn-articles/articles/02_control/)
-- [05_inkjet / インクジェット技術](https://samizo-aitl.github.io/zenn-articles/articles/05_inkjet/)
+- [03_hardware / ハードウェア・物理制御](https://samizo-aitl.github.io/zenn-articles/articles/03_hardware/index.html)
+- [02_control / 制御・AITL](https://samizo-aitl.github.io/zenn-articles/articles/02_control/index.html)
+- [05_inkjet / インクジェット技術](https://samizo-aitl.github.io/zenn-articles/articles/05_inkjet/index.html)

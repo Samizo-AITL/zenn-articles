@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What Is Recovery Control? Why AI Control Is Defined by Post-Failure Design
+title: zenn-articles
 ---
 
 # 【Control】🔁 16. (Safety Design) What Is Recovery Control?

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: aitl-physical-reference：制御以前に、物理を固定する
+title: zenn-articles
 ---
 
 # 【ハードウエア】🧱 01. aitl-physical-reference：制御以前に、物理を固定する

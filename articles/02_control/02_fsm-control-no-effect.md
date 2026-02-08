@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FSM制御が効かなかった実例
+title: zenn-articles
 ---
 
 # 【制御】⚠ 02. FSM制御が効かなかった実例

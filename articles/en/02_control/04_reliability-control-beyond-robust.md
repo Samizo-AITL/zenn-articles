@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Beyond Robust Control Toward Reliability Control
+title: zenn-articles
 ---
 
 # 【Control】🛡️ 04. Beyond Robust Control: Toward Reliability Control

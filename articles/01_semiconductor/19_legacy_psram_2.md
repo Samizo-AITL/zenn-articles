@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy psram2
+title: zenn-articles
 ---
 
 # 【半導体】19. PSRAMで何が起き、なぜ終わったのか  

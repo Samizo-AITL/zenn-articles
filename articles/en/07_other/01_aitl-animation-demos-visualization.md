@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Animation-Based Visualization of the Three-Layer Control Architecture
+title: zenn-articles
 ---
 
 # 【Video】🎞️ 01. Understanding the Three-Layer Control Architecture Through Animation Demos

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GF180MCU × OpenLane が成立しない理由を実機検証で確定させた
+title: zenn-articles
 ---
 
 # 【Inkjet】🧪 03. GF180MCU × OpenLane が成立しない理由を実機検証で確定させた

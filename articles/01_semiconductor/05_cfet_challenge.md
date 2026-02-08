@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GAA and CFET
+title: zenn-articles
 ---
 
 # 【半導体】🔺 05. GAAの課題とCFET  

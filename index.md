@@ -1,7 +1,6 @@
 ---
 layout: default
 title: zenn-articles
-permalink: /
 ---
 
 # 🧩📚 zenn-articles

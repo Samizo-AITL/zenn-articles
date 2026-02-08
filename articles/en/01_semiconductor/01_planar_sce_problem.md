@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Planar MOSFET and Short Channel Effects
+title: zenn-articles
 ---
 
 # 【Semiconductor】🔬 01. Planar MOSFET and SCE  

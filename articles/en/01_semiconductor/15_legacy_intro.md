@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy Intro
+title: zenn-articles
 ---
 
 # 【Semiconductor】15. What Is Legacy Technology  

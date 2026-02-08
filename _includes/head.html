@@ -5,37 +5,66 @@
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<!-- MathJax v3 -->
+<!-- =========================
+     MathJax v3 (browser-side)
+     ========================= -->
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']]
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
     }
   };
 </script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
-<!-- Mermaid v10 -->
-<script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<!-- =========================
+     Mermaid v10
+     ========================= -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", async function () {
+document.addEventListener("DOMContentLoaded", async () => {
+  // ---- Mermaid block detection (class 依存をやめる) ----
+  // GitHub Pages / kramdown で ```mermaid が language-mermaid にならないケースがあるため、
+  // 中身の先頭キーワードでも判定して div.mermaid に変換する。
+  const isMermaidLike = (txt) => {
+    const s = (txt || "").trim();
+    return (
+      s.startsWith("flowchart") ||
+      s.startsWith("sequenceDiagram") ||
+      s.startsWith("classDiagram") ||
+      s.startsWith("stateDiagram") ||
+      s.startsWith("erDiagram") ||
+      s.startsWith("journey") ||
+      s.startsWith("gantt") ||
+      s.startsWith("pie") ||
+      s.startsWith("mindmap") ||
+      s.startsWith("timeline") ||
+      s.startsWith("graph ")
+    );
+  };
 
-  // Mermaid code fence → div.mermaid
-  document.querySelectorAll('pre > code.language-mermaid').forEach(block => {
-    const div = document.createElement('div');
-    div.className = 'mermaid';
-    div.textContent = block.textContent;
-    block.parentNode.replaceWith(div);
+  document.querySelectorAll("pre > code").forEach((code) => {
+    const cls = code.className || "";
+    const text = code.textContent || "";
+
+    // 1) language-mermaid が付く場合 2) 中身が mermaid っぽい場合
+    if (cls.includes("language-mermaid") || isMermaidLike(text)) {
+      const div = document.createElement("div");
+      div.className = "mermaid";
+      div.textContent = text;
+      code.parentNode.replaceWith(div);
+    }
   });
 
+  // ---- Mermaid render ----
   if (window.mermaid) {
     mermaid.initialize({ startOnLoad: false });
     await mermaid.run();
   }
 
-  // Mermaid 後に MathJax 再描画
+  // ---- MathJax typeset (Mermaid後でも確実に) ----
   if (window.MathJax && MathJax.typesetPromise) {
     MathJax.typesetPromise();
   }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy psram1
+title: zenn-articles
 ---
 
 # 【半導体】18. PSRAMは何を狙ったメモリだったのか  

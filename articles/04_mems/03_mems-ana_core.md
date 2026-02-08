@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ROMで作る mems-ana_core の数式構造と設計ポリシー
+title: zenn-articles
 ---
 
 # 【MEMS】🧠 03. ROMで作る mems-ana_core の数式構造と設計ポリシー

@@ -48,7 +48,7 @@ $$
 
 ## Mermaid（flowchart）
 
-```mermaid
+<div class="mermaid">
 flowchart TD
   A[Markdown] --> B[Jekyll build]
   B --> C[HTML]
@@ -56,13 +56,13 @@ flowchart TD
   C --> E[Mermaid]
   D --> F[Rendered Math]
   E --> G[Rendered Diagram]
-```
+</div>
 
 ---
 
 ## Mermaid（sequenceDiagram）
 
-```mermaid
+<div class="mermaid">
 sequenceDiagram
   participant U as User
   participant P as Pages
@@ -76,7 +76,7 @@ sequenceDiagram
   J->>R: Render diagram
   M-->>U: Math rendered
   R-->>U: Diagram rendered
-```
+</div>
 
 ---
 
@@ -97,6 +97,7 @@ sequenceDiagram
 - `\(...\)` や `\[...\]` は **使用しない**
 - 数式行の先頭に **余計なインデントを入れない**
 - 数式は **`pre` / `code` ブロックに入れない**
+- Mermaid は **```mermaid``` を使わず `<div class="mermaid">` のみ使用**
 
 ---
 

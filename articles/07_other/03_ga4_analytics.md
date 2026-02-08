@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか
+title: zenn-articles
 ---
 
 # 【Analytics】📊 03. Samizo-AITL Portalのアクセス国別分析｜英語技術サイトはどこから読まれているか

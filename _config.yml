@@ -1,9 +1,9 @@
-title: "aitl-animation-demos"
-description: "Experimental animation demos related to AITL concepts."
+title: "zenn-article"
+description: "Zenn article rendering environment with MathJax and Mermaid."
 lang: en
 
 url: "https://samizo-aitl.github.io"
-baseurl: "/aitl-animation-demos"
+baseurl: "/zenn-article"
 
 # テーマは使わない（自作レイアウトのみ）
 theme: null

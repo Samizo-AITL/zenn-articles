@@ -69,3 +69,9 @@ code {
   border-radius: 4px;
   padding: .15em .3em;
 }
+
+/* ===== Mermaid ===== */
+.mermaid {
+  margin: 1.5rem 0;
+  text-align: center;
+}

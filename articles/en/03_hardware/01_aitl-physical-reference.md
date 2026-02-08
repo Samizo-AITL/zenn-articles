@@ -1,6 +1,6 @@
 ---
 layout: default
-title: aitl-physical-reference Fix the Physics Before Control
+title: zenn-articles
 ---
 
 # 【Hardware】 🧱 01. aitl-physical-reference  

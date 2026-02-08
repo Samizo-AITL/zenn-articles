@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GAA
+title: zenn-articles
 ---
 
 # 【半導体】🟢 04. GAA 構造  

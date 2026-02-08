@@ -1,11 +1,7 @@
-# ==================================================
-# Samizo-AITL Zenn Articles : Jekyll Config
-# ==================================================
-
-title: "Samizo-AITL Zenn Articles"
+title: "zenn-articles"
 description: >
-  Canonical repository for Zenn articles and books.
-  GitHub Pages is used for design verification.
+  Zennに公開する技術記事およびBookの
+  Markdown原稿（一次情報・正本）を管理するリポジトリです。
 
 lang: ja
 timezone: Asia/Tokyo
@@ -13,32 +9,18 @@ timezone: Asia/Tokyo
 url: "https://samizo-aitl.github.io"
 baseurl: "/zenn-articles"
 
-# --------------------------------------------------
-# Theme (自作レイアウトのみ)
-# --------------------------------------------------
 theme: null
 remote_theme: null
 
-# --------------------------------------------------
-# Markdown / Math
-# --------------------------------------------------
 markdown: kramdown
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   math_engine: mathjax
 
-# --------------------------------------------------
-# Assets
-# --------------------------------------------------
 include:
   - assets
 
-# --------------------------------------------------
-# Defaults
-# --------------------------------------------------
-# ★ pages / articles / index すべて layout を通す
 defaults:
   - scope:
       path: ""

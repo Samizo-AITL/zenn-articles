@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Animation Demosで理解する三層制御アーキテクチャの可視化
+title: zenn-articles
 ---
 
 # 【動画】🎞️ 01. Animation Demosで理解する三層制御アーキテクチャの可視化

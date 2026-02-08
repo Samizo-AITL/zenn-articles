@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OpenLane PDK
+title: zenn-articles
 ---
 
 # 【Semiconductor】🧩 14. What Makes a PDK Compatible with OpenLane?  

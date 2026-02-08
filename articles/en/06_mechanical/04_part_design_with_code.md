@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introducing Code-Based Design Without Abandoning Part Design — A Practical Solution in FreeCAD
+title: zenn-articles
 ---
 
 # 【Mechanical Design】🛠️ 04. Introducing Code-Based Design Without Abandoning Part Design — A Practical Solution in FreeCAD

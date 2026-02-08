@@ -1,6 +1,7 @@
 title: "zenn-articles"
-description: "Zennに公開する技術記事・BookのMarkdown正本（SSOT）"
+description: "Markdown SSOT for Zenn articles"
 lang: ja
+timezone: Asia/Tokyo
 
 url: "https://samizo-aitl.github.io"
 baseurl: "/zenn-articles"

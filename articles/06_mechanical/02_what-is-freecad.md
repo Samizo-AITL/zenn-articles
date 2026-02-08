@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FreeCADとは何か ― 設計をコードで記述するためのCAD
+title: zenn-articles
 ---
 
 # 【機械設計】🛠 02. FreeCADとは何か ― 設計をコードで記述するためのCAD

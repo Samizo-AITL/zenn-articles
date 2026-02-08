@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OpenLane PDK
+title: zenn-articles
 ---
 
 # 【半導体】🧩 14. OpenLane 対応PDKの条件とは何か  

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What Is FreeCAD? — A CAD Tool for Describing Design as Code
+title: zenn-articles
 ---
 
 # 【Mechanical Design】🛠️ 02. What Is FreeCAD? — A CAD Tool for Describing Design as Code

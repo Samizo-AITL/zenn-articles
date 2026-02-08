@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What Is a Safety Envelope? Designing the Boundary AI Control Must Never Cross
+title: zenn-articles
 ---
 
 # 【Control】🛡️ 15. (Safety Design) What Is a Safety Envelope?

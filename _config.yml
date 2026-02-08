@@ -1,28 +1,21 @@
 title: "zenn-articles"
-description: >
-  Zennに公開する技術記事およびBookの
-  Markdown原稿（一次情報・正本）を管理するリポジトリです。
-
+description: "Zennに公開する技術記事・BookのMarkdown正本（SSOT）"
 lang: ja
-timezone: Asia/Tokyo
 
 url: "https://samizo-aitl.github.io"
 baseurl: "/zenn-articles"
 
+# テーマは使わない（自作レイアウトのみ）
 theme: null
 remote_theme: null
 
+# Markdown / Math
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   math_engine: mathjax
 
+# ★ 重要：assets を Pages に含める
 include:
   - assets
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default

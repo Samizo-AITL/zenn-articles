@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GF180 Inkjet Driver 設計探索（続編）— 400dpiの限界と300dpiの現実解
+title: zenn-articles
 ---
 
 # 【Inkjet】🧪 04. GF180 Inkjet Driver 設計探索（続編）— 400dpiの限界と300dpiの現実解

@@ -1,8 +1,7 @@
-/* MathJax tuning */
+/* MathJax */
 .aitl-root mjx-container {
   font-size: 1.05em;
 }
-
 .aitl-root mjx-container[display="true"] {
   margin: 1.4em 0;
   text-align: center;
@@ -12,6 +11,6 @@
 .aitl-root .mermaid {
   margin: 2rem auto;
   padding: 0.8rem;
-  background: #fff;
+  background: #ffffff;
   border-radius: 6px;
 }

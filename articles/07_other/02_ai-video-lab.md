@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AIビデオは教材の主役になり得るかを検証して撤退した話
+title: zenn-articles
 ---
 
 # 【動画】🎞️ 02. AIビデオは教材の主役になり得るかを検証して撤退した話

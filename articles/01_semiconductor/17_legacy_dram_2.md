@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy dram2
+title: zenn-articles
 ---
 
 # 【半導体】17. 0.25µm DRAM Pause Refresh異常の物理的正体

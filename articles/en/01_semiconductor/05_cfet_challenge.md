@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GAA and CFET
+title: zenn-articles
 ---
 
 # 【Semiconductor】🔺 05. Challenges of GAA and the Rise of CFET  

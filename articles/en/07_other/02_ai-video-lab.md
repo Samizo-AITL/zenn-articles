@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Why I Tested AI Video as Educational Material — and Chose to Walk Away
+title: zenn-articles
 ---
 
 # 【Video】🎞️ 02. Why I Tested AI Video as a Teaching Medium — and Chose to Walk Away

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 設計をコード化すると「差分」が意味を持つ ― GUI CADとの決定的な違い
+title: zenn-articles
 ---
 
 # 【機械設計】 🛠 05. 設計をコード化すると「差分」が意味を持つ ― GUI CADとの決定的な違い

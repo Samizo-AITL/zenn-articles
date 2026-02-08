@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PID×FSM×人間設計で完結する信頼性制御の設計指針
+title: zenn-articles
 ---
 
 # 【制御】09. PID×FSM×人間設計で完結する信頼性制御の設計指針

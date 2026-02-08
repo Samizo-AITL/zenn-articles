@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Safety Envelopeとは何か？AI制御で絶対に超えてはいけない境界の設計
+title: zenn-articles
 ---
 
 # 【制御】🛡️ 15. (安全設計) Safety Envelopeとは何か？AI制御で絶対に超えてはいけない境界の設計

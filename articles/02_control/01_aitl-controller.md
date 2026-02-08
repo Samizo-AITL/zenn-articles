@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AITL-controller
+title: zenn-articles
 ---
 
 # 【制御】🧩 01. AITL-controller  

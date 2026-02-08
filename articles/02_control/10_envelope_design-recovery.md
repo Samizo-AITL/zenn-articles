@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Envelope Control と Design Recovery Control
+title: zenn-articles
 ---
 
 # 【制御】🧩 10. Envelope Control と Design Recovery Control ― 制御ではなく「境界」と「前提」を扱う

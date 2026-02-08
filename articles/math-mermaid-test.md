@@ -1,6 +1,6 @@
 ---
 layout: default
-title: zenn-articles
+title: MathJax & Mermaid Test
 permalink: /math-mermaid-test-v2.html
 ---
 

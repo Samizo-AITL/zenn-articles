@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Escaping GUI CAD - Thinking of Mechanical Design as Code
+title: zenn-articles
 ---
 
 # 【Mechanical Design】🛠️ 01. Escaping GUI CAD: Thinking of Mechanical Design as Code

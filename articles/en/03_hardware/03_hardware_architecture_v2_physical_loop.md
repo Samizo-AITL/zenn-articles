@@ -1,6 +1,6 @@
 ---
 layout: default
-title: v2 Physical Loop Reference — Freezing Copper and Current Before Control
+title: zenn-articles
 ---
 
 # 【Hardware】 🧱 03. aitl-physical-reference v2  

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Design Philosophy and Overview of mems-ana - A Lightweight ROM-Based Analysis Tool
+title: zenn-articles
 ---
 
 # 【MEMS】🧠 01. Design Philosophy and Overall Architecture of *mems-ana*  

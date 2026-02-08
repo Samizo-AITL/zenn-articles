@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy dram1
+title: zenn-articles
 ---
 
 # 【半導体】16. 0.25µm DRAMで観測されたPause Refresh異常

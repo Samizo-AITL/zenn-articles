@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adaptive Control Can Work, but Cannot Be Guaranteed — The Limit of A-Type
+title: zenn-articles
 ---
 
 # 【Control】🧪 11. Adaptive Control Can Work, but Cannot Be Guaranteed  

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 信頼性設計 適応制御は「止められて」初めて使える — B-Type AITL
+title: zenn-articles
 ---
 
 # 【制御】🛑 12. 信頼性設計 適応制御は「止められて」初めて使える — B-Type AITL

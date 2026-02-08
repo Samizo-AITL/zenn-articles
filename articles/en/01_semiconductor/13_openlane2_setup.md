@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OpenLane2
+title: zenn-articles
 ---
 
 # 【Semiconductor】🧩 13. OpenLane2  

@@ -4,6 +4,7 @@ lang: ja
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
 
 include:
   - assets

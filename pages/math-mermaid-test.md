@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "【検証】MathJax & Mermaid 表示テスト"
+title: zenn-articles
 ---
 
-[MathJax & Mermaid 表示テストページ](https://samizo-aitl.github.io/zenn-articles/pages/math-mermaid-test/)
+[MathJax & Mermaid 表示テストページ](https://samizo-aitl.github.io/zenn-articles/pages/math-mermaid-test.html)
 
 # MathJax & Mermaid 表示テスト
 

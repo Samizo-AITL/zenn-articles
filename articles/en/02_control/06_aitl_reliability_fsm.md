@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What Reliability Control Needed Was Not “Going Faster,” but Knowing When to Stop
+title: zenn-articles
 ---
 
 # 【Control】🛑 06. What Reliability Control Needed Was Not “Going Faster,” but Knowing When to Stop

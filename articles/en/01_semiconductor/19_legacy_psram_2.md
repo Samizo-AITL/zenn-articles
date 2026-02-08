@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy psram2
+title: zenn-articles
 ---
 
 # 【Semiconductor】19. What Happened to PSRAM, and Why Did It End?  

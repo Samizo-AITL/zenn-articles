@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Envelope Control and Design Recovery Control
+title: zenn-articles
 ---
 
 # 【Control】🧩 10. Envelope Control and Design Recovery Control  

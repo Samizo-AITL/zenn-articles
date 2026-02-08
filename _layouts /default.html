@@ -6,23 +6,41 @@
 
   <title>{{ page.title }}</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- MathJax -->
+  <!-- MathJax（確定動作版） -->
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$']],
-        displayMath: [['$$', '$$']]
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       }
     };
   </script>
+
   <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
 
 <body class="aitl-root">
+
+  <!-- ヘッダーは出さない：mainのみ -->
   <main class="wrapper">
     {{ content }}
   </main>
+
+  <!-- 再レンダリング保険（重要） -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise();
+      }
+    });
+  </script>
+
 </body>
 </html>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: v3 物理制御挿入参照 ― 凍結されたループに「触れてよい」唯一の点
+title: zenn-articles
 ---
 
 # 【ハードウエア】🧱 04. aitl-physical-reference v3 : 物理制御挿入参照 ― 凍結されたループに「触れてよい」唯一の点

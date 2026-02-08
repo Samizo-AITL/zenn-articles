@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Design Guidelines for Reliability Control Completed by PID × FSM × Human Design
+title: zenn-articles
 ---
 
 # 【Control】09. Design Guidelines for Reliability Control Completed by PID × FSM × Human Design

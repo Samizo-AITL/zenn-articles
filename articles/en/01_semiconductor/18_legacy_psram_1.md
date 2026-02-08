@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy psram1
+title: zenn-articles
 ---
 
 # 【Semiconductor】18. What Was PSRAM Intended to Achieve?  

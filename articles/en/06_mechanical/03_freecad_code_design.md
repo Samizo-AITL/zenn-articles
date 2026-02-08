@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to Combine GUI CAD and Code-Based Design — Minimal Code Design with FreeCAD
+title: zenn-articles
 ---
 
 # 【Mechanical Design】🛠️ 03. How to Combine GUI CAD and Code-Based Design — Minimal Code Design with FreeCAD

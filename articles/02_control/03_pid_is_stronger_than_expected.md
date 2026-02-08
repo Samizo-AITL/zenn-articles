@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PID制御は想像以上に完成されている
+title: zenn-articles
 ---
 
 # 【制御】🧠 03. PID制御は想像以上に完成されている

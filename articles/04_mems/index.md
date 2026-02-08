@@ -14,7 +14,7 @@ title: zenn-articles
 
 ## 📘 全体俯瞰・導入
 
-- [01 MEMS解析 概要（Overview）](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/01_mems-ana_overview.html)
+- [01 MEMS解析 概要（Overview）](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/01_mems-ana_overview.md)
 
 > MEMSを  
 > 「小さな機械」ではなく  

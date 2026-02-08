@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Weff
+title: zenn-articles
 ---
 
 # 【Semiconductor】📐 03. Understanding Weff  

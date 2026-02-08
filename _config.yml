@@ -1,9 +1,9 @@
-title: "aitl-animation-demos"
-description: "Experimental animation demos related to AITL concepts."
+title: "zenn-articles"
+description: "zenn-articles"
 lang: en
 
 url: "https://samizo-aitl.github.io"
-baseurl: "/aitl-animation-demos"
+baseurl: "/zenn-articles"
 
 # テーマは使わない（自作レイアウトのみ）
 theme: null

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OpenLane2 sram
+title: zenn-articles
 ---
 
 # 【Semiconductor】🧠 11. Integrating an SRAM Hard Macro with OpenLane2 and Generating GDS  

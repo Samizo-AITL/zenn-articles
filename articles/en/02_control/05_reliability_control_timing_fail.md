@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Why “Timing-Only Control” Fails Under Friction Aging
+title: zenn-articles
 ---
 
 # 【Control】⏱️ 05. Why “Timing-Only Control” Fails Under Friction Aging

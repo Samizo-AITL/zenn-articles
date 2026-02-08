@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reliability Design — Adaptive Control Is Usable Only When It Can Be Stopped
+title: zenn-articles
 ---
 
 # 【Control】🛑 12. Reliability Design  

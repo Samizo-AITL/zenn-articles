@@ -1,7 +1,7 @@
 ---
 layout: default
 title: zenn-articles
-permalink: /math-mermaid-test.html
+permalink: /math-mermaid-test-v2.html
 ---
 
 [MathJax & Mermaid 表示テストページ](https://samizo-aitl.github.io/zenn-articles/math-mermaid-test.html)

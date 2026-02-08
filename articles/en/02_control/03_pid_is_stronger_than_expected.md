@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PID Control Is More Complete Than You Think
+title: zenn-articles
 ---
 
 # 【Control】🧠 03. PID Control Is More Complete Than You Think

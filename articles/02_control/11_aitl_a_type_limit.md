@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 適応制御は「できる」が「保証できない」— A-Typeの到達点
+title: zenn-articles
 ---
 
 # 【制御】🧪 11.  適応制御は「できる」が「保証できない」— A-Typeの到達点

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Weff
+title: zenn-articles
 ---
 
 # 【半導体】📐 03. Weffの考え方  

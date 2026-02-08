@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Why GF180MCU × OpenLane Does Not Work — Confirmed by Real-World Verification
+title: zenn-articles
 ---
 
 # 【Inkjet】🧪 03. Why GF180MCU × OpenLane Does Not Work — Confirmed by Real-World Verification

@@ -1,11 +1,11 @@
 /*
-  AITL Docs Layout – GitHub-like clean UI (FIXED)
+  AITL Docs Layout – GitHub-like clean UI
 */
 
 /* ========================================
    Base
 ======================================== */
-body {
+.aitl-root {
   font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI",
     Helvetica, Arial, sans-serif;
   line-height: 1.75;
@@ -15,11 +15,10 @@ body {
 }
 
 /* ========================================
-   Content width
+   Layout
 ======================================== */
-.wrapper,
-.main-container,
-.page-content {
+.aitl-root .wrapper,
+.aitl-root .main-container {
   max-width: 960px;
   margin: 0 auto;
   padding: 2rem 1.4rem;
@@ -28,49 +27,54 @@ body {
 /* ========================================
    Headings
 ======================================== */
-h1, h2, h3, h4 {
+.aitl-root h1,
+.aitl-root h2,
+.aitl-root h3,
+.aitl-root h4 {
   font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 0.9rem;
 }
 
-h1, h2 {
+.aitl-root h1,
+.aitl-root h2 {
   border-bottom: 1px solid #eaecef;
   padding-bottom: 0.35rem;
 }
 
-h1 { font-size: 1.9rem; }
-h2 { font-size: 1.45rem; }
-h3 { font-size: 1.22rem; }
+.aitl-root h1 { font-size: 1.9rem; }
+.aitl-root h2 { font-size: 1.45rem; }
+.aitl-root h3 { font-size: 1.22rem; }
 
 /* ========================================
-   Tables (REAL GitHub style)
+   Tables（強制上書き）
 ======================================== */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.6em 0;
+.aitl-root table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin: 1.6em 0 !important;
 }
 
-th, td {
-  border: 1px solid #d0d7de;
-  padding: 0.65em 0.9em;
+.aitl-root th,
+.aitl-root td {
+  border: 1px solid #d0d7de !important;
+  padding: 0.65em 0.9em !important;
 }
 
-th {
-  background-color: #f6f8fa;
-  font-weight: 600;
-  text-align: left;
+.aitl-root th {
+  background-color: #f6f8fa !important;
+  font-weight: 600 !important;
+  text-align: left !important;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f6f8fa;
+.aitl-root tbody tr:nth-child(even) {
+  background-color: #f6f8fa !important;
 }
 
 /* ========================================
    Code
 ======================================== */
-code {
+.aitl-root code {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas;
   background: #f6f8fa;
   padding: 0.15em 0.35em;
@@ -79,7 +83,7 @@ code {
   font-size: 0.92em;
 }
 
-pre {
+.aitl-root pre {
   background: #f6f8fa;
   border: 1px solid #d0d7de;
   border-radius: 6px;
@@ -88,7 +92,7 @@ pre {
   margin: 1.2rem 0;
 }
 
-pre code {
+.aitl-root pre code {
   background: none;
   padding: 0;
   border: none;
@@ -97,10 +101,19 @@ pre code {
 /* ========================================
    Blockquote
 ======================================== */
-blockquote {
+.aitl-root blockquote {
   margin: 1.2em 0;
   padding: 0.8em 1em;
   border-left: 4px solid #d0d7de;
   background: #f9fafb;
   color: #57606a;
+}
+
+/* ========================================
+   Media
+======================================== */
+.aitl-root img,
+.aitl-root svg,
+.aitl-root video {
+  max-width: 100%;
 }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Post-CFET
+title: zenn-articles
 ---
 
 # 【Semiconductor】🚀 06. Post-CFET  

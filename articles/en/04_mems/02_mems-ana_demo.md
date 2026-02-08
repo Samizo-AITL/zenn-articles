@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Visualizing Piezoelectric Hysteresis and Butterfly Displacement with mems-ana
+title: zenn-articles
 ---
 
 # 【MEMS】🧠 02. Visualizing Piezoelectric Hysteresis and Butterfly Displacement with *mems-ana*

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy dram1
+title: zenn-articles
 ---
 
 # 【Semiconductor】16. Pause Refresh Anomalies Observed in 0.25 µm DRAM

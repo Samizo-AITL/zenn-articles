@@ -33,7 +33,7 @@ title: zenn-articles
 
 ## 🧠 コア理論・本質
 
-- [03 MEMS解析 コア理論](./03_mems-ana_core.md)
+- [03 MEMS解析 コア理論](./03_mems-ana_core/)
 
 > MEMS設計の本質は  
 > **構造・材料・境界条件の設計**であり、  

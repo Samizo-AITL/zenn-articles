@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GAA
+title: zenn-articles
 ---
 
 # 【Semiconductor】🟢 04. GAA Structure  

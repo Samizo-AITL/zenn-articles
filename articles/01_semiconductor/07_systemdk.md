@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SystemDK
+title: zenn-articles
 ---
 
 # 【半導体】🧭 07. Post-CFET時代の本質  

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inkjet DTS：ドロップ密度・速度・広がりの設計トレードオフ
+title: zenn-articles
 ---
 
 # 【Inkjet】🖨️ 01. Inkjet DTS：ドロップ密度・速度・広がりの設計トレードオフ

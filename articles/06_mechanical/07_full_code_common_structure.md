@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Full Code設計とは何か ― FreeCAD・LaTeX・Klayoutに共通する構造
+title: zenn-articles
 ---
 
 # 【機械設計】🧠 07. Full Code設計とは何か ― FreeCAD・LaTeX・Klayoutに共通する構造

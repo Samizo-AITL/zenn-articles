@@ -1,6 +1,32 @@
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ page.title | default: site.title | escape }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+
+<!-- CSS（キャッシュ殺し付き） -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=20260209">
+
+<!-- MathJax -->
 <script>
-  if (window.mermaid) {
-    mermaid.initialize({ startOnLoad: true });
-  }
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<!-- Mermaid（defer + DOM保証） -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js" defer></script>
+<script defer>
+  document.addEventListener("DOMContentLoaded", () => {
+    if (window.mermaid) {
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: "default"
+      });
+    }
+  });
 </script>

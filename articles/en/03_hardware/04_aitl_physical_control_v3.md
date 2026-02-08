@@ -1,6 +1,6 @@
 ---
 layout: default
-title: v3 Physical Control Insertion Reference — The Only Point You Are Allowed to Touch
+title: zenn-articles
 ---
 
 # 【Hardware】 🧱 04. aitl-physical-reference v3  

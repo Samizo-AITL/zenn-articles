@@ -2,46 +2,43 @@
 # Samizo-AITL Zenn Articles : Jekyll Config
 # ==================================================
 
-title: ""
+title: "Samizo-AITL Zenn Articles"
 description: >
-  Markdown SSOT for Zenn technical articles and books.
-  GitHub is the design space. Zenn is the publishing surface.
+  Canonical repository for Zenn articles and books.
+  GitHub Pages is used for design verification.
 
 lang: ja
 timezone: Asia/Tokyo
 
+url: "https://samizo-aitl.github.io"
+baseurl: "/zenn-articles"
+
 # --------------------------------------------------
-# Markdown / Math / Code
+# Theme (自作レイアウトのみ)
+# --------------------------------------------------
+theme: null
+remote_theme: null
+
+# --------------------------------------------------
+# Markdown / Math
 # --------------------------------------------------
 markdown: kramdown
 
 kramdown:
-  # GitHub Pages 互換モード（重要）
   input: GFM
-
-  # MathJax を前提に数式を保持
+  syntax_highlighter: rouge
   math_engine: mathjax
 
-  # Syntax highlight
-  syntax_highlighter: rouge
-
-  # Markdown の改行をそのまま改行にしない
-  hard_wrap: false
-
 # --------------------------------------------------
-# Build
+# Assets
 # --------------------------------------------------
-permalink: pretty
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+include:
+  - assets
 
 # --------------------------------------------------
 # Defaults
 # --------------------------------------------------
+# ★ pages / articles / index すべて layout を通す
 defaults:
   - scope:
       path: ""

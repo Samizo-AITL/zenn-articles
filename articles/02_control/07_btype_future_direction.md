@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 信頼性を最優先するB-Type制御の評価後設計方針
+title: zenn-articles
 ---
 
 # 【制御】🧭 07. 信頼性を最優先するB-Type制御の評価後設計方針

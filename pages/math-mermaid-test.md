@@ -1,7 +1,6 @@
 ---
-title: "【検証】MathJax & Mermaid 表示テスト（GitHub Pages）"
-description: "GitHub Pages（Jekyll）で数式（MathJax）と Mermaid が正しく表示されるかの最終確認用ページ"
 layout: default
+title: "【検証】MathJax & Mermaid 表示テスト"
 ---
 
 [MathJax & Mermaid 表示テストページ](https://samizo-aitl.github.io/zenn-articles/pages/math-mermaid-test/)

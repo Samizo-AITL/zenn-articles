@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GUI CADから脱却して設計をコード化するという考え方
+title: zenn-articles
 ---
 
 # 【機械設計】🛠 01. GUI CADから脱却して設計をコード化するという考え方

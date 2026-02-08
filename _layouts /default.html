@@ -7,10 +7,9 @@
   <title>{{ page.title | default: site.title | escape }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
-  <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- ================= MathJax ================= -->
+  <!-- MathJax -->
   <script>
     window.MathJax = {
       tex: {
@@ -21,7 +20,7 @@
   </script>
   <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
-  <!-- ================= Mermaid ================= -->
+  <!-- Mermaid -->
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
     if (window.mermaid) {
@@ -31,10 +30,8 @@
 </head>
 
 <body class="aitl-root">
-
   <main class="wrapper main-container">
     {{ content }}
   </main>
-
 </body>
 </html>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OpenLane superstable
+title: zenn-articles
 ---
 
 # 【Semiconductor】🧪 09. OpenLane superstable  

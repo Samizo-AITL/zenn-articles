@@ -1,6 +1,6 @@
 ---
 layout: default
-title: aitl-physical-reference v1 Why We Still Do Not Control
+title: zenn-articles
 ---
 
 # 【Hardware】 🧱 02. aitl-physical-reference v1  

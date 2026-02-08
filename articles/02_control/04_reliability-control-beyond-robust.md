@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Robust Controlの次へ：Reliability Control
+title: zenn-articles
 ---
 
 # 【制御】🛡️ 04. Robust Controlの次へ：Reliability Control

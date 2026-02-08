@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GF180 Inkjet Driver Design Exploration (Part 2) — The Viable Point of an HV Driver Array Assuming 300 dpi
+title: zenn-articles
 ---
 
 # 【Inkjet】🧪 05. GF180 Inkjet Driver Design Exploration (Part 2)  

@@ -4,7 +4,7 @@ title: MathJax & Mermaid Test
 permalink: /math-mermaid-test-v2.html
 ---
 
-[MathJax & Mermaid 表示テストページ](https://samizo-aitl.github.io/zenn-articles/math-mermaid-test.html)
+[MathJax & Mermaid 表示テストページ](https://samizo-aitl.github.io/zenn-articles/math-mermaid-test-v2.html)
 
 # MathJax & Mermaid 表示テスト
 

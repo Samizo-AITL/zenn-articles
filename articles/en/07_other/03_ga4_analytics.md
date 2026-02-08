@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Country-Based Access Analysis of Samizo-AITL Portal | Where Is an English Tech Site Actually Read?
+title: zenn-articles
 ---
 
 # 【Analytics】📊 03. Country-Based Access Analysis of Samizo-AITL Portal  

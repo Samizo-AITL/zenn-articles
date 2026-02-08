@@ -1,6 +1,6 @@
 ---
 layout: default
-title: inkjet-timing - Visualizing Temporal Causality in Piezoelectric Inkjet Systems
+title: zenn-articles
 ---
 
 # 【Inkjet】🖨️ 02. inkjet-timing: Visualizing Temporal Causality in Piezoelectric Inkjet Systems

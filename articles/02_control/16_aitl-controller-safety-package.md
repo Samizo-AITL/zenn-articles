@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Recovery Controlとは何か？AI制御は失敗後の設計で差がつく
+title: zenn-articles
 ---
 
 # 【制御】🔁 16. (安全設計) Recovery Controlとは何か？AI制御は失敗後の設計で差がつく

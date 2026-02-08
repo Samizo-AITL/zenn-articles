@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FSM Design — Making Adaptive Control Explainable
+title: zenn-articles
 ---
 
 # 【Control】🛡️ 13. FSM Design  

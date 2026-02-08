@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OpenLane
+title: zenn-articles
 ---
 
 # 【Semiconductor】🧩 10. What You Learn by Building a Control ASIC  

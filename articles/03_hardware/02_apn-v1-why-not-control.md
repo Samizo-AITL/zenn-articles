@@ -1,6 +1,6 @@
 ---
 layout: default
-title: aitl-physical-reference v1：なぜ\"まだ制御しない\"のか
+title: zenn-articles
 ---
 
 # 【ハードウエア】🧱 02. aitl-physical-reference v1：なぜ\"まだ制御しない\"のか

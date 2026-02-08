@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SystemDK
+title: zenn-articles
 ---
 
 # 【Semiconductor】🧭 07. The Essence of the Post-CFET Era  

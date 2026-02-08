@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Planar MOSFET and SCE
+title: zenn-articles
 ---
 
 # 【半導体】🔬 01. Planar MOSFETとSCE  

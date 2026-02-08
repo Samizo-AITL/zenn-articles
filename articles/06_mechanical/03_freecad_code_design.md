@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GUI CADとコード設計をどう併用するか ― FreeCADで始める最小コード設計
+title: zenn-articles
 ---
 
 # 【機械設計】🛠 03. GUI CADとコード設計をどう併用するか ― FreeCADで始める最小コード設計

@@ -56,7 +56,7 @@ MOSFET の寸法スケーリングとは、主に次の 2 つを変化させた�
 本記事では、以下の DIM 解析モジュールを使用します。
 
 - **BSIM4_ANALYZER_DIM**  
-  https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_dim/
+  [https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_dim/](https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_dim/)
 
 ### 特徴
 - Python + ngspice

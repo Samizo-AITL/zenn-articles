@@ -54,7 +54,7 @@ The root cause of this deviation is known as
 This article uses the following DIM analysis module:
 
 - **BSIM4_ANALYZER_DIM**  
-  https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_dim/
+  [https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_dim/](https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_dim/)
 
 ### Key Features
 - Python + ngspice

@@ -1,5 +1,5 @@
 /*
-  AITL Docs Layout – GitHub-like clean UI (refined)
+  AITL Technical Docs – Clean / Minimal / Professional
 */
 
 /* ========================================
@@ -8,8 +8,8 @@
 .aitl-root {
   font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI",
     Helvetica, Arial, sans-serif;
-  font-weight: 400;              /* ← 明示してクドさ防止 */
-  line-height: 1.7;              /* ← 少し締める */
+  font-weight: 400;
+  line-height: 1.7;
   color: #24292e;
   background: #ffffff;
   margin: 0;
@@ -18,160 +18,133 @@
 /* ========================================
    Layout
 ======================================== */
-.aitl-root .wrapper,
-.aitl-root .main-container {
-  max-width: 980px;              /* ← repo-index 寄り */
+.wrapper.main-container {
+  max-width: 980px;
   margin: 0 auto;
-  padding: 2rem 1.25rem;
+  padding: 2.2rem 1.4rem 3.5rem;
 }
 
 /* ========================================
+   Markdown Body (核心)
+======================================== */
+.markdown-body {
+  font-size: 16px;
+}
+
+/* ----------------------------------------
    Headings
-======================================== */
-.aitl-root h1,
-.aitl-root h2,
-.aitl-root h3,
-.aitl-root h4 {
+---------------------------------------- */
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4 {
   font-weight: 600;
-  margin-top: 2.1rem;
+  margin-top: 2.2rem;
   margin-bottom: 0.8rem;
+  line-height: 1.35;
 }
 
-.aitl-root h1,
-.aitl-root h2 {
-  border-bottom: 1px solid #d0d7de; /* ← GitHub寄りに少し濃く */
-  padding-bottom: 0.3rem;
+.markdown-body h1 {
+  font-size: 1.9rem;
+  border-bottom: 2px solid #d0d7de;
+  padding-bottom: 0.35rem;
 }
 
-.aitl-root h1 { font-size: 1.85rem; }
-.aitl-root h2 { font-size: 1.4rem; }
-.aitl-root h3 { font-size: 1.18rem; }
+.markdown-body h2 {
+  font-size: 1.45rem;
+  border-bottom: 1px solid #d0d7de;
+  padding-bottom: 0.25rem;
+}
 
-/* ========================================
-   Tables（repo-index風・縞なし）
-======================================== */
-.aitl-root table {
-  width: 100% !important;
-  border-collapse: collapse !important;
-  margin: 1.4em 0 !important;
+.markdown-body h3 {
+  font-size: 1.2rem;
+}
+
+/* ----------------------------------------
+   Text
+---------------------------------------- */
+.markdown-body p {
+  margin: 0.9em 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin: 0.8em 0 0.8em 1.4em;
+}
+
+.markdown-body li {
+  margin: 0.3em 0;
+}
+
+/* ----------------------------------------
+   Tables（最重要）
+---------------------------------------- */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95rem;
   background: #ffffff;
 }
 
-.aitl-root th,
-.aitl-root td {
-  border: 1px solid #d0d7de !important;
-  padding: 0.6em 0.85em !important;
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #d0d7de;
+  padding: 0.55em 0.85em;
   vertical-align: top;
 }
 
-.aitl-root th {
-  background-color: #f6f8fa !important;
-  font-weight: 600 !important;
-  text-align: left !important;
+.markdown-body th {
+  background: #f6f8fa;
+  font-weight: 600;
+  text-align: left;
 }
 
-/* ← 縞模様は削除（repo-indexには無い） */
-/*
-.aitl-root tbody tr:nth-child(even) {
-  background-color: #f6f8fa !important;
-}
-*/
-
-/* ========================================
+/* ----------------------------------------
    Code
-======================================== */
-.aitl-root code {
+---------------------------------------- */
+.markdown-body code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", monospace;
   background: #f6f8fa;
-  padding: 0.12em 0.32em;
+  padding: 0.15em 0.35em;
   border-radius: 4px;
   border: 1px solid #d0d7de;
   font-size: 0.9em;
 }
 
-.aitl-root pre {
+.markdown-body pre {
   background: #f6f8fa;
   border: 1px solid #d0d7de;
   border-radius: 6px;
   padding: 0.9rem 1.1rem;
   overflow-x: auto;
-  margin: 1.1rem 0;
+  margin: 1.2rem 0;
 }
 
-.aitl-root pre code {
+.markdown-body pre code {
   background: none;
-  padding: 0;
   border: none;
+  padding: 0;
   font-size: 0.95em;
 }
 
-/* ========================================
-   Blockquote
-======================================== */
-.aitl-root blockquote {
+/* ----------------------------------------
+   Blockquote / Notes
+---------------------------------------- */
+.markdown-body blockquote {
   margin: 1.1em 0;
-  padding: 0.7em 0.95em;
-  border-left: 4px solid #d0d7de;
+  padding: 0.7em 1em;
+  border-left: 4px solid #0969da;
   background: #f6f8fa;
   color: #57606a;
 }
 
-/* ========================================
+/* ----------------------------------------
    Media
-======================================== */
-.aitl-root img,
-.aitl-root svg,
-.aitl-root video {
+---------------------------------------- */
+.markdown-body img,
+.markdown-body svg,
+.markdown-body video {
   max-width: 100%;
-}
-
-/* ========================================
-   Markdown-body override（これが本命）
-======================================== */
-
-.aitl-root .markdown-body {
-  font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI",
-    Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  line-height: 1.7;
-  color: #24292e;
-}
-
-/* Headings */
-.aitl-root .markdown-body h1,
-.aitl-root .markdown-body h2,
-.aitl-root .markdown-body h3,
-.aitl-root .markdown-body h4 {
-  font-weight: 600;
-  margin-top: 2.1rem;
-  margin-bottom: 0.8rem;
-}
-
-.aitl-root .markdown-body h1,
-.aitl-root .markdown-body h2 {
-  border-bottom: 1px solid #d0d7de;
-  padding-bottom: 0.3rem;
-}
-
-/* Tables（線を強制復活） */
-.aitl-root .markdown-body table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.4em 0;
-  background: #ffffff;
-  border: 1px solid #d0d7de;
-}
-
-.aitl-root .markdown-body th,
-.aitl-root .markdown-body td {
-  border: 1px solid #d0d7de;
-  padding: 0.6em 0.85em;
-  vertical-align: top;
-}
-
-.aitl-root .markdown-body th {
-  background-color: #f6f8fa;
-  font-weight: 600;
-  text-align: left;
 }

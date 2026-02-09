@@ -62,7 +62,7 @@ SPICE（DC / AC / CV）
 
 ## 📘 各レイヤで何を学ぶか
 
-### ① TCAD（Device Physics）🧪
+### ① 🧪 TCAD（Device Physics)
 - Poisson 方程式（電位分布）
 - Drift–Diffusion（キャリア輸送）
 - MOSFET の **V–I 特性が生まれる理由**
@@ -72,7 +72,7 @@ SPICE（DC / AC / CV）
 
 ---
 
-### ② BSIM4（Compact Modeling）🧩
+### ② 🧩 BSIM4（Compact Modeling）
 - 物理を「**回路で使える形**」に圧縮
 - BSIM4 パラメータの物理的意味
 - `.model` が **何を表現しているか** を可視化
@@ -82,7 +82,7 @@ SPICE（DC / AC / CV）
 
 ---
 
-### ③ SPICE（Simulation）🔌
+### ③ 🔌 SPICE（Simulation）
 - **DC解析**：$V_g$–$I_d$、$V_d$–$I_d$
 - **AC / CV解析**：寄生容量・周波数応答
 - **寸法依存**：L/W と短チャネル効果の雰囲気
@@ -91,7 +91,7 @@ SPICE（DC / AC / CV）
 
 ---
 
-### ④ 信頼性（Reliability）⏳
+### ④ ⏳ 信頼性（Reliability）
 - **NBTI**：負バイアス × 温度 × 時間 → $V_t$ シフト
 - **HCI**：高電界キャリアによる酸化膜劣化
 

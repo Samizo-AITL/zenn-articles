@@ -148,7 +148,7 @@ SemiDevKit では、教育用途に特化した
 酸化膜厚 $t_{ox}$ を変えると、  
 MOS キャパシタの **C–V 特性** がどう変わるか。
 
-![MOSCAP C–V](/assets/tcad_playground/moscap_cv_tox.png)
+![MOSCAP C–V](https://samizo-aitl.github.io/SemiDevKit/assets/tcad_playground/moscap_cv_tox.png)
 
 👉 **電位分布の違いが、容量として観測される**
 
@@ -158,7 +158,7 @@ MOS キャパシタの **C–V 特性** がどう変わるか。
 
 酸化膜厚を変えたときの $V_g$–$I_d$ 特性。
 
-![nMOS Vg–Id](/assets/tcad_playground/nmos_vgid_tox.png)
+![nMOS Vg–Id](https://samizo-aitl.github.io/SemiDevKit/assets/tcad_playground/nmos_vgid_tox.png)
 
 - $t_{ox}$ が薄い → $V_{th}$ 低下  
 - 同じ $V_g$ で $I_d$ 増加  
@@ -169,7 +169,7 @@ MOS キャパシタの **C–V 特性** がどう変わるか。
 
 ## 📊 実例③：nMOS $V_d$–$I_d$ 特性
 
-![nMOS Vd–Id](/assets/tcad_playground/nmos_vdid_tox.png)
+![nMOS Vd–Id](https://samizo-aitl.github.io/SemiDevKit/assets/tcad_playground/nmos_vdid_tox.png)
 
 - 低 $V_d$：線形領域  
 - 高 $V_d$：飽和領域  

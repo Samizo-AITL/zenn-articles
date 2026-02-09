@@ -54,8 +54,8 @@ MOSFET に対しては、主に次の 2 種類を確認します。
 
 - BSIM4 モデル × ngspice × Python による **自動 DC解析**
 - NMOS / PMOS（130nm）対応
-- $V_g$–$I_d$, $V_d$–$I_d$ の自動プロット
-- **$V_t$・$g_{m,\max}$・$I_{d,\mathrm{lin}}$・$I_{d,\mathrm{sat}}$ の自動抽出**
+- $V_g$ – $I_d$, $V_d$ – $I_d$ の自動プロット
+- **$V_t$ ・ $g_{m,\max}$ ・ $I_{d,\mathrm{lin}}$ ・ $I_{d,\mathrm{sat}}$  の自動抽出**
 - 教育用途から **将来の商用解析ツール展開**を見据えた設計
 
 ### 前提環境
@@ -84,7 +84,7 @@ python run_vgid.py
 
 ---
 
-### NMOS：$V_g$–$I_d$ 特性（例）
+### NMOS：$V_g$ – $I_d$ 特性（例）
 
 <img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/nmos_vgid.png" width="80%">
 
@@ -96,14 +96,14 @@ python run_vgid.py
 - しきい値電圧 $V_t$
 - サブスレッショルド領域
 - オン電流レベル
-- ゲート制御能力（$g_m = \partial I_d / \partial V_g$）
+- ゲート制御能力（ $g_m = \partial I_d / \partial V_g$ ）
 
 **TCAD で見た「チャネル形成」** が、  
 ここでは **V–I 特性として直接現れます**。
 
 ---
 
-### PMOS：$V_g$–$I_d$ 特性
+### PMOS：$V_g$ – $I_d$ 特性
 
 <img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/pmos_vgid.png" width="80%">
 

@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# [Semiconductor] 🧩 08-01. SemiDevKit Overview — Connecting TCAD, SPICE, and Reliability in One Flow
+# 【Semiconductor】 🧩 08-01. SemiDevKit Overview — Connecting TCAD, SPICE, and Reliability in One Flow
 topics: ["Semiconductor", "TCAD", "BSIM4", "SPICE", "Reliability"]
 
 ---

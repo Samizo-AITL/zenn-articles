@@ -26,12 +26,22 @@ It clarifies the roles and assumptions of device-, circuit-, and system-level ab
 
 ---
 
-## 🛠 Design, Modeling & EDA
+## 🛠 Design, Modeling, and EDA
 
-This section covers **models, parameters, and assumptions used in semiconductor design**.  
-It explicitly distinguishes **what models represent and what they do not**.
+In this section,  
+we organize the **models, parameters, and EDA assumptions** used in semiconductor design.  
+The **scope represented by each model** and the **scope not represented** are clearly defined.
 
-- [08. SemiDevKit — A Development Kit for Semiconductor Design](./08_semidevkit.md)
+- [08. SemiDevKit | DevKit Concept for Semiconductor Design](./08_semidevkit.md)
+  - [08-01. SemiDevKit Overview](./08-01_semidevkit_overview.md)
+  - [08-02. TCAD (Poisson / Drift–Diffusion)](./08-02_tcad_poisson_drift_diffusion.md)
+  - [08-03. Fundamentals of the BSIM4 Compact Model](./08-03_bsim4_compact_model_basics.md)
+  - [08-04. BSIM4 Model Generation Using Paramus](./08-04_paramus_bsim4_model_generation.md)
+  - [08-05. BSIM4 DC Analysis (V–I)](./08-05_bsim4_dc_vi_analysis.md)
+  - [08-06. BSIM4 AC / CV Analysis](./08-06_bsim4_ac_cv_analysis.md)
+  - [08-07. MOSFET Scaling and Short-Channel Effects](./08-07_mosfet_scaling_short_channel.md)
+  - [08-08. Fundamentals of NBTI Reliability](./08-08_nbti_reliability_basics.md)
+  - [08-09. Fundamentals of HCI Reliability](./08-09_hci_reliability_basics.md)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "【半導体】BSIM4とは何か ― 物理を回路に落とすコンパクトモデル"
+title: "【半導体】03. BSIM4とは何か ― 物理を回路に落とすコンパクトモデル"
 emoji: "🧩"
 type: "tech"
 topics: ["半導体", "BSIM4", "MOSFET", "コンパクトモデル", "SPICE"]

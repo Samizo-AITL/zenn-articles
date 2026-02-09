@@ -1,9 +1,11 @@
 ---
-title: "[Semiconductor] 04. Learning BSIM4 Model Generation with Paramus — Graduating from the Black-Box `.model`"
-emoji: "⚙️"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+# 【Semiconductor】 ⚙️ 08-04. Learning BSIM4 Model Generation with Paramus — Graduating from the Black-Box `.model`
 topics: ["Semiconductor", "BSIM4", "SPICE", "Model Generation", "MOSFET"]
-published: true
+
 ---
 
 ## 🧭 Introduction — Why `.model` Files Become Black Boxes

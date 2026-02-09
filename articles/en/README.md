@@ -12,8 +12,7 @@
 |----------|----------------|-----------|
 | EN (English) | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/zenn-articles/articles/en/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/zenn-articles/tree/main/articles/en) |
 
-[![Zenn](https://img.shields.io/badge/Zenn-Articles-blue?logo=zenn)](https://zenn.dev/samizo_aitl)  
-[![Qiita](https://img.shields.io/badge/Qiita-Articles-lightgrey?logo=qiita)](https://qiita.com/ctrl_bug)
+[![Zenn](https://img.shields.io/badge/Zenn-Articles-blue?logo=zenn)](https://zenn.dev/samizo_aitl) [![Qiita](https://img.shields.io/badge/Qiita-Articles-lightgrey?logo=qiita)](https://qiita.com/ctrl_bug)
 
 ---
 

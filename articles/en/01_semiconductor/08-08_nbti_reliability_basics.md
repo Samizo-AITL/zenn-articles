@@ -1,9 +1,11 @@
 ---
-title: "【Semiconductor】What Is NBTI? — How MOSFETs Degrade Over Time"
-emoji: "⏱️"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+# 【Semiconductor】 ⏱️ 08-08. What Is NBTI? — How MOSFETs Degrade Over Time"
 topics: ["Semiconductor", "NBTI", "Reliability", "MOSFET", "BSIM4"]
-published: true
+
 ---
 
 ## ⏱️ Introduction

@@ -144,7 +144,7 @@ python run_vdid.py
 
 <img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/pmos_vdid.png" width="80%">
 
-$I_{d,\mathrm{lin}}$・$I_{d,\mathrm{sat}}$ の抽出や、  
+$I_{d,\mathrm{lin}}$ ・ $I_{d,\mathrm{sat}}$  の抽出や、  
 短チャネル効果の比較にも有効です。
 
 ---
@@ -185,7 +185,7 @@ AC解析・CV解析・信頼性解析は、
 ## まとめ 📝
 
 - DC解析は MOSFET 理解の基本
-- $V_g$–$I_d$, $V_d$–$I_d$ は必ず確認する
+-  $V_g$–$I_d$ , $V_d$  –$I_d$ は必ず確認する
 - BSIM4 の意味は V–I 特性に直接現れる
 - SemiDevKit により解析は自動化できる
 

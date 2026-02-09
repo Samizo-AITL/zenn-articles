@@ -1,9 +1,11 @@
 ---
-title: "【Semiconductor】Visualizing MOSFET L/W Scaling and Short-Channel Effects with SPICE"
-emoji: "📏"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+# 【Semiconductor】📏 08-07. Visualizing MOSFET L/W Scaling and Short-Channel Effects with SPICE
 topics: ["Semiconductor", "MOSFET", "Scaling", "Short-Channel Effects", "BSIM4"]
-published: true
+
 ---
 
 ## 🚀 Introduction

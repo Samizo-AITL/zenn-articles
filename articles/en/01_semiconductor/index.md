@@ -37,7 +37,7 @@ In this section,
 we organize the **models, parameters, and EDA assumptions** used in semiconductor design.  
 The **scope represented by each model** and the **scope not represented** are clearly defined.
 
-- [08. SemiDevKit | DevKit Concept for Semiconductor Design](./08_semidevkit.md)
+- [08. SemiDevKit DevKit Concept for Semiconductor Design](./08_semidevkit.md)
   - [08-01. SemiDevKit Overview](./08-01_semidevkit_overview.md)
   - [08-02. TCAD (Poisson / Drift–Diffusion)](./08-02_tcad_poisson_drift_diffusion.md)
   - [08-03. Fundamentals of the BSIM4 Compact Model](./08-03_bsim4_compact_model_basics.md)

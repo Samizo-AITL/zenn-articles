@@ -1,5 +1,5 @@
 ---
-title: "【半導体】TCADで理解するMOSFETの本質 ― Poisson方程式とDrift–Diffusion"
+title: "【半導体】02. TCADで理解するMOSFETの本質 ― Poisson方程式とDrift–Diffusion"
 emoji: "🧠"
 type: "tech"
 topics: ["半導体", "TCAD", "MOSFET", "Poisson方程式", "DriftDiffusion"]

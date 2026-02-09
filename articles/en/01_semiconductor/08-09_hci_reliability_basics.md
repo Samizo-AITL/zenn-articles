@@ -116,7 +116,7 @@ Therefore, SemiDevKit adopts a hybrid approach:
 The following module is used:
 
 - **BSIM4 Analyzer Reliability**  
-  https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_reliability/
+  [https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_reliability/](https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_reliability/)
 
 This framework provides fully automated:
 - Initial Vg–Id / Vd–Id extraction
@@ -240,4 +240,5 @@ but by:
 ## 🔗 Related Links
 
 - SemiDevKit (Project Hub)  
-  https://samizo-aitl.github.io/SemiDevKit/
+  [https://samizo-aitl.github.io/SemiDevKit/](https://samizo-aitl.github.io/SemiDevKit/)
+

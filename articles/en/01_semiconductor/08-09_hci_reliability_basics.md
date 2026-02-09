@@ -1,9 +1,11 @@
 ---
-title: "【Semiconductor】What Is HCI? — Why High Electric Fields Destroy MOSFETs"
-emoji: "⚡"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+# 【Semiconductor】⚡ 08-09. What Is HCI? — Why High Electric Fields Destroy MOSFETs
 topics: ["Semiconductor", "HCI", "Reliability", "MOSFET", "BSIM4"]
-published: true
+
 ---
 
 ## ⚡ Introduction

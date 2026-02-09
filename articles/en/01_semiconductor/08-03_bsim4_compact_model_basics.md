@@ -1,9 +1,11 @@
 ---
-title: "[Semiconductor] 03. What Is BSIM4? — A Compact Model That Translates Physics into Circuits"
-emoji: "🧩"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+#【Semiconductor】 🧩 08-03. What Is BSIM4? — A Compact Model That Translates Physics into Circuits
 topics: ["Semiconductor", "BSIM4", "MOSFET", "Compact Model", "SPICE"]
-published: true
+
 ---
 
 ## 🧭 Introduction — What Comes After TCAD

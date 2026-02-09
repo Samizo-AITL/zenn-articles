@@ -1,9 +1,11 @@
 ---
-title: "[Semiconductor] 05. Reading MOSFET DC Characteristics with BSIM4 — Vg–Id / Vd–Id Analysis"
-emoji: "📈"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+# 【Semiconductor】 📈  08-05.  Reading MOSFET DC Characteristics with BSIM4 — Vg–Id / Vd–Id Analysis
 topics: ["Semiconductor", "BSIM4", "SPICE", "DC Analysis", "MOSFET"]
-published: true
+
 ---
 
 ## 🧭 Introduction

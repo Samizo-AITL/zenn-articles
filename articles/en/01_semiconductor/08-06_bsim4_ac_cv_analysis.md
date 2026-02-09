@@ -63,7 +63,7 @@ Typical capacitances:
 This article uses the following tool:
 
 - **BSIM4 C–V Extraction Tool (ngspice)**  
-  https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_cv/
+  [https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_cv/](https://samizo-aitl.github.io/SemiDevKit/bsim/bsim4_analyzer_cv/)
 
 ### Prerequisites
 - BSIM4 model cards (educational / analytical)

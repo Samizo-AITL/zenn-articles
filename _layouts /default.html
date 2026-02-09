@@ -1,5 +1,5 @@
-<!DOCTYPE html> 
-<html lang="{{ page.lang | default: site.lang | default: 'ja' }}">
+<!DOCTYPE html>
+<html lang="ja">
 <head>
   {% include head.html %}
 </head>
@@ -7,7 +7,9 @@
 <body class="aitl-root">
 
   <main class="wrapper main-container">
-    {{ content }}
+    <article class="markdown-body">
+      {{ content }}
+    </article>
   </main>
 
 </body>

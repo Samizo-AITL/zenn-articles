@@ -1,9 +1,11 @@
 ---
-title: "【Semiconductor】BSIM4 AC/CV Analysis — How to Read Parasitic Capacitance and Frequency Response Correctly"
-emoji: "📐"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+# 【Semiconductor】 📐 08-06. BSIM4 AC/CV Analysis — How to Read Parasitic Capacitance and Frequency Response Correctly"
 topics: ["Semiconductor", "BSIM4", "SPICE", "AC Analysis", "CV Analysis"]
-published: true
+
 ---
 
 ## 🚀 Introduction

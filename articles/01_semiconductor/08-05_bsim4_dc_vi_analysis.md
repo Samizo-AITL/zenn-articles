@@ -1,5 +1,5 @@
 ---
-title: "【半導体】BSIM4で読むMOSFETのDC特性 ― Vg–Id / Vd–Id解析"
+title: "【半導体】05. BSIM4で読むMOSFETのDC特性 ― Vg–Id / Vd–Id解析"
 emoji: "📈"
 type: "tech"
 topics: ["半導体", "BSIM4", "SPICE", "DC解析", "MOSFET"]

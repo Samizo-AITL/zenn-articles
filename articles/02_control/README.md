@@ -1,4 +1,4 @@
-# 02_control / 制御・AITL 記事一覧
+# 🎛️ 02_control / 制御・AITL 記事一覧
 
 本ディレクトリでは、  
 **PID制御・FSM・AITL（Architecture for Integrated Technology Logic）** を中心に、  

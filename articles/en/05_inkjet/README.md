@@ -1,4 +1,4 @@
-# 05_inkjet / Inkjet Physics & Drive Articles Index
+# 💧 05_inkjet / Inkjet Physics & Drive Articles Index
 
 This directory treats **inkjet systems** as the intersection of  
 MEMS, physics, circuits, and timing causality, and clarifies the  

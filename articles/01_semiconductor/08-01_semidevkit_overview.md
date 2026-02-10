@@ -1,9 +1,6 @@
----
-title: "【半導体】01. SemiDevKit全体像 ― TCADからSPICE・信頼性までを一本でつなぐ"
-emoji: "🧩"
-type: "tech"
+# 【半導体】🧩 01. SemiDevKit全体像 ― TCADからSPICE・信頼性までを一本でつなぐ
 topics: ["半導体", "TCAD", "BSIM4", "SPICE", "信頼性"]
-published: true
+
 ---
 
 ## 🧭 この記事の位置づけ（シリーズ・ハブ）

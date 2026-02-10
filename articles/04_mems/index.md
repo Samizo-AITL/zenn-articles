@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# 04_mems / MEMS解析・アナログ物理 記事一覧
+# 🧬 04_mems / MEMS解析・アナログ物理 記事一覧
 
 本ディレクトリでは、  
 **MEMS（Micro Electro Mechanical Systems）** を  

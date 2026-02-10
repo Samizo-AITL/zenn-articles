@@ -1,4 +1,9 @@
-# 【半導体】📈 05. BSIM4で読むMOSFETのDC特性 ― Vg–Id / Vd–Id解析
+---
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】📈 08-05. BSIM4で読むMOSFETのDC特性 ― Vg–Id / Vd–Id解析
 topics: ["半導体", "BSIM4", "SPICE", "DC解析", "MOSFET"]
 
 ---

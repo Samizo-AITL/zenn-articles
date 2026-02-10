@@ -1,9 +1,6 @@
----
-title: "【半導体】MOSFETのL/Wスケーリングと短チャネル効果をSPICEで可視化する"
-emoji: "📏"
-type: "tech"
+# 【半導体】📏 07. MOSFETのL/Wスケーリングと短チャネル効果をSPICEで可視化する
 topics: ["半導体", "MOSFET", "スケーリング", "短チャネル効果", "BSIM4"]
-published: true
+
 ---
 
 ## 🚀 はじめに

@@ -1,4 +1,9 @@
-# 【半導体】⚙️ 04. Paramusで学ぶBSIM4モデル生成 ― 黒箱.modelを卒業する
+---
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】⚙️ 08-04. Paramusで学ぶBSIM4モデル生成 ― 黒箱.modelを卒業する
 topics: ["半導体", "BSIM4", "SPICE", "モデル生成", "MOSFET"]
 
 ---

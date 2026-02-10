@@ -1,4 +1,9 @@
-# 【半導体】📐 06. BSIM4のAC/CV解析 ― 寄生容量と周波数応答を正しく読む
+---
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】📐 08-06. BSIM4のAC/CV解析 ― 寄生容量と周波数応答を正しく読む
 topics: ["半導体", "BSIM4", "SPICE", "AC解析", "CV解析"]
 
 ---

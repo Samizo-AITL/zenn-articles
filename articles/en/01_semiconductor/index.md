@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# 🧩 01_Semiconductor | Article Index
+# 🔬 01_Semiconductor | Article Index
 
 ---
 

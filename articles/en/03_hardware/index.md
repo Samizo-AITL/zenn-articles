@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# 03_hardware / Hardware & Physical Control Articles Index
+# 🧩03_hardware / Hardware & Physical Control Articles Index
 
 In this directory,  
 **AITL (Architecture for Integrated Technology Logic)** is re-examined  

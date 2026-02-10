@@ -1,4 +1,9 @@
-# 【半導体】⏱️ 08. NBTIとは何か ― MOSFETは時間で劣化する
+---
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】⏱️ 08-08. NBTIとは何か ― MOSFETは時間で劣化する
 topics: ["半導体", "NBTI", "信頼性", "MOSFET", "BSIM4"]
 
 ---

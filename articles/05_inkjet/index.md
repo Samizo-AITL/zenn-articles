@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# 05_inkjet / インクジェット物理・駆動 記事一覧
+# 💧 05_inkjet / インクジェット物理・駆動 記事一覧
 
 本ディレクトリでは、  
 **インクジェット（Inkjet）** を  

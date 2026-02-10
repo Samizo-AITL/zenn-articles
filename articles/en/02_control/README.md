@@ -1,4 +1,4 @@
-# 02_control / Control & AITL Article Index
+# 🎛️ 02_control / Control & AITL Article Index
 
 This directory systematically organizes articles on  
 **PID control, FSM, and AITL (Architecture for Integrated Technology Logic)**,  

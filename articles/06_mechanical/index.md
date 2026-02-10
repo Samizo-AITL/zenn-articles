@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# 06_mechanical / 機械設計・CAD to Code 記事一覧
+# ⚙️ 06_mechanical / 機械設計・CAD to Code 記事一覧
 
 本ディレクトリでは、  
 **機械設計（Mechanical Design）** を  

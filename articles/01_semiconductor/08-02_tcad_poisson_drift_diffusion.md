@@ -1,9 +1,6 @@
----
-title: "【半導体】02. TCADで理解するMOSFETの本質 ― Poisson方程式とDrift–Diffusion"
-emoji: "🧠"
-type: "tech"
+# 【半導体】🧠 02. TCADで理解するMOSFETの本質 ― Poisson方程式とDrift–Diffusion
 topics: ["半導体", "TCAD", "MOSFET", "Poisson方程式", "DriftDiffusion"]
-published: true
+
 ---
 
 ## 🧭 はじめに ― V–I特性はどこから来るのか

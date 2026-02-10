@@ -1,4 +1,9 @@
-# 【半導体】🧩 03. BSIM4とは何か ― 物理を回路に落とすコンパクトモデル
+---
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】🧩 08-03. BSIM4とは何か ― 物理を回路に落とすコンパクトモデル
 topics: ["半導体", "BSIM4", "MOSFET", "コンパクトモデル", "SPICE"]
 
 ---

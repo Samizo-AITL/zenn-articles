@@ -1,4 +1,4 @@
-# 03_hardware / ハードウェア・物理制御 記事一覧
+# 🧩 03_hardware / ハードウェア・物理制御 記事一覧
 
 本ディレクトリでは、  
 **AITL（Architecture for Integrated Technology Logic）** を  

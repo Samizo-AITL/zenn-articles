@@ -76,9 +76,7 @@ In this directory,
 
 ## 🔗 Related Directories
 
-- [05_inkjet / Inkjet Technology](../05_inkjet/)
-- [04_mems / MEMS Analysis · Analog Physics](../04_mems/)
 - [03_hardware / Hardware · Physical Control](../03_hardware/)
-
----
+- [04_mems / MEMS Analysis · Analog Physics](../04_mems/)
+- [05_inkjet / Inkjet Technology](../05_inkjet/)
 

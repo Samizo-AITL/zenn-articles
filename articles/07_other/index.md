@@ -55,8 +55,6 @@ title: zenn-articles
 
 ## 🔗 関連ディレクトリ
 
-- [06_mechanical / 機械設計・CAD to Code](../06_mechanical/)
 - [02_control / 制御・AITL](../02_control/)
+- [06_mechanical / 機械設計・CAD to Code](../06_mechanical/)
 - [Samizo-AITL Portal](https://samizo-aitl.github.io/)
-
----

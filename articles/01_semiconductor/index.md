@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# 🧩 01_半導体｜記事一覧
+# 🧩 01_semiconductor / 半導体｜記事一覧
 
 ---
 

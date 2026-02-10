@@ -51,7 +51,6 @@ zenn-articles/
 │  ├─ 06_mechanical/
 │  ├─ 07_other/
 │  └─ en/            # same structure as above
-├─ books/
 └─ assets/
 ```
 

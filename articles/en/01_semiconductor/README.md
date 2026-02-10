@@ -1,4 +1,4 @@
-# 🧩 01_Semiconductor | Article Index
+# 🔬 01_Semiconductor | Article Index
 
 ---
 

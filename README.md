@@ -80,14 +80,6 @@ zenn-articles/
   
 ---
 
-## 📚 Articles Index
-
-👉 **全技術記事の一覧・構造はこちら**  
-- [Articles Index (JP)](./articles/)
-- [Articles Index (EN)](./articles/en/)
-
----
-
 ## 🧪 Writing Policy
 
 - 🏛 GitHub上のMarkdownを正本とする

@@ -74,13 +74,16 @@ zenn-articles/
 
 ---
 
-## 📘 Books採用リポジトリ
+## 📘 Books（体系教材・公式リポジトリ）
 
-| No. | 分野 | 主な内容 | リポジトリ |
+以下は、**記事群を体系化した Books 形式の公式教材リポジトリ**です。  
+基礎理論から材料・プロセス・応用技術までを一貫した構成で整理しています。
+
+| No. | 教材名 | 位置づけ | リポジトリ |
 |---:|---|---|---|
-| 01 | 🔬 **Edusemi-v4x** | デバイス物理、プロセス、回路、スケーリング | [Edusemi-v4x](https://samizo-aitl.github.io/Edusemi-v4x/) |
-| 02 | 🔬 **Edusemi-Plus** | デバイス物理、プロセス、回路、スケーリング | [Edusemi-Plus](https://samizo-aitl.github.io/Edusemi-Plus/) |
-| 03 | 🎛️ **EduController** | PID、FSM、制御構造、AITL（Architecture for Integrated Technology Logic） | [EduController](https://samizo-aitl.github.io/EduController/) |
+| 01 | 🎓 **Edusemi-v4x** | 半導体基礎（デバイス物理・プロセス・回路・スケーリング） | [Edusemi-v4x](https://samizo-aitl.github.io/Edusemi-v4x/) |
+| 02 | ➕ **Edusemi-Plus** | 応用編（材料技術、プロセス拡張、製造・実装関連トピック） | [Edusemi-Plus](https://samizo-aitl.github.io/Edusemi-Plus/) |
+| 03 | 🎛️ **EduController** | 制御理論体系（PID・FSM・AITLアーキテクチャ） | [EduController](https://samizo-aitl.github.io/EduController/) |
 
 ---
 

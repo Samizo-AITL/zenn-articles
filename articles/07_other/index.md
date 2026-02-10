@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# 07_other / 周辺技術・可視化・分析 記事一覧
+# 📊 07_other / 周辺技術・可視化・分析 記事一覧
 
 本ディレクトリでは、  
 **AITL（Architecture for Integrated Technology Logic）** 本体では扱いきれない、  

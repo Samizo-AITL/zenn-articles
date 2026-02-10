@@ -73,14 +73,6 @@ Each item below links **directly to the corresponding article index (entry page)
 
 ---
 
-## 📚 Articles Index
-
-👉 **Browse the complete list and structure of all technical articles here**  
-- [Articles Index (JP)](./articles/)
-- [Articles Index (EN)](./articles/en/)
-
----
-
 ## 🧪 Writing Policy
 
 - 🏛 Markdown files on GitHub are the canonical source

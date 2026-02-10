@@ -59,5 +59,5 @@ These topics function as stabilizers for thinking, communication, and feedback.
 
 - [02_control / Control & AITL](../02_control/)
 - [06_mechanical / Mechanical Design & CAD to Code](../06_mechanical/)
-- [Samizo-AITL Portal](https://samizo-aitl.github.io/)
+- [Samizo-AITL Portal](https://samizo-aitl.github.io/en/)
 

@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# 06_mechanical / Mechanical Design · CAD to Code — Article Index
+# ⚙️ 06_mechanical / Mechanical Design · CAD to Code — Article Index
 
 In this directory,  
 **Mechanical Design** is detached from traditional GUI-centric CAD workflows and extended toward  

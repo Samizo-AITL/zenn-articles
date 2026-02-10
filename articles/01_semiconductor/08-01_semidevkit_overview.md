@@ -1,4 +1,9 @@
-# 【半導体】🧩 01. SemiDevKit全体像 ― TCADからSPICE・信頼性までを一本でつなぐ
+---
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】🧩 08-01. SemiDevKit全体像 ― TCADからSPICE・信頼性までを一本でつなぐ
 topics: ["半導体", "TCAD", "BSIM4", "SPICE", "信頼性"]
 
 ---

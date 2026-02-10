@@ -24,7 +24,7 @@ title: zenn-articles
 
 ## 🧪 デモ・直感理解
 
-- [02 MEMS解析 デモ](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/02_mems-ana_demo.html)
+- [02 MEMS解析 デモ](./02_mems-ana_demo.md)
 
 > 数式・モデル以前に、  
 > **挙動・感度・非線形性を体感的に理解する**。
@@ -33,7 +33,7 @@ title: zenn-articles
 
 ## 🧠 コア理論・本質
 
-- [03 MEMS解析 コア理論](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/03_mems-ana_core.html)
+- [03 MEMS解析 コア理論](./03_mems-ana_core.md)
 
 > MEMS設計の本質は  
 > **構造・材料・境界条件の設計**であり、  

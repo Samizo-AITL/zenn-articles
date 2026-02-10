@@ -58,8 +58,6 @@ MEMS・物理・回路・タイミング因果の交点として捉え、
 
 ## 🔗 関連ディレクトリ
 
-- [04_mems / MEMS解析・アナログ物理](../04_mems/)
-- [03_hardware / ハードウェア・物理制御](../03_hardware/)
 - [02_control / 制御・AITL](../02_control/)
-
----
+- [03_hardware / ハードウェア・物理制御](../03_hardware/) 
+- [04_mems / MEMS解析・アナログ物理](../04_mems/)

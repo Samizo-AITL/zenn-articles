@@ -69,8 +69,6 @@ that must be fixed *before* PID, FSM, or AI can safely operate.
 
 ## 🔗 Related Directories
 
-- [02_control / Control & AITL](../02_control/)
 - [01_semiconductor / Semiconductor Fundamentals](../01_semiconductor/)
-
----
+- [02_control / Control & AITL](../02_control/)
 

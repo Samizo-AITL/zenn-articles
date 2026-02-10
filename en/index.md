@@ -38,33 +38,15 @@ while GitHub serves as the place for **design, editing, and version control**.
 In this repository, articles are classified into the following technical domains.  
 Each item below links **directly to the corresponding article index (entry page) on the Samizo-AITL Portal**.
 
-- **01_Semiconductor**  
-  Device physics, semiconductor processes, circuits, and scaling  
-  → [Semiconductor Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/01_semiconductor/)
-
-- **02_Control**  
-  PID, FSM, control architectures, and AITL (Architecture for Integrated Technology Logic)  
-  → [Control Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/02_control/)
-
-- **03_Hardware**  
-  Physical implementation, V–I budgeting, and system architecture  
-  → [Hardware Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/03_hardware/)
-
-- **04_MEMS**  
-  Piezoelectric actuators, microstructures, and physical modeling  
-  → [MEMS Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/04_mems/)
-
-- **05_Inkjet**  
-  Drop formation, drive waveforms, and system integration  
-  → [Inkjet Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/05_inkjet/)
-
-- **06_Mechanical**  
-  Mechanical design, CAD-to-Code workflows, and structural definition  
-  → [Mechanical Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/06_mechanical/)
-
-- **07_Other**  
-  Visualization, analytics, and supporting technologies  
-  → [Other Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/07_other/)
+| No. | Domain | Scope | Article Index (Portal) |
+|---:|---|---|---|
+| 01 | **Semiconductor** | Device physics, semiconductor processes, circuits, and scaling | [Semiconductor Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/01_semiconductor/) |
+| 02 | **Control** | PID, FSM, control architectures, and AITL (Architecture for Integrated Technology Logic) | [Control Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/02_control/) |
+| 03 | **Hardware** | Physical implementation, V–I budgeting, and system architecture | [Hardware Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/03_hardware/) |
+| 04 | **MEMS** | Piezoelectric actuators, microstructures, and physical modeling | [MEMS Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/04_mems/) |
+| 05 | **Inkjet** | Drop formation, drive waveforms, and system integration | [Inkjet Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/05_inkjet/) |
+| 06 | **Mechanical** | Mechanical design, CAD-to-Code workflows, and structural definition | [Mechanical Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/06_mechanical/) |
+| 07 | **Other** | Visualization, analytics, and supporting technologies | [Other Articles](https://samizo-aitl.github.io/zenn-articles/articles/en/07_other/) |
 
 ---
 

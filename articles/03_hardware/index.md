@@ -64,8 +64,5 @@ title: zenn-articles
 
 ## 🔗 関連ディレクトリ
 
-- [02_control / 制御・AITL](../02_control/)
 - [01_semiconductor / 半導体基礎](../01_semiconductor/)
-
----
-
+- [02_control / 制御・AITL](../02_control/)

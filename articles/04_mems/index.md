@@ -56,6 +56,6 @@ title: zenn-articles
 
 ## 🔗 関連ディレクトリ
 
-- [02_control / 制御・AITL](https://samizo-aitl.github.io/zenn-articles/articles/02_control/index.html)
-- [03_hardware / ハードウェア・物理制御](https://samizo-aitl.github.io/zenn-articles/articles/03_hardware/index.html)
-- [05_inkjet / インクジェット技術](https://samizo-aitl.github.io/zenn-articles/articles/05_inkjet/index.html)
+- [02_control / 制御・AITL](../02_control/)
+- [03_hardware / ハードウェア・物理制御](../03_hardware/)
+- [05_inkjet / インクジェット技術](../05_inkjet/)

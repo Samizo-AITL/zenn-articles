@@ -74,6 +74,13 @@ zenn-articles/
 
 ---
 
+## 📘 Books
+| 01 | 🔬 **Edusemi-v4x** | デバイス物理、プロセス、回路、スケーリング | [Edusemi-v4x](https://samizo-aitl.github.io/Edusemi-v4x/) |
+| 02 | 🔬 **Edusemi-Plus** | デバイス物理、プロセス、回路、スケーリング | [Edusemi-Plus](https://samizo-aitl.github.io/Edusemi-Plus/) |
+| 03 | 🎛️ **EduController** | PID、FSM、制御構造、AITL（Architecture for Integrated Technology Logic） | [EduController](https://samizo-aitl.github.io/EduController/) |
+
+---
+
 ## 🌍 English Articles
 
 英語版記事は翻訳ではなく、  

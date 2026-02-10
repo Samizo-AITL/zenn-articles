@@ -1,4 +1,4 @@
-# 07_other / Supporting Technologies, Visualization, and Analytics
+# 📊 07_other / Supporting Technologies, Visualization, and Analytics
 
 This directory collects **supporting technologies** that are not part of the AITL  
 (Architecture for Integrated Technology Logic) core itself,  

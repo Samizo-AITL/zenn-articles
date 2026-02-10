@@ -73,6 +73,19 @@ Each item below links **directly to the corresponding article index (entry page)
 
 ---
 
+## 📘 Books (Structured Textbooks / Official Repositories)
+
+The following repositories are **official Books-style textbooks** that systematize the related article collections.  
+They are organized with a consistent structure, covering **fundamental theory through materials, processes, and applied technologies**.
+
+| No. | Title | Scope | Repository |
+|---:|---|---|---|
+| 01 | 🎓 **Edusemi-v4x** | Semiconductor fundamentals (device physics, processes, circuits, and scaling) | [Edusemi-v4x](https://samizo-aitl.github.io/Edusemi-v4x/en/) |
+| 02 | ➕ **Edusemi-Plus** | Advanced topics (materials technology, process extensions, manufacturing and packaging-related topics) | [Edusemi-Plus](https://samizo-aitl.github.io/Edusemi-Plus/en/) |
+| 03 | 🎛️ **EduController** | Control theory framework (PID, FSM, and AITL architecture) | [EduController](https://samizo-aitl.github.io/EduController/en/) |
+
+---
+
 ## 🧪 Writing Policy
 
 - 🏛 Markdown files on GitHub are the canonical source

@@ -52,11 +52,11 @@ zenn-articles/
 │  ├─ 06_mechanical/
 │  ├─ 07_other/
 │  └─ en/            # same structure as above
-├─ books/
 └─ assets/
 ```
 
 ---
+
 ## 🧭 Article Classification
 
 本リポジトリでは、記事を以下の技術分野で分類しています。  
@@ -64,13 +64,13 @@ zenn-articles/
 
 | No. | 分野 | 主な内容 | 記事一覧（Portal） |
 |---:|---|---|---|
-| 01 | **Semiconductor** | デバイス物理、プロセス、回路、スケーリング | [Semiconductor Articles](https://samizo-aitl.github.io/zenn-articles/articles/01_semiconductor/) |
-| 02 | **Control** | PID、FSM、制御構造、AITL（Architecture for Integrated Technology Logic） | [Control Articles](https://samizo-aitl.github.io/zenn-articles/articles/02_control/) |
-| 03 | **Hardware** | 実装設計、V–I予算、システムアーキテクチャ | [Hardware Articles](https://samizo-aitl.github.io/zenn-articles/articles/03_hardware/) |
-| 04 | **MEMS** | 圧電アクチュエータ、微細構造、物理モデル | [MEMS Articles](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/) |
-| 05 | **Inkjet** | ドロップ形成、駆動波形、システム統合 | [Inkjet Articles](https://samizo-aitl.github.io/zenn-articles/articles/05_inkjet/) |
-| 06 | **Mechanical** | 機械設計、CAD to Code、構造定義 | [Mechanical Articles](https://samizo-aitl.github.io/zenn-articles/articles/06_mechanical/) |
-| 07 | **Other** | 可視化、分析、周辺技術 | [Other Articles](https://samizo-aitl.github.io/zenn-articles/articles/07_other/) |
+| 01 | 🔬 **Semiconductor** | デバイス物理、プロセス、回路、スケーリング | [Semiconductor Articles](https://samizo-aitl.github.io/zenn-articles/articles/01_semiconductor/) |
+| 02 | 🎛️ **Control** | PID、FSM、制御構造、AITL（Architecture for Integrated Technology Logic） | [Control Articles](https://samizo-aitl.github.io/zenn-articles/articles/02_control/) |
+| 03 | 🧩 **Hardware** | 実装設計、V–I予算、システムアーキテクチャ | [Hardware Articles](https://samizo-aitl.github.io/zenn-articles/articles/03_hardware/) |
+| 04 | 🧬 **MEMS** | 圧電アクチュエータ、微細構造、物理モデル | [MEMS Articles](https://samizo-aitl.github.io/zenn-articles/articles/04_mems/) |
+| 05 | 💧 **Inkjet** | ドロップ形成、駆動波形、システム統合 | [Inkjet Articles](https://samizo-aitl.github.io/zenn-articles/articles/05_inkjet/) |
+| 06 | ⚙️ **Mechanical** | 機械設計、CAD to Code、構造定義 | [Mechanical Articles](https://samizo-aitl.github.io/zenn-articles/articles/06_mechanical/) |
+| 07 | 📊 **Other** | 可視化、分析、周辺技術 | [Other Articles](https://samizo-aitl.github.io/zenn-articles/articles/07_other/) |
 
 ---
 

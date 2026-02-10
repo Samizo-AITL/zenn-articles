@@ -1,4 +1,9 @@
-# 【半導体】⚡ 09. HCIとは何か ― 高電界がMOSFETを壊す理由
+---
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】⚡ 08-09. HCIとは何か ― 高電界がMOSFETを壊す理由
 topics: ["半導体", "HCI", "信頼性", "MOSFET", "BSIM4"]
 
 ---

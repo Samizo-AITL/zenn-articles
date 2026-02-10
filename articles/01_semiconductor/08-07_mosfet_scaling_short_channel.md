@@ -1,4 +1,9 @@
-# 【半導体】📏 07. MOSFETのL/Wスケーリングと短チャネル効果をSPICEで可視化する
+---
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】📏 08-07. MOSFETのL/Wスケーリングと短チャネル効果をSPICEで可視化する
 topics: ["半導体", "MOSFET", "スケーリング", "短チャネル効果", "BSIM4"]
 
 ---

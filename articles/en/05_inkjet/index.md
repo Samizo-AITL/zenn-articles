@@ -55,8 +55,6 @@ MEMS, physics, circuits, and timing causality, and clarifies the
 
 ## 🔗 Related Directories
 
-- [04_mems / MEMS Analysis & Analog Physics](../04_mems/)
-- [03_hardware / Hardware & Physical Control](../03_hardware/)
 - [02_control / Control & AITL](../02_control/)
-
----
+- [03_hardware / Hardware & Physical Control](../03_hardware/)
+- [04_mems / MEMS Analysis & Analog Physics](../04_mems/)

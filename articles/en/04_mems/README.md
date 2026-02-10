@@ -51,9 +51,6 @@ with a focus on understanding the **analog physics, structure, behavior, and inh
 
 ## 🔗 Related Directories
 
-- [03_hardware / Hardware & Physical Control](../03_hardware/)
 - [02_control / Control & AITL](../02_control/)
+- [03_hardware / Hardware & Physical Control](../03_hardware/)
 - [05_inkjet / Inkjet Technology](../05_inkjet/)
-
----
-

@@ -99,7 +99,7 @@ but target different publishing platforms.
 - 📝 **Qiita Articles (Standalone / Experimental)**  
   Technical experiments, design ideas, tool evaluations,  
   and visualization-focused articles that work as standalone pieces.  
-  → [https://samizo-aitl.github.io/qiita-articles/](https://samizo-aitl.github.io/qiita-articles/en/)
+  → [https://samizo-aitl.github.io/qiita-articles/en/](https://samizo-aitl.github.io/qiita-articles/en/)
 
 Note:  
 This repository (Zenn) focuses on structured series,  

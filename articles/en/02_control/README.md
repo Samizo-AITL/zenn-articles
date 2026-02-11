@@ -53,6 +53,14 @@ and human-centered design philosophy.
 
 ---
 
+## 🧾 Summary — Design Specifications (Quick Reference)
+
+- [17 AITL Control Architecture Specification](./17_aitl_control_architecture_spec.md)
+- [18 AI Control Safety Design Checklist (Operational Use)](./18_ai_control_safety_checklist.md)
+- [19 Applicability Limits of Adaptive Control (A-Type / B-Type)](./19_adaptive_control_applicability_limits.md)
+
+---
+
 ## 🧭 Architectural Positioning
 
 - **PID**: Inner real-time stabilization loop  

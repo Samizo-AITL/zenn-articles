@@ -87,16 +87,6 @@ zenn-articles/
 | 01 | 🎓 **Edusemi-v4x** | 半導体基礎（デバイス物理・プロセス・回路・スケーリング） | [Edusemi-v4x](https://samizo-aitl.github.io/Edusemi-v4x/) |
 | 02 | ➕ **Edusemi-Plus** | 応用編（材料技術、プロセス拡張、製造・実装関連トピック） | [Edusemi-Plus](https://samizo-aitl.github.io/Edusemi-Plus/) |
 | 03 | 🎛️ **EduController** | 制御理論体系（PID・FSM・AITLアーキテクチャ） | [EduController](https://samizo-aitl.github.io/EduController/) |
-
----
-
-## 🌍 English Articles
-
-英語版記事は翻訳ではなく、  
-**日本語版と同等の正本**として `en/` 以下に並行管理します。
-
-- **English Articles Index**  
-  → [https://samizo-aitl.github.io/zenn-articles/articles/en/](https://samizo-aitl.github.io/zenn-articles/articles/en/)
   
 ---
 

@@ -122,17 +122,19 @@ if metric exceeds threshold:
 
 ## ✅ Conclusion (Fact-Based)
 
-- Adaptive control is **not the primary controller**
-- **Continuous adaptation is prohibited**
-- **Stop logic is mandatory**
-- Operational use requires **B-Type + PID fallback**
+- Adaptive control does not function as the primary controller  
+- Designs assuming continuous adaptation are not suitable for operation  
+- Stop logic is a mandatory design requirement  
+- Operational configurations are based on **B-Type with fixed PID fallback**
 
 ---
 
 ## 📌 Final Summary
 
-- Experiments: 🧪 A-Type  
-- Operation: 🛡️ B-Type  
+- Experimental use: 🧪 A-Type  
+- Operational use: 🛡️ B-Type  
 - Final defense line: ⚙️ Fixed PID  
 
-👉 **This boundary must not be violated.**
+With this summary,  
+**the applicability boundaries and operational criteria for adaptive control are considered finalized.**
+

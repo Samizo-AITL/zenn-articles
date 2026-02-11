@@ -106,6 +106,21 @@ zenn-articles/
 
 ---
 
+## 🔗 Related Repositories（Publishing Channels）
+
+本リポジトリと思想・設計を共有する、  
+**別公開チャネル向けの公式原稿リポジトリ**です。
+
+- 📝 **Qiita Articles（単発・実験・観測）**  
+  設計思想・ツール検証・可視化など、  
+  単発でも成立する技術記事を中心に公開  
+  → [https://samizo-aitl.github.io/qiita-articles/](https://samizo-aitl.github.io/qiita-articles/)
+
+※ 本リポジトリ（Zenn）は、  
+　連載・体系化・Book化を前提とした構成を扱います。
+
+---
+
 ## 👤 Author
 
 | 📌 Item | Details |

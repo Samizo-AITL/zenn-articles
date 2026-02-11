@@ -86,16 +86,6 @@ zenn-articles/
 
 ---
 
-## 🌍 English Articles
-
-英語版記事は翻訳ではなく、  
-**日本語版と同等の正本**として `en/` 以下に並行管理します。
-
-- **English Articles Index**  
-  → [https://samizo-aitl.github.io/zenn-articles/articles/en/](https://samizo-aitl.github.io/zenn-articles/articles/en/)
-  
----
-
 ## 🧪 Writing Policy
 
 - 🏛 GitHub上のMarkdownを正本とする

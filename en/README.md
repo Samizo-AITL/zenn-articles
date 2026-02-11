@@ -91,6 +91,22 @@ They are organized with a consistent structure, covering **fundamental theory th
 
 ---
 
+## 🔗 Related Repositories (Publishing Channels)
+
+Official repositories that share the same design philosophy,  
+but target different publishing platforms.
+
+- 📝 **Qiita Articles (Standalone / Experimental)**  
+  Technical experiments, design ideas, tool evaluations,  
+  and visualization-focused articles that work as standalone pieces.  
+  → [https://samizo-aitl.github.io/qiita-articles/](https://samizo-aitl.github.io/qiita-articles/en/)
+
+Note:  
+This repository (Zenn) focuses on structured series,  
+long-form articles, and book-oriented content.
+
+---
+
 ## 👤 Author
 
 | 📌 Item | Details |

@@ -1,5 +1,5 @@
 ---
-title: "【制御】🧩 01. AITL制御アーキテクチャ確定仕様 ― PID・FSM・適応・LLMの責務分離【設計版】"
+title: "【制御:総括】🧩 01. AITL制御アーキテクチャ確定仕様 ― PID・FSM・適応・LLMの責務分離【設計版】"
 emoji: "🧩"
 type: "tech"
 topics: ["制御", "PID", "FSM", "適応制御", "アーキテクチャ"]

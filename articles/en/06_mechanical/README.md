@@ -1,3 +1,8 @@
+---
+layout: default
+title: zenn-articles
+---
+
 # ⚙️ 06_mechanical / Mechanical Design · CAD to Code — Article Index
 
 In this directory,  
@@ -61,6 +66,18 @@ In this directory,
 
 ---
 
+## 📦 From Design to Mass Production (BOM & Process Design)
+
+- [08 Organizing the Workflow from Design to Mass Production Ordering with BOM](./08_bom_overview.md)
+- [09 Practical BOM Operation Rules Using a 6-Digit Code + Suffix](./09_bom_design_rules.md)
+- [10 Becoming Resilient to Design Changes with Roll-up Management](./10_bom_rollup_management.md)
+
+> After geometry is defined,  
+> this section covers **how design information is connected to manufacturing operations**  
+> such as procurement, cost evaluation, compliance, and mass production ramp-up.
+
+---
+
 ## 🧭 Positioning of This Directory
 
 - **06_mechanical**:
@@ -79,4 +96,3 @@ In this directory,
 - [03_hardware / Hardware · Physical Control](../03_hardware/)
 - [04_mems / MEMS Analysis · Analog Physics](../04_mems/)
 - [05_inkjet / Inkjet Technology](../05_inkjet/)
-

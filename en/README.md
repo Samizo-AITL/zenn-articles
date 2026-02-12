@@ -82,7 +82,7 @@ They are organized with a consistent structure, covering **fundamental theory th
 | 01 | 🎓 **Edusemi-v4x** | Semiconductor fundamentals (device physics, processes, circuits, and scaling) | [Edusemi-v4x](https://samizo-aitl.github.io/Edusemi-v4x/en/) |
 | 02 | ➕ **Edusemi-Plus** | Advanced topics (materials technology, process extensions, manufacturing and packaging-related topics) | [Edusemi-Plus](https://samizo-aitl.github.io/Edusemi-Plus/en/) |
 | 03 | 🎛️ **EduController** | Control theory framework (PID, FSM, and AITL architecture) | [EduController](https://samizo-aitl.github.io/EduController/en/) |
-| 04 | ⚙️ **Production Process for Mechanical Products** | Production Process for Mechanical Products | [Production Process for Mechanical Products](https://samizo-aitl.github.io/EduMecha/08_production_process/) |
+| 04 | ⚙️ **Production Process for Mechanical Products** | Mechanical Product Development Framework (Design, Metrology, BOM, Mass Production) | [EduMecha/08_production_process](https://samizo-aitl.github.io/EduMecha/08_production_process/) |
 
 ---
 

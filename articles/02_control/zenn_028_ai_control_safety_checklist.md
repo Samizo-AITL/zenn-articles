@@ -1,5 +1,5 @@
 ---
-title: "【制御】🛡️ 02. AI制御 安全設計チェックリスト ― Safety Envelope・停止・回復【実装前レビュー用】"
+title: "【制御:総括】🛡️ 02. AI制御 安全設計チェックリスト ― Safety Envelope・停止・回復【実装前レビュー用】"
 emoji: "🛡️"
 type: "tech"
 topics: ["制御", "AI", "安全設計", "FSM"]

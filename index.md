@@ -87,7 +87,7 @@ zenn-articles/
 | 01 | 🎓 **Edusemi-v4x** | 半導体基礎（デバイス物理・プロセス・回路・スケーリング） | [Edusemi-v4x](https://samizo-aitl.github.io/Edusemi-v4x/) |
 | 02 | ➕ **Edusemi-Plus** | 応用編（材料技術、プロセス拡張、製造・実装関連トピック） | [Edusemi-Plus](https://samizo-aitl.github.io/Edusemi-Plus/) |
 | 03 | 🎛️ **EduController** | 制御理論体系（PID・FSM・AITLアーキテクチャ） | [EduController](https://samizo-aitl.github.io/EduController/) |
-| 04 | 🎛️ **Production Process for Mechanical Products** | Production Process for Mechanical Products | [Production Process for Mechanical Products](https://samizo-aitl.github.io/EduMecha/08_production_process/) |
+| 04 | ⚙️ **Production Process for Mechanical Products** | Production Process for Mechanical Products | [Production Process for Mechanical Products](https://samizo-aitl.github.io/EduMecha/08_production_process/) |
 
 ---
 

@@ -86,13 +86,17 @@ The purpose is **documentation**, not reuse in current manufacturing.
 ## 🧭 How to Read This Series
 
 - **📘 Device physics and design assumptions**  
-  → 01 → 06 → 07  
+  → 01 → 06 → 07 → 08  
+  (From device-structure-driven physics to design assumptions  
+  formalized by SystemDK and SemiDevKit)
 
 - **🛠 EDA and implementation flow**  
-  → 12 → 09 → 10 → 11 → 13 → 14  
+  → 08-01 → 08-03 → 08-05 → 12 → 09 → 10 → 11 → 13 → 14  
+  (Understanding modeling and V–I assumptions before RTL-to-GDS)
 
 - **🧱 Product failures and decisions**  
   → 15 → 16 → 17 → 18 → 19  
+  (Fact-based records of failures and engineering decisions)
 
 ---
 

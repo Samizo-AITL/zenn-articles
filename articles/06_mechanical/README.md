@@ -68,7 +68,7 @@
 
 - [08 設計から量産部品発注までをBOMで整理する](./08_bom_overview.md)
 - [09 6桁＋枝番で回すBOM運用ルールの実務設計](./09_bom_design_rules.md)
-- [10 部品情報を積み上げて製品を判断する（Roll-up管理）](./10_bom_rollup_management.md)
+- [10 部品情報を積み上げて製品を判断する（Roll-up管理）](./10_bom_rollup_and_education.md)
 
 > 形状を定義したあと、  
 > **それをどう量産業務につなぐか**を扱うセクション。

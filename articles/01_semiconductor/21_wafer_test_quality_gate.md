@@ -123,6 +123,4 @@ WAT は単なる選別工程ではなく、
 ## 🌐 公式リンク（Edusemi-v4x）
 
 - 📂 Chapter 6 Test & Package（公式）  
-  https://samizo-aitl.github.io/Edusemi-v4x/chapter6_test_and_package/
-
----
+  [https://samizo-aitl.github.io/Edusemi-v4x/chapter6_test_and_package/](https://samizo-aitl.github.io/Edusemi-v4x/chapter6_test_and_package/)

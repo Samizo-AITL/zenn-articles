@@ -83,20 +83,37 @@ The purpose is **documentation**, not reuse in current manufacturing.
 
 ---
 
-## 🧭 How to Read This Series
+## 🧪 Test, Quality, and Failure Analysis
+
+This section covers mass-production quality control, including  
+**process monitoring, product screening, and root-cause investigation**.  
+The entire quality loop is organized along the flow: ETEST → WAT → FA.
+
+- [20. What Is ETEST? — An Evaluation Process for Quantitative Monitoring of Process Variations](./20_etest_process_monitoring.md)
+- [21. Why Is Wafer Testing the “Last Line of Defense”? — A Screening Process for Defective Dies](./21_wafer_test_quality_gate.md)
+- [22. What Does Failure Analysis (FA) Decide? — Determining Corrective Targets](./22_failure_analysis_root_cause.md)
+
+---
+
+## 🔎 How to Read This Series
 
 - **📘 Device physics and design assumptions**  
   → 01 → 06 → 07 → 08  
-  (From device-structure-driven physics to design assumptions  
-  formalized by SystemDK and SemiDevKit)
+  (From the physical background of Planar / FinFET / GAA / CFET  
+  to design assumptions established by SystemDK and SemiDevKit)
 
 - **🛠 EDA and implementation flow**  
   → 08-01 → 08-03 → 08-05 → 12 → 09 → 10 → 11 → 13 → 14  
-  (Understanding modeling and V–I assumptions before RTL-to-GDS)
+  (Following the RTL-to-GDS flow based on modeling and V–I assumptions)
 
-- **🧱 Product failures and decisions**  
+- **🧱 Product failures and engineering decisions**  
   → 15 → 16 → 17 → 18 → 19  
-  (Fact-based records of failures and engineering decisions)
+  (Fact-based records of observed failures and decision-making in legacy technologies)
+
+- **🧪 Quality control and decision flow in mass production**  
+  → 20 → 21 → 22  
+  (Process monitoring with ETEST, screening by wafer testing,  
+  and root-cause determination and corrective decisions through FA)
 
 ---
 

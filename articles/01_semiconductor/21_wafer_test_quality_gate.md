@@ -143,12 +143,13 @@ D値を用いることで、
 
 ---
 
-🔎 参考例：ウエハテストにおける実ビン分類
+## 🔎 参考例：ウエハテストにおける実ビン分類
 
 本記事の内容を、実際の量産世代テスト設計に即して理解するための参考例として、以下の資料が有用です。
 
 📄 0.25µm DRAM Wafer Test & Bin Classification（Edusemi‑Plus / Legacy）
 ウエハテストにおける Fail‑Stop 思想、電流系ビン、保持特性ビン（Pause / Disturb Refresh）などが、物理故障と対応づけて整理されています。
+
 [wafer_test_bin](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/wafer_test_bin/)
 
 ---

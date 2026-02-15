@@ -5,6 +5,7 @@ title: zenn-articles
 
 # 【Semiconductor】🧪 20. What Is ETEST?  
 ### — An Evaluation Process for Quantitative Monitoring of Process Variations
+
 topics: ["Semiconductor", "ETEST", "TEG", "Process", "Quality"]
 
 ---
@@ -34,7 +35,7 @@ from the perspective of **process monitoring**.
 ## 🧪 Definition and Role of ETEST
 
 ETEST is an evaluation process that  
-**quantitatively measures electrical parameter variations in wafer fabrication processes**.
+**quantitatively measures variations in electrical parameters across wafer fabrication processes**.
 
 The measurement targets are  
 **TEGs (Test Element Groups)** placed in scribe-line regions,  
@@ -45,34 +46,34 @@ Typical parameters measured by ETEST include:
 - Threshold voltage (Vth)  
 - Saturation current (Idsat)  
 - Off-state current (Ioff)  
-- Sheet resistance of diffusion, poly, and metal layers  
-- Contact resistance  
+- Sheet resistance of diffusion, poly-silicon, and metal layers  
+- Contact resistance
 
 All of these parameters  
-**directly reflect process conditions rather than circuit functionality**.
+**directly reflect manufacturing process conditions rather than circuit functionality**.
 
 ---
 
 ## 📐 Why Product Chips Are Not Measured
 
-Product chips have the following characteristics:
+Product chips exhibit the following characteristics:
 
 - Complex circuit configurations  
-- Multiple operating conditions  
-- Mixed failure causes from both circuit and process factors  
+- Multiple and diverse operating conditions  
+- Failure causes that combine both circuit-level and process-level factors  
 
 As a result, it is difficult to isolate  
-**process-induced variations directly from product measurements**.
+**purely process-induced variations from product-level electrical measurements**.
 
-In contrast, TEGs are designed to be:
+In contrast, TEGs are intentionally designed to be:
 
 - Structurally simple and well-defined  
-- Measured under fixed and known conditions  
+- Measured under fixed, known, and repeatable conditions  
 - Highly sensitive to process variations  
 
 Therefore, ETEST enables:
 
-> **Observation of process variations with circuit effects removed**
+> **Direct observation of process variations with circuit effects removed**
 
 ---
 
@@ -80,14 +81,14 @@ Therefore, ETEST enables:
 
 Data obtained through ETEST is continuously used for:
 
-- Monitoring within-wafer and within-lot variations  
-- Detecting equipment drift  
+- Monitoring within-wafer and within-lot parameter distributions  
+- Detecting equipment drift and gradual process shifts  
 - Evaluating the impact of process condition changes  
 - Calibrating SPICE model parameters  
-- Validating design margins  
+- Validating and optimizing design margins
 
 A key point is that  
-ETEST data serves as a **common quantitative reference shared by design and manufacturing teams**.
+ETEST data serves as a **common quantitative reference shared by both design and manufacturing teams**.
 
 ---
 
@@ -96,10 +97,10 @@ ETEST data serves as a **common quantitative reference shared by design and manu
 ETEST:
 
 - Does not screen defective chips  
-- Does not determine whether a die proceeds to the next process  
+- Does not determine whether a die proceeds to subsequent processes  
 
 This clearly distinguishes ETEST from  
-wafer testing (WAT).
+wafer acceptance testing (WAT) and final test stages.
 
 The purpose of ETEST is  
 **continuous monitoring of process conditions and early detection of abnormal trends**.
@@ -110,12 +111,26 @@ Accordingly, ETEST is positioned as:
 
 ---
 
+## 📘 Example: ETEST in a 0.18µm Process
+
+A representative example of ETEST measurements in a 0.18µm technology node  
+is provided in the following reference material.
+
+- 🔬 **0.18µm ETEST Parameter Summary (Edusemi-v4x)**  
+  [0.18um_etests_summary_unified](https://samizo-aitl.github.io/Edusemi-v4x/chapter3_process_evolution/docs/0.18um_etests_summary_unified.html)
+
+This example illustrates  
+**which electrical parameters are most sensitive to process variations**  
+for a given technology generation.
+
+---
+
 ## 📝 Summary
 
-- ETEST is an evaluation process for monitoring electrical parameter variations in manufacturing  
+- ETEST is an evaluation process for monitoring electrical parameter variations in semiconductor manufacturing  
 - The measurement targets are TEGs, not product chips  
 - ETEST data is fed back into design, modeling, and process control  
-- ETEST is a monitoring step, not a quality screening step  
+- ETEST is a monitoring step, not a quality screening step
 
 ---
 

@@ -96,6 +96,21 @@ ETEST データが **設計・製造の双方で共通に解釈可能な指標**
 
 ---
 
+## 📘 0.18µmプロセスにおけるETEST測定例
+
+0.18µm 世代プロセスにおける ETEST の代表的な測定項目・分布例を、  
+以下の資料にて公開しています。
+
+- 🔬 **0.18µm ETEST 測定項目まとめ（Edusemi-v4x）**  
+  [0.18um_etests_summary_unified](https://samizo-aitl.github.io/Edusemi-v4x/chapter3_process_evolution/docs/0.18um_etests_summary_unified.html)
+
+本資料では、  
+MOS 特性（Vth・Idsat・Ioff）や各層シート抵抗について、  
+**工程ばらつきがどの電気特性に現れるのか**を  
+世代プロセスの具体例として確認できます。
+
+---
+
 ## 🔁 ETESTと品質選別工程の違い
 
 ETEST は、
@@ -131,4 +146,3 @@ ETEST の目的は、
 
 - 📂 Edusemi-v4x｜Chapter 6 Test & Package  
   [https://samizo-aitl.github.io/Edusemi-v4x/chapter6_test_and_package/](https://samizo-aitl.github.io/Edusemi-v4x/chapter6_test_and_package/)
-

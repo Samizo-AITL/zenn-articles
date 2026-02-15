@@ -133,6 +133,20 @@ For this reason, WAT is positioned as:
 
 ---
 
+## 🔎 Reference Example: Practical Bin Classification in Wafer Testing
+
+To better understand the concepts discussed in this article in the context of  
+**actual mass-production test design**, the following reference material is highly useful.
+
+📄 **0.25µm DRAM Wafer Test & Bin Classification (Edusemi-Plus / Legacy)**  
+This document systematically organizes wafer test binning by directly correlating  
+the **Fail-Stop test philosophy**, **current-based bins**, and **retention-related bins**  
+(Pause Refresh / Disturb Refresh) with their underlying **physical failure mechanisms**.
+
+👉 [wafer_test_bin](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/wafer_test_bin/)
+
+---
+
 ## 🌐 Official Link (Edusemi-v4x)
 
 - 📂 Chapter 6 Test & Package (Official)  

@@ -150,7 +150,7 @@ D値を用いることで、
 📄 0.25µm DRAM Wafer Test & Bin Classification（Edusemi‑Plus / Legacy）
 ウエハテストにおける Fail‑Stop 思想、電流系ビン、保持特性ビン（Pause / Disturb Refresh）などが、物理故障と対応づけて整理されています。
 
-[wafer_test_bin](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/wafer_test_bin/)
+👉 [wafer_test_bin](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/dram_025um/wafer_test_bin/)
 
 ---
 

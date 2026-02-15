@@ -102,6 +102,16 @@ If analysis is stopped prematurely, it increases the risk of:
 
 ---
 
+## 🖼 Overview of Failure Analysis (FA)  
+### — Step-by-Step Analysis Flow Centered on OBIRCH —
+
+![FA and OBIRCH overview](https://samizo-aitl.github.io/zenn-articles/articles/figs/fa_obirch.png)
+
+> Figure: The role of Failure Analysis (FA) and the step-by-step analysis flow starting from OBIRCH.  
+> The ultimate goal of FA is to determine whether the corrective action should be applied to the **manufacturing process** or to the **design**.
+
+---
+
 ## 🧠 What Is the Output of FA?
 
 The outputs of FA are not:

@@ -108,6 +108,15 @@ FA は単一手法で完結するものではありません。
 
 ---
 
+## 🖼 不良解析（FA）全体像（OBIRCHを中心とした解析フロー）
+
+![FA and OBIRCH overview](https://samizo-aitl.github.io/zenn-archicles/articles/figs/fa_obirch.png)
+
+> 図：Failure Analysis（FA）における役割と、OBIRCHを起点とした段階的解析フロー  
+> 不良が **工程是正** か **設計是正** のどちらに戻るべきかを判断することが最終ゴール
+
+---
+
 ## 🧠 FAの成果物とは何か
 
 FA の成果物は、

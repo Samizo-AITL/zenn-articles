@@ -52,6 +52,7 @@ ETEST により取得される代表的な測定項目には、以下があり�
 **回路構成ではなく製造プロセス条件を直接反映する物理量**です。
 
 
+0.18um ETEST参考例
 [0.18um_etests_summary_unified](https://samizo-aitl.github.io/Edusemi-v4x/chapter3_process_evolution/docs/0.18um_etests_summary_unified.html)
 
 ---

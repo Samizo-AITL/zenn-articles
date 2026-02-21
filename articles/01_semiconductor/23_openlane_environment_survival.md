@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-【半導体】🧱 24. OpenLane 環境で9割決まる｜WSL2・Docker・PDKで踏み抜く地雷の全回避"
+# 【半導体】🧱 24. OpenLane 環境で9割決まる｜WSL2・Docker・PDKで踏み抜く地雷の全回避
 topics: ["OpenLane", "ASIC", "EDA", "Docker", "WSL"]
 
 ---

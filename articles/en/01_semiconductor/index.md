@@ -52,6 +52,8 @@ The **scope represented by each model** and the **scope not represented** are cl
 
 ## 🔁 OpenLane / RTL → GDS Flow
 
+- [00. OpenLane Overview / Beginner-friendly · One Article to See the Whole Picture](./00_openlane_overview.md)
+
 This section describes a **practical RTL-to-GDS flow using open-source EDA tools**.  
 Automated steps and steps requiring explicit design decisions are treated separately.
 

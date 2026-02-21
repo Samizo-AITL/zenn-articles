@@ -123,6 +123,9 @@ This example illustrates
 **which electrical parameters are most sensitive to process variations**  
 for a given technology generation.
 
+⚠️ Disclaimer：
+The values presented are intended as representative estimations for educational and design training purposes. Actual values may vary by foundry or PDK.
+
 ---
 
 ## 📝 Summary

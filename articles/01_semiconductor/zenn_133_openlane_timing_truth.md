@@ -1,5 +1,5 @@
 ---
-title: "【OpenLane】STAは嘘をつくのか？｜SDF・GLS・物理が食い違う本当の理由"
+title: "【半導体】03. OpenLane STAは嘘をつくのか？｜SDF・GLS・物理が食い違う本当の理由"
 emoji: "⏱️"
 type: "tech"
 topics: ["OpenLane", "ASIC", "STA", "Timing", "EDA"]

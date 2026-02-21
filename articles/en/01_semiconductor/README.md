@@ -110,7 +110,7 @@ The entire quality loop is organized along the flow: ETEST → WAT → FA.
   to design assumptions established by SystemDK and SemiDevKit)
 
 - **🛠 EDA and implementation flow**  
-  → 08-01 → 08-03 → 08-05 → 12 → 09 → 10 → 11 → 13 → 14  
+  → 08-01 → 08-03 → 08-05 → 00 → 12 → 09 → 10 → 11 → 13 → 14  
   (Following the RTL-to-GDS flow based on modeling and V–I assumptions)
 
 - **🧱 Product failures and engineering decisions**  

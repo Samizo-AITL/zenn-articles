@@ -1,9 +1,11 @@
 ---
-title: "【OpenLane】STAは嘘をつくのか？｜SDF・GLS・物理が食い違う本当の理由"
-emoji: "⏱️"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】⏱️ 25. OpenLane STAは嘘をつくのか？｜SDF・GLS・物理が食い違う本当の理由"
 topics: ["OpenLane", "ASIC", "STA", "Timing", "EDA"]
-published: true
+
 ---
 
 ## 🧭 はじめに：STAは通った。それでも動かない。

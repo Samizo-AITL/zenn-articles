@@ -134,9 +134,8 @@ ETEST の目的は、
 **どの電気特性がプロセス感度を持つのか**を俯瞰する参考資料として  
 ご活用いただけます。
 
-⚠️ 注意 / Disclaimer：
+⚠️ 注意 ：
 本ドキュメントの数値は、あくまで教育・設計演習を目的とした「代表的な推定値」であり、ファウンドリやPDKにより異なる場合があります。
-The values presented are intended as representative estimations for educational and design training purposes. Actual values may vary by foundry or PDK.
 
 ---
 

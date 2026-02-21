@@ -3,12 +3,9 @@ layout: default
 title: zenn-articles
 ---
 
----
-title: "【半導体】OpenLane 環境で9割決まる｜WSL2・Docker・PDKで踏み抜く地雷の全回避"
-emoji: "🧱"
-type: "tech"
+【半導体】🧱 24. OpenLane 環境で9割決まる｜WSL2・Docker・PDKで踏み抜く地雷の全回避"
 topics: ["OpenLane", "ASIC", "EDA", "Docker", "WSL"]
-published: true
+
 ---
 
 ## 🧭 はじめに：なぜOpenLaneは「動かない」のか

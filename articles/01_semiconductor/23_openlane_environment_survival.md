@@ -1,4 +1,9 @@
 ---
+layout: default
+title: zenn-articles
+---
+
+---
 title: "【OpenLane】環境で9割決まる｜WSL2・Docker・PDKで踏み抜く地雷の全回避"
 emoji: "🧱"
 type: "tech"

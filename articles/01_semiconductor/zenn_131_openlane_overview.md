@@ -1,5 +1,7 @@
 ---
 title: "【半導体】🧠 00. OpenLane 概論｜初学者向け・これ1本で全体像が分かる"
+emoji: "🧠"
+type: "tech"
 topics: ["OpenLane", "EDA", "VLSI", "半導体", "SKY130"]
 published: true
 ---

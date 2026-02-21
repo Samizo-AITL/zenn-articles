@@ -188,17 +188,3 @@ OpenLane is a flow designed
 **to be broken in order to learn**.
 
 —provided you do not break it *the wrong way*.
-
----
-
-With this article:
-
-- Articles 23–26: complete ✅  
-- Phase 1–3 + Appendix: fully covered ✅  
-- Ready for Zenn publication ✅  
-
-If needed, I can also prepare:
-
-- Series navigation text for Zenn  
-- Adjustments for Qiita cross-posting  
-- An index page for GitHub Pages

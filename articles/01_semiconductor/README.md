@@ -59,10 +59,19 @@
 - [13. OpenLane2 Setup｜OpenLane v2 環境構築](./13_openlane2_setup.md)
 - [14. OpenLane PDK｜PDK構造と使い方](./14_openlane_pdk.md)
 
+### 🧠 OpenLane 設計思想・現実・運用（Phase 1–3 + Appendix）
+
+上記フローを **破綻させずに使い切るための思想編**。  
+環境 → 物理 → タイミング → 運用の因果関係を整理する。
+
+- [23. OpenLaneは環境で9割決まる｜Environment Survival](./23_openlane_environment_survival.md)
+- [24. 自動フローは魔法ではない｜Physical Design Reality](./24_openlane_physical_design_reality.md)
+- [25. STAは嘘をつくのか？｜Integration & Timing Truth](./25_openlane_timing_truth.md)
+- [26. 壊さず使い続ける運用技術｜Operational Rules & Appendix](./26_openlane_operational_rules.md)
+
 ---
 
 ## 🧱 Legacy Technology｜半導体技術史・故障と判断の記録
-
 本セクションでは、1990年代後半〜2000年代初頭の実製品を対象に、
 
 - 🧪 観測された故障現象  

@@ -1,9 +1,11 @@
 ---
-title: "【OpenLane】壊さず使い続ける運用技術｜OpenLane1と2・再現性・失敗学"
-emoji: "🛠️"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】🛠️ 26. OpenLane 壊さず使い続ける運用技術｜OpenLane1と2・再現性・失敗学
 topics: ["OpenLane", "ASIC", "EDA", "Docker", "Reproducibility"]
-published: true
+
 ---
 
 ## 🧭 はじめに：OpenLaneは「運用」で評価が決まる

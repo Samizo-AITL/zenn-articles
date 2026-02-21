@@ -1,5 +1,5 @@
 ---
-title: "【OpenLane】自動フローは魔法ではない｜配置・配線・クロックの現実"
+title: "【半導体】02. OpenLane 自動フローは魔法ではない｜配置・配線・クロックの現実"
 emoji: "🏗️"
 type: "tech"
 topics: ["OpenLane", "ASIC", "PhysicalDesign", "OpenROAD", "EDA"]

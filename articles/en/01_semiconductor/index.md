@@ -67,10 +67,10 @@ Automated steps and steps requiring explicit design decisions are treated separa
 This section focuses on the **conceptual foundation required to use the above flow without breaking it**.  
 It organizes the causal relationship between **Environment → Physical Design → Timing → Operations**.
 
-- [23. OpenLane Is 90% About the Environment | Environment Survival](./23_openlane_environment_survival.md)
-- [24. Automation Is Not Magic | Physical Design Reality](./24_openlane_physical_design_reality.md)
-- [25. Does STA Lie? | Integration & Timing Truth](./25_openlane_timing_truth.md)
-- [26. How to Use OpenLane Without Breaking It | Operational Rules & Appendix](./26_openlane_operational_rules.md)
+- [23. OpenLane Is 90% About the Environment / Environment Survival](./23_openlane_environment_survival.md)
+- [24. Automation Is Not Magic / Physical Design Reality](./24_openlane_physical_design_reality.md)
+- [25. Does STA Lie? / Integration & Timing Truth](./25_openlane_timing_truth.md)
+- [26. How to Use OpenLane Without Breaking It / Operational Rules & Appendix](./26_openlane_operational_rules.md)
 
 ---
 

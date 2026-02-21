@@ -57,6 +57,16 @@ Automated steps and steps requiring explicit design decisions are treated separa
 - [13. OpenLane2 Setup — OpenLane v2 Environment Setup](./13_openlane2_setup.md)
 - [14. OpenLane PDK — PDK Structure and Compatibility with OpenLane](./14_openlane_pdk.md)
 
+### 🧠 OpenLane: Design Philosophy, Reality, and Operations (Phase 1–3 + Appendix)
+
+This section focuses on the **conceptual foundation required to use the above flow without breaking it**.  
+It organizes the causal relationship between **Environment → Physical Design → Timing → Operations**.
+
+- [23. OpenLane Is 90% About the Environment | Environment Survival](./23_openlane_environment_survival.md)
+- [24. Automation Is Not Magic | Physical Design Reality](./24_openlane_physical_design_reality.md)
+- [25. Does STA Lie? | Integration & Timing Truth](./25_openlane_timing_truth.md)
+- [26. How to Use OpenLane Without Breaking It | Operational Rules & Appendix](./26_openlane_operational_rules.md)
+
 ---
 
 ## 🧱 Legacy Technology | Failure and Engineering Decisions

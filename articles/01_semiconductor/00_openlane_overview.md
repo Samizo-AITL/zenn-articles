@@ -1,10 +1,12 @@
 ---
-title: "【半導体】00. OpenLane 概論｜初学者向け・これ1本で全体像が分かる"
-topics: ["OpenLane", "EDA", "VLSI", "半導体", "SKY130"]
-published: true
+layout: default
+title: zenn-articles
 ---
 
-# 🧠 OpenLane 概論（初学者向け）
+# 【半導体】🧠 00. OpenLane 概論｜初学者向け・これ1本で全体像が分かる"
+topics: ["OpenLane", "EDA", "VLSI", "半導体", "SKY130"]
+
+---
 
 本記事は、**OpenLane を初めて触る方**を対象に、  
 👉 **OpenLane が何をする道具なのか**  

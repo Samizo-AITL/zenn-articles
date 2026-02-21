@@ -1,5 +1,5 @@
 ---
-title: "【OpenLane】壊さず使い続ける運用技術｜OpenLane1と2・再現性・失敗学"
+title: "【半導体】04. OpenLane 壊さず使い続ける運用技術｜OpenLane1と2・再現性・失敗学"
 emoji: "🛠️"
 type: "tech"
 topics: ["OpenLane", "ASIC", "EDA", "Docker", "Reproducibility"]

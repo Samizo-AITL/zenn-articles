@@ -125,6 +125,10 @@ The entire quality loop is organized along the flow: ETEST → WAT → FA.
   (Process monitoring with ETEST, screening by wafer testing,  
   and root-cause determination and corrective decisions through FA)
 
+- **🧠 If You Want to Use OpenLane Without Breaking It (Design Philosophy, Reality, and Operations)**  
+  → 23 → 24 → 25 → 26  
+  (Environment setup → Limits of physical design → Timing truth → Operations and reproducibility)
+
 ---
 
 ## 🎯 Scope of This Series

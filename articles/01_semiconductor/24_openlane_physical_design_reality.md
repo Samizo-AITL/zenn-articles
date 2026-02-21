@@ -1,9 +1,11 @@
 ---
-title: "【OpenLane】自動フローは魔法ではない｜配置・配線・クロックの現実"
-emoji: "🏗️"
-type: "tech"
+layout: default
+title: zenn-articles
+---
+
+# 【半導体】 🏗️ 24. OpenLane 自動フローは魔法ではない｜配置・配線・クロックの現実
 topics: ["OpenLane", "ASIC", "PhysicalDesign", "OpenROAD", "EDA"]
-published: true
+
 ---
 
 ## 🧭 はじめに：ボタン一発でGDSが出る、は幻想である

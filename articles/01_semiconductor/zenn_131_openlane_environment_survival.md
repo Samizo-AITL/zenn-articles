@@ -1,5 +1,5 @@
 ---
-title: "【OpenLane】環境で9割決まる｜WSL2・Docker・PDKで踏み抜く地雷の全回避"
+title: "【半導体】01. OpenLane 環境で9割決まる｜WSL2・Docker・PDKで踏み抜く地雷の全回避"
 emoji: "🧱"
 type: "tech"
 topics: ["OpenLane", "ASIC", "EDA", "Docker", "WSL"]

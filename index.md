@@ -3,7 +3,7 @@ layout: default
 title: zenn-articles
 ---
 
-# 🧩📚 zenn-articles
+# 📚 zenn-articles
 
 このリポジトリは、Zennに公開する技術記事およびBookを  
 **Markdown原稿（一次情報・正本）として管理するためのリポジトリ**です。

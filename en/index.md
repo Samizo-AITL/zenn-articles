@@ -3,7 +3,7 @@ layout: default
 title: Zenn Articles
 ---
 
-# 🧩📚 zenn-articles
+# 📚 zenn-articles
 
 This repository manages technical articles and Books published on Zenn  
 as **canonical Markdown sources (single source of truth)**.

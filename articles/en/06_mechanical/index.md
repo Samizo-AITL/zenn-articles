@@ -66,6 +66,15 @@ In this directory,
 
 ---
 
+## 🧩 Assembly Defined by Code
+
+- [11 Defining Assemblies by Code — Using FreeCAD as a Placement Engine](./11_code_defined_assembly.md)
+
+> Even assemblies of multiple parts can be defined  
+> **entirely by code, without any GUI-based operations**.
+
+---
+
 ## 📦 From Design to Mass Production (BOM & Process Design)
 
 - [08 Organizing the Workflow from Design to Mass Production Ordering with BOM](./08_bom_overview.md)

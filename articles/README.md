@@ -57,4 +57,9 @@
 - 可視化 / 動画 / 分析 / 周辺技術  
 [**07_other**](https://samizo-aitl.github.io/zenn-articles/articles/07_other/)
 
+---
+
+## 🔚 99_final_closing ｜最終回
+- 半導体 / 制御 / AITL / MEMS / 機械設計 <br>
+[**99_final_closing**](https://samizo-aitl.github.io/zenn-articles/articles/99_final_closing.html)
 

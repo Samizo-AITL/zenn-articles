@@ -1,9 +1,10 @@
 ---
-layout: default
-title: zenn-articles
+title: "【最終回】 本シリーズ全体のまとめと公開場所について"
+emoji: "🔚 "
+type: "tech"
+topics: [半導体制御AITLMEMS機械設計]
+published: true
 ---
-
-# 🔚 最終回｜本シリーズ全体のまとめと公開場所について
 
 本記事は、  
 本リポジトリに収録してきたすべてのカテゴリを出揃えた時点で、  

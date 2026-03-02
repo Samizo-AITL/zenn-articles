@@ -73,7 +73,7 @@ title: zenn-articles
 ## 🔚 99_final_closing | Final
 
 - Semiconductor / Control / AITL / MEMS / Mechanical Design <br>
-[**99_final_closing**](https://samizo-aitl.github.io/zenn-articles/articles/99_final_closing.html)
+[**99_final_closing**](https://samizo-aitl.github.io/zenn-articles/articles/en/99_final_closing.html)
 
 ---
 
